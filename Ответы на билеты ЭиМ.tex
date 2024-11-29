@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 \usepackage{physics}
+\usepackage{tikz}
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx} % Для работы с изображениями
 \usepackage{geometry}
@@ -550,7 +551,23 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 
 Можно рассмотреть две точки А и Б с одной стороны поверхности и В,Г с другой стороны. Найдем напряжение между парами этих  точек: \mdd{E_{\text{АБ}}| \text{ и } E_{\text{ВГ}}|}:
 
-\imc[0.5\textwidth]{13.png}
+%Использовал пакет TikZ для пробы
+\begin{center}
+\begin{tikzpicture}
+    % Ось X
+    \draw[->] (-3,0) -- (3,0) node[right] {$x$};
+
+    % Верхний вектор от A к B
+    \node[above] at (-2,1) {$A$};
+    \node[above] at (2,1) {$B$};
+    \draw[->, thick] (-2,1) -- (2,1);
+
+    % Нижний вектор от C к D
+    \node[below] at (-2,-1) {$C$};
+    \node[below] at (2,-1) {$D$};
+    \draw[->, thick] (-2,-1) -- (2,-1);
+\end{tikzpicture}
+\end{center}
 
 Из граничных условий, что \mdd{E_{\tau}-}непрерывно следует, что:
 
@@ -565,6 +582,7 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 \qn{8. Проводники в электрическом поле. Теорема единственности.}
 
 \tc{Проводники в электрическом поле}
+
 
 
 \end{document}
