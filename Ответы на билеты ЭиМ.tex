@@ -17,9 +17,6 @@
 % Команда для вставки математического выражения
 \newcommand{\fc}[1]{\[#1\]}
 
-% Команда для вставки математического режима с $$ 
-\newcommand{\mdd}[1]{$#1$}
-
 % Команда для вставки математического
 \newcommand{\mm}[1]{\mathrm{#1}}
 
@@ -150,9 +147,9 @@
 
 \subsection*{Теорема Гаусса}
 
-\kr{Теорема Гаусса:}Поток вектора \mdd{\vec{E}} через любую замкнутую
+\kr{Теорема Гаусса:}Поток вектора $\vec{E}$ через любую замкнутую
 поверхность определяется суммарным зарядом Q, находящимся внутри этой
-поверхности, и равняется 4\mdd{\pi}Q:
+поверхности, и равняется 4$\pi$Q:
 
 \fc{\oint_SE_nds=4\pi Q}
 
@@ -164,7 +161,7 @@
 
 \subsection*{Дивергенция электрического поля}
 
-Вспомним теорему Гаусса для потока \mdd{\vec{E}} через замкнутую площадь S
+Вспомним теорему Гаусса для потока $\vec{E}$ через замкнутую площадь S
 
 \fc{\underset{\delta V}{\oiint}\vec{E}d\vec{S}=4\pi Q= \underset{V}{\iiint}
 4\pi \rho dV }
@@ -173,7 +170,7 @@
 \fc{\underset{\delta V}{\oiint}\vec{E}d\vec{S}=\underset{V}{\iiint}div
 \vec{E}d\vec{V}}
 
-следует что для \mdd{ \forall V} :
+следует что для $ \forall V$ :
 
 \fc{\underset{V}{\iiint}div \vec{E}d\vec{V}=4\pi Q= \underset{V}{\iiint} 4\pi
 \rho dV\Rightarrow div\vec{E}=4\pi \rho}  
@@ -195,7 +192,7 @@
 \subsection*{Основное
 уравнение электростатики, его общее решение в безграничном пространстве}
 
-В конечной области пространства с плотностью заряда \mdd{\rho(\vec{r})}, по
+В конечной области пространства с плотностью заряда $\rho(\vec{r})$, по
 принципу суперпозиции скалярный потенциал этих зарядов равен:
 
 \fc{\varphi (\vec{r})=\int \frac{\rho(\vec{r'})dV'}{|\vec{r}-\vec{r'}|}}
@@ -206,20 +203,20 @@
 называют частным решением уравнения Пуассона.
 
 Для задачи с точечными зарядами интегральная форма не подойдёт, перейдём к
-сумме. Введём функцию Дирака \mdd{\delta}, она задается следующими условиями:
+сумме. Введём функцию Дирака $\delta$, она задается следующими условиями:
 
-1) при всех \mdd{\vec{r} \neq 0} \mdd{\delta(\vec{r})=0} ;
+1) при всех $\vec{r} \neq 0$ $\delta(\vec{r})=0$ ;
 
-2) в точке \mdd{\vec{r}\neq 0} имеем \mdd{\delta(\vec{r})=\infty} ;
+2) в точке $\vec{r}\neq 0$ имеем $\delta(\vec{r})=\infty$ ;
 
-3) интеграл по всему пространству \mdd{\int\delta(\vec{r})dV=1}
+3) интеграл по всему пространству $\int\delta(\vec{r})dV=1$
 
-4) \mdd{\int f(\vec{r})\delta(\vec{r}-\vec{r_0})dV=f(\vec{r_0})}
+4) $\int f(\vec{r})\delta(\vec{r}-\vec{r_0})dV=f(\vec{r_0})$
 
-где \mdd{f(\vec{r})} - произвольная непрерывная функция, \mdd{\vec{r_0}}
+где $f(\vec{r})$ - произвольная непрерывная функция, $\vec{r_0}$
 радиус-вектор некоторой фиксированной точки.
 
-Объёмную плотность заряда расположенного в точке \mdd{\vec{r}=\vec{r_0}} можно
+Объёмную плотность заряда расположенного в точке $\vec{r}=\vec{r_0}$ можно
 перезаписать:
 \fc{\rho(\vec{r})=q\delta(\vec{r}-\vec{r_0})}
 
@@ -237,7 +234,7 @@
 
 \subsection*{Циркуляция и ротор электрического поля}
 
-Циркуляция векторного поля \mdd{\vec{E}} вдоль контура L
+Циркуляция векторного поля $\vec{E}$ вдоль контура L
 
 \fc{\underset{L}{\int} \vec{E} d\vec{l}} 
 
@@ -251,7 +248,7 @@
 
 \imc[0.5\textwidth]{5.png} 
 
-Как следствие из теоремы о циркуляции \mdd{\vec{E}} работа при перемещении
+Как следствие из теоремы о циркуляции $\vec{E}$ работа при перемещении
 заряда из одной точки поля в другую не зависит от формы траектории движения.
 
 \newpage
@@ -267,7 +264,7 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 \fc{(\mm{rot}\vec{E})_{\vec{n}'}=\frac{\mm{rot}\vec{E}}{\frac{1}{\mm{cos}\theta
 }}}
 
-где \mdd{\frac{1}{\mm{cos}\theta}=\frac{dS_{\vec{n}'}}{dS_{\vec{n}}}}, получим
+где $\frac{1}{\mm{cos}\theta}=\frac{dS_{\vec{n}'}}{dS_{\vec{n}}}$, получим
 
 \fc{(\mm{rot}\vec{E})_{\vec{n}'}=\mm{rot}\vec{E}\cdot\mm{cos}\theta} 
 
@@ -281,15 +278,15 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 \fc{\varphi(\vec{r}\overset{df}{=}\int_{\vec{r}}^{\vec{r_0}}\vec{E}d\vec{l}}
 
 Чтобы определение было корректным, нужно чтобы этот интеграл не зависел от
-формы \mdd{L}.
+формы $L$.
 
 Доказательство:
 
 \fc{\mm{rot}\vec{E}=0 \Rightarrow \forall L
 \underset{L}{\oint}\vec{E}d\vec{l}=0}
 
-Запишем выражение при обходе \mdd{L-L'} - сначала идем по контуру \mdd{L}, а
-потом обратно по контуру \mdd{L'} : 
+Запишем выражение при обходе $L-L'$ - сначала идем по контуру $L$, а
+потом обратно по контуру $L'$ : 
 
 \fc{\underset{L-L'}{\oint}\vec{E}d\vec{l}=0=\underset{L}{\oint}\vec{E}d\vec{l}
 -\underset{L'}{\oint}\vec{E}d\vec{l}=0}
@@ -346,11 +343,11 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 
 \fc{\displaystyle {\frac {\partial ^{2}\varphi}{\partial x^{2}}}+{\frac {\partial ^{2}\varphi}{\partial y^{2}}}+{\frac {\partial ^{2}\varphi}{\partial z^{2}}}=0}
 
-В сферической системе (\mdd{r,\theta,\alpha}) координат
+В сферической системе ($r,\theta,\alpha$) координат
 
 \fc{{\displaystyle {1 \over r^{2}}{\partial  \over \partial r}\left(r^{2}{\partial \varphi \over \partial r}\right)+{1 \over r^{2}\sin \theta }{\partial  \over \partial \theta }\left(\sin \theta {\partial \varphi \over \partial \theta }\right)+{1 \over r^{2}\sin ^{2}\theta }{\partial ^{2}\varphi \over \partial \alpha ^{2}}=0}}
 
-В цилиндрической (\mdd{r,\alpha,z}) координат
+В цилиндрической ($r,\alpha,z$) координат
 
 \fc{{\displaystyle {1 \over r}{\partial  \over \partial r}\left(r{\partial \varphi \over \partial r}\right)+{\partial ^{2}\varphi \over \partial z^{2}}+{1 \over r^{2}}{\partial ^{2}\varphi \over \partial \alpha ^{2}}=0}}
 
@@ -378,7 +375,7 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 \end{aligned}
 \right.}
 
-При \mdd{\rho \neq0}. Допустим, что 
+При $\rho \neq0$. Допустим, что 
 
 \fc{\rho(x,y,z)=\rho \cdot X(x)\cdot Y(y)\cdot Z(z),\text{где X,Y,Z функции вида (1)}}
 
@@ -415,23 +412,23 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 \subsection*{Разделение переменных в уравнении Лапласа в
 сферической системе координат}
 
-Пусть \mdd{\varphi(r,\theta,\alpha)=R(r)\cdot Y(\theta)}
+Пусть $\varphi(r,\theta,\alpha)=R(r)\cdot Y(\theta)$
 
 \fc{\Delta \varphi(r,\theta,\alpha)=0\Rightarrow \underset{=l(l+1)}{\frac{1}{R}\frac{d}{dr} \left( r^2 \frac{dR}{dr} \right)}+\underset{=-l(l+1)}{\frac{1}{Y \sin \theta}\frac{d}{d\theta} \left( \sin \theta \frac{dY}{d\theta} \right)}=0}
 
-При \mdd{R(r)\varpropto r'}
+При $R(r)\varpropto r'$
 
-или \mdd{R(r)\varpropto \frac{1}{r^{l+1}}}
+или $R(r)\varpropto \frac{1}{r^{l+1}}$
 
 \fc{\frac{1}{R}(r^2R')'=C} 
 
-ищем решение в виде \mdd{R(r)\varpropto r^l}
+ищем решение в виде $R(r)\varpropto r^l$
 
 \fc{\frac{1}{R}(r^2R')'=\underset{=-(l'+1)}{l}\cdot \underset{=(-l'-1+1)=(l'+1)l'}{(l+1)}} 
 
-При этом \mdd{R(r)\varpropto \frac{1}{r^{l+1}}} удолетвор. уравнению с той же С 
+При этом $R(r)\varpropto \frac{1}{r^{l+1}}$ удолетвор. уравнению с той же С 
 
-(замена \mdd{l'=-(l+1)}) 
+(замена $l'=-(l+1)$) 
 
 \section*{6. Уравнение Лапласа. Разделение переменных в уравнении Лапласа в
 цилиндрической системе координат.}
@@ -441,18 +438,18 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 \subsection*{Разделение переменных в уравнении Лапласа в
 цилиндрической системе координат}
 
-Пусть \mdd{\varphi(r,\alpha)=\varphi(r,\alpha)}. Кроме того \mdd{\varphi(r,\alpha)=R(z)Y(\alpha)}
+Пусть $\varphi(r,\alpha)=\varphi(r,\alpha)$. Кроме того $\varphi(r,\alpha)=R(z)Y(\alpha)$
 (то есть переменные разделяются)
 
 \fc{Y(\alpha)=e^{\pm im\alpha}}
 
 \fc{\varphi(r,\alpha)=R(r)(\underset{i}{\Sigma}e^{ im\alpha}),\text{где m}\in Z}
 
-Пусть внутри, рассматриваемой области нет зарядов \mdd{\Rightarrow \Delta \varphi=0 \Rightarrow}
+Пусть внутри, рассматриваемой области нет зарядов $\Rightarrow \Delta \varphi=0 \Rightarrow$
 
 \fc{\Rightarrow \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial \varphi}{\partial r}\right)+\frac{1}{r^2} \frac{\partial^2 \varphi}{\partial \alpha^2}=0 \Rightarrow e^{i m \alpha} \cdot \frac{1}{r}\left(r R^{\prime}\right)^{\prime}+R \cdot \frac{1}{r^2}\left(-m^2 e^{i m \alpha}\right)=0 \Rightarrow \frac{r(rR')'}{R}=m^2}
 
-Ищем решение в виде \mdd{R(r)\varpropto r^l}:
+Ищем решение в виде $R(r)\varpropto r^l$:
 \fc{l^2=m^2 ,\text{т.е }l=\pm m \text{. Т.е } \varphi(r,\alpha)=\left(\frac{C_1}{r^m}+C_2r^m\right)e^{\pm im\alpha}}
 
 \section*{7. Граничные условия для нормальной и тангенциальной компонент
@@ -509,15 +506,15 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 
 \fc{\vec{E}=4\pi \sigma \vec{n}}
 
-Рассмотрим тангенсальную и нормальную компоненту поля \mdd{\vec{E}} на границе металла
+Рассмотрим тангенсальную и нормальную компоненту поля $\vec{E}$ на границе металла
  
 \imc[0.7\textwidth]{12.png}
 
-Если в проводнике имеется электрическое поле, то по нему течёт ток. Следовательно, для электростатических явлений электрическое поле внутри проводника \mdd{E_{1n}=0} отсюда 
+Если в проводнике имеется электрическое поле, то по нему течёт ток. Следовательно, для электростатических явлений электрическое поле внутри проводника $E_{1n}=0$ отсюда 
 
 \fc{E_{2n}=4\pi \sigma}
 
-Снаружи металла поле \mdd{E_{2\tau }=0} и из граничных условий  
+Снаружи металла поле $E_{2\tau }=0$ и из граничных условий  
 
 \fc{E_{1\tau}=0}
 
@@ -553,7 +550,7 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 \end{tikzpicture}
 \end{center}
 
-Из граничных условий, что \mdd{E_{\tau}-}непрерывно следует, что:
+Из граничных условий, что $E_{\tau}-$непрерывно следует, что:
 
 \fc{E_{\text{AB}|} = E_{\text{CD}}|} 
 
@@ -561,11 +558,44 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 
 \fc{{E}=-\mm{grad}\varphi}
 
-отсюда получаем, что \mdd{\varphi_{\text{AB}}|=\varphi_{\text{CD}}|\Rightarrow \varphi|-\text{непрерывно}}
+отсюда получаем, что $\varphi_{\text{AB}}|=\varphi_{\text{CD}}|\Rightarrow \varphi|-\text{непрерывно}$
 
 \section*{8. Проводники в электрическом поле. Теорема единственности.}
 
 \subsection*{Проводники в электрическом поле}
+
+Очень похоже (скорее всего есть одно и тоже) на вопрос: поле вблизи поверхности металлов, ну рассмотрим повторно?
+
+\imc[0.4\textwidth]{13.png}
+
+\newpage
+
+Если в проводнике имеется электрическое поле, то по нему течёт ток. Следовательно, для электростатических явлений электрическое поле внутри проводника $E_{i}\equiv0$ отсюда плотность заряда: 
+
+\fc{\rho_i=\frac{1}{4\pi}\mm{div}\vec{E_i}\equiv0}
+
+В этой связи говорят, что проводник квазинейтрален. Таким образом,
+заряды на проводнике могут размещаться только на его поверхности,
+причем поверхностная плотность зарядов связана с полем $vec{E}$ вне про-водника через граничное условие для $E_n$.
+
+Если пространство вне проводника свободно от зарядов, то здесь поле 
+$\vec{E}=-\mm{grad}\varphi$ и $\varphi$ удовлетворяет уравнению Лапласа.
+
+Из граничных условий мы получаем что:
+
+\fc{\vec{E}_{n}=4\pi \sigma \text{ , } \vec{E}_{\tau}=0 .}
+
+Заметим, что поле подходит к поверхности проводника по нормали, т.е. поверхность
+проводника является эквипотенциалью. Это естественно, так как в проводнике потенциал постоянен из-за $\vec{E_i}=0$
+
+\subsection*{Теорема единственности}
+
+
+
+
+
+
+
 
 
 
