@@ -848,11 +848,120 @@ $q$ обеспечивает выполнение соответствующег
 
 \subsection*{Электрический квадрупольный момент}
 
-пока
+\imc[0.45\textwidth]{21.png}
 
+Точное решение:
 
+\fc{\varphi=\underset{i}{\Sigma}\frac{q_i}{|\vec{r}-\vec{r_i'}|}=:\Sigma \frac{q}{|\vec{r}-\vec{r'}|}}
 
+Нужно разложить $\frac{1}{\vec{r}-\vec{r'}}$. Перейдем к тензорной записи:
 
+\fc{\vec{r}(x,y,z)=:(x_1,x_2,x_3)\rightarrow x_{\alpha}, \text{ анолгично }\vec{r'}-x_{\alpha}'}
+Индексы $\alpha,\beta \in [1,2,3]$
+
+По сути раскладываю функцию:
+
+\fc{\frac{1}{r}=\frac{1}{\sqrt{x_1^2+x_2^2+x_3^2}}}
+
+\fc{\frac{1}{|\vec{r}-\vec{r'}|}=\underset{\underset{\text{монополь}}{l=0}}{\frac{1}{r}}+\underset{\underset{\text{диполь}}{l=1}}{(-x_{\alpha}')\frac{\partial}{\partial x_{\alpha}}\frac{1}{r}}+\underset{\underset{\text{квадруполь}}{l=2}}{\frac{1}{2}(-x_{\alpha}')(-x_{\beta}')\frac{\partial^2}{\partial x_{\alpha}\partial x_{\beta}}\frac{1}{r}}+...}
+
+\fc{\frac{\partial^2}{\partial x_{\alpha}\partial x_{\beta}}\frac{1}{r}-?}
+
+Найдем:
+
+\fc{\frac{\partial}{\partial x_1}\cdot \frac{1}{\sqrt{x_1^2+x_2^2+x_3^2}}=-\frac{1}{2r^3}2x_1=-\frac{x_1}{r^3}}
+
+\newpage
+
+\fc{\frac{\partial^2}{\partial x_1 \partial x_2}\frac{1}{r}=\frac{\partial}{\partial x_1}\left(-\frac{x_1}{r^3}\right)=-x_1 \left(-\frac{1}{r^4}\frac{x_2}{r} \right)=\frac{3 x_1 x_2}{r^5}}
+
+\fc{\frac{\partial^2}{\partial x_1 \partial x_2}\frac{1}{r}=-\frac{\partial}{\partial x_1}\left(-\frac{x_1}{r^3}\right)=-\frac{1}{r^3}\cdot 1+\frac{3x_1x_2}{r^5}}
+
+\fc{\Downarrow}
+
+\fc{\frac{\partial^2}{\partial x_{\alpha}\partial x_{\beta}}=\frac{-\delta_{\alpha\beta}r^2+x_{\alpha}x_{\beta}}{r^5}}
+
+Таким образом квадрупольный член имеет вид:
+
+\fc{\varphi=\Sigma q\frac{1}{2}x_{\alpha}'x_{\beta}'\left( \frac{-\delta_{\alpha\beta}r^2+x_{\alpha}x_{\beta}}{r^5}\right)}
+
+\fc{Q_{\alpha\beta}:=\Sigma \frac{1}{2}qx_{\alpha}x_{\beta}}
+
+тогда 
+
+\fc{\varphi=Q_{\alpha\beta}\frac{-\delta_{\alpha\beta}r^2+x_{\alpha}x_{\beta}}{r^5}}
+
+\fc{Tr\left(\frac{-\delta_{\alpha\beta}r^2+x_{\alpha}x_{\beta}}{r^5}\right)=\frac{-\delta_{\alpha\beta}r^2+x_{\alpha}x_{\beta}}{r^5}=}
+
+\fc{=\frac{-(\delta_{11}+\delta_{22}+\delta_{33})r^2+3(x_1x_1+x_2x_2+x_3x_3)}{r^5}=\frac{-3r^2+3r^2}{r^5}=0}
+
+Хотим:
+
+\fc{\varphi=D_{\alpha\beta}\frac{x_{\alpha}x_{\beta}}{r^5}\text{ Как найти } D_{\alpha\beta} ?}
+
+\fc{D_{\alpha\beta}:3Q_{\alpha\beta}-?\cdot\delta_{\alpha\beta}r'^2 \text{ подберем ? так, чтобы } Tr(D_{\alpha\beta})=0, \text{так как }\rightarrow}
+
+\fc{\rightarrow \text{при этом }D_{\alpha\beta}\delta_{\alpha\beta}r^2=0(=D_{\alpha\beta}=0)}
+
+\fc{D_{\alpha\beta}=3x_{\alpha}x_{\beta}-\delta_{\alpha\beta}r'^2 \text{ Действительно } Tr(D_{\alpha\beta})=D_{\alpha\alpha}=3r'^2-3r'^2=0}
+
+Тогда 
+
+\fc{\varphi=\Sigma q(3x_{\alpha}'x_{\beta}'-\delta_{\alpha\beta}r'^2)\cdot\frac{x_{\alpha}x_{\beta}}{2r^5}}
+
+Таким образом $D_{\alpha\beta}=\Sigma q(3x_{\alpha}'x_{\beta}'-\delta_{\alpha\beta}r'^2)$
+
+\newpage
+
+\subsection*{Тензор квадрупольного момента для аксиально-симметричной системы зарядов}
+
+\imc[0.4\textwidth]{22.png}
+
+Вопрос:
+
+\fc{D_{xy}'-?}
+\fc{\rotatebox{90}{=}}
+\fc{D_{12}'-?}
+\fc{-----------------------}
+\fc{x_1'x_2'=x'y'=(-y)x=-xy|\text{ или }x_1'x_2'=-x_1x_2\Rightarrow}
+\fc{\Rightarrow D_{12}'=-D_{12}}
+Должно быть $D_{12}'=D_{12}$ из-за симметрии, поэтому имеем:
+
+\fc{D_{12}=0}
+
+\fc{\overset{\wedge}{D}=\begin{pmatrix}
+-\frac{1}{2}D & 0 & 0 \\
+0 & -\frac{1}{2}D & 0 \\
+0 & 0 & -\frac{1}{2}D
+\end{pmatrix}}
+
+Что?
+
+\fc{\varphi_2=D_{\alpha\beta}\frac{x_{\alpha}x_{\beta}}{2r^5}=\frac{1}{2r^5}(x_1,x_2,x_3)
+\begin{pmatrix}
+-\frac{1}{2}D & 0 & 0 \\
+0 & -\frac{1}{2}D & 0 \\
+0 & 0 & D
+\end{pmatrix}
+\begin{pmatrix}
+x_1 \\
+x_2 \\
+x_3
+\end{pmatrix}=
+}
+
+\fc{=\frac{D}{2r^5}(x_1,x_2,x_3)
+\begin{pmatrix}
+-x_1/2 \\
+-x_2/2 \\
+x_3
+\end{pmatrix}=
+\frac{D}{2r^5}\left(-\frac{x_1^2+x_2^2}{2}+x_3^2 \right)
+=\frac{D}{2r^5}\left(-\frac{x^2+y^2}{2}+z^2 \right)=
+}
+
+\fc{=\frac{D}{2r^5}\left(-r^2\frac{\sin^2\theta}{2}+r^2\cos^2\theta \right)=\frac{D}{2r^3}\cdot\frac{3\cos^2\theta-1}{2}}
+где последний член это полином Лежанра $P(\cos \theta)$
 
 
 
