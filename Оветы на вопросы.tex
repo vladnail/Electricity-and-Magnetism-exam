@@ -3,6 +3,7 @@
 \usepackage[russian]{babel}
 \usepackage{physics}
 \usepackage{tikz}
+\usepackage{wrapfig} % Для обтекания текста
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx} % Для работы с изображениями
 \usepackage{geometry}
@@ -64,6 +65,7 @@
         \includegraphics[width=#1]{#2}
     \end{figure}%
 }
+
 
 % Команда для увеличения размера формул
 \newcommand{\ds}[1]{\displaystyle #1}
@@ -275,7 +277,7 @@ S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
 
 \imc[0.5\textwidth]{7.png}
 
-\fc{\varphi(\vec{r}\overset{df}{=}\int_{\vec{r}}^{\vec{r_0}}\vec{E}d\vec{l}}
+\fc{\varphi(\vec{r})\overset{df}{=}\int_{\vec{r}}^{\vec{r_0}}\vec{E}d\vec{l}}
 
 Чтобы определение было корректным, нужно чтобы этот интеграл не зависел от
 формы $L$.
@@ -716,6 +718,71 @@ $q$ обеспечивает выполнение соответствующег
 
 Пусть система зарядов занимает ограниченную область пространства с характерным размером $a$, причем начало координат находится внутри этой области.
 
-\imc[0.45\textwidth]{16.png}
+\imc[0.5\textwidth]{16.png}
+
+Распишем потенциал точечных зарядов:
+
+\fc{\varphi(\vec{r})=\underset{i}{\Sigma}\frac{q_i}{|\vec{r}-\vec{r_i'}|}=:\Sigma \frac{q}{|\vec{r}-\vec{r'}|}}
+
+\newpage
+
+Используем разложение:
+
+\fc{\frac{1}{|\vec{r}-\vec{r'}|}=\frac{1}{r}+(-\vec{r'})\gradd\frac{1}{r}+...=\frac{1}{r}+(-r')(-\frac{1}{r^2}\cdot\frac{\vec{r}}{r})+...=\frac{1}{r}+\frac{\vec{r}\vec{r'}}{r^3}}
+
+получаем
+
+\fc{\varphi=\Sigma q\frac{1}{r}+\Sigma q\vec{r'}\frac{\vec{r}}{r^3}+...=\frac{Q}{r}+\frac{\vec{d}\vec{r}}{r^3}+...}
+
+где
+
+\kr{Дипольный момент-} $\vec{d}:=\underset{i}{\Sigma}q_i\vec{r_i'}$
+
+Полный заряд системы-$Q=\underset{i}{\Sigma}q_i$
+
+Дипольный член в сферических координатах( $\vec{e_z}\uparrow\uparrow\vec{d}$ ):
+
+\fc{\varphi(r,\theta)=\frac{d}{r^2}\cos \theta}
+
+\subsection*{Потенциал и поле диполя}
+
+Из прошлого пункта:
+
+\fc{\varphi=\frac{Q}{r}+\frac{\vec{d}\vec{r}}{r^3}}
+
+Найдем поле диполя:
+
+\fc{\vec{E}=-\grad \varphi=-\grad \left((\vec{d}\vec{r})\frac{1}{r^3})\right)=-\grad \left(\overset{\downarrow}{(\vec{d}\vec{r})}\frac{1}{r^3}\right)-\grad \left((\vec{d}\vec{r})\overset{\downarrow}{\frac{1}{r^3}}\right)=}
+
+\fc{=-\frac{1}{r^3}\grad (\vec{d}\vec{r})-(\vec{d}\vec{r})\grad\frac{1}{r^3}=-\frac{\vec{d}}{r^3}+3\frac{(\vec{d}\vec{r})}{r^4}\grad \vec{r}=-\frac{\vec{d}}{r^3}+3\frac{(\vec{d}\vec{r})\vec{r}}{r^5}}
+
+Итог, \kr{поле диполя:}
+
+\fc{\vec{E}=-\frac{\vec{d}}{r^3}+3\frac{(\vec{d}\vec{r})\vec{r}}{r^5}}
+
+\newpage
+
+\section*{11. Сила и момент сил, действующие на диполь в слабонеоднородном
+электрическом поле.}
+
+Рассмотрим случай двух зарядов:
+
+\imc[0.45\textwidth]{17.png}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{document}
