@@ -39,7 +39,7 @@
   \mathchoice%
     {\mathop{\raisebox{0.1ex}{\scalebox{1.7}[0.7]{\(\bigcirc\)}}}%
      \!\!\!\!\!\!\!\!\!\!\!\int\!\!\!\int}% Displaystyle
-    {\mathop{\raisebox{0.2ex}{\scalebox{1.}[0.6]{\(\bigcirc\)}}}%
+    {\mathop{\raisebox{0.3ex}{\scalebox{1.}[0.5]{\(\bigcirc\)}}}%
      \!\!\!\!\!\!\!\int\!\!\!\int}% Textstyle
     {\mathop{\raisebox{0.1ex}{\scalebox{1}[0.8]{\(\bigcirc\)}}}%
      \!\!\!\!\!\!\!\!\!\int\!\!\!\int}% Scriptstyle
@@ -985,39 +985,31 @@ x_3
 
 
 
-\subsection*{13. Энергия электрического поля. Плотность энергии электрического поля.}
+\section*{13. Энергия электрического поля. Плотность энергии электрического поля.}
 
-\imc[0.4\textwidth]{23.png}
+В обьеме $V : \Delta\varphi=0$
+и граничные условия $\underset{S_i}{\oiint}(-\gradd\varphi) d\vec{S}=4\pi q_i \Rightarrow$ 
 
-\fc{A_{12}=W_{12}=q_2\varphi_{1B}=q_1\varphi_{2A}}
-\fc{W_{12}=\frac{1}{2}(q\varphi_A+q_2\varphi_B)}
-\fc{W=W_1+W_2+W_{12}}
+$\Rightarrow$задача линейна.
 
-\newpage
+\imc[0.6\textwidth]{24.png}
 
-\imc[0.4\textwidth]{24.png}
+\fc{\delta A=\varphi_idq_i 
+\bigg| \;
+\begin{array}{rl}
+\tilde{\varphi}_i &= \alpha\varphi_i \\
+\tilde{q}_i &= \alpha q_i \text{ , } \tilde{q_i}=q_id\alpha(0\leqslant\alpha\leqslant1)
+\end{array}
+}
 
-\fc{W_{12}=q_1(\varphi_{2A}+\varphi_{3A}+q_2(\varphi_{1B}+\varphi_{2B})+q_3(\varphi_{1C}+\varphi_{2C})}
-\fc{W_{12}=\frac{1}{2}(q_1\varphi_1+q_2\varphi_2+q_3\varphi_3)}
+\fc{\Delta A=\int \underset{i}{\Sigma}\tilde{\varphi_i}d\tilde{q_i}=\int \underset{i}{\Sigma}\alpha\varphi_id(\alpha q_i)=(\int_0^1\alpha d\alpha )\underset{i}{\Sigma}\varphi_i q_i=\frac{1}{2}\underset{i}{\Sigma}\varphi_i q_i=\frac{1}{2}\varphi_i q_i}
 
-Итог:
+\fc{\underset{V}{\iiint}\frac{E^2}{8\pi}dV=\underset{V}{\iiint}\frac{(-\grad\varphi)^2}{8\pi}dV=[\grad(\varphi\grad\varphi)=(\grad\varphi)^2+\varphi\grad\varphi=(\grad\varphi)^2]=}
 
-\fc{W_{\text{вз}}=\frac{1}{2}\Sigma q_i\varphi_i=\frac{1}{2}\int\varphi dq}
+\fc{=\underset{V}{\iiint}\frac{1}{8\pi}\grad(\varphi\grad\varphi)dV=\frac{1}{8\pi} \bigg(\underset{i}{\Sigma}\underset{S_i}{\oiint}\varphi(-\grad\varphi)d\vec{S}+\underset{S_{\infty}}{\oiint}\underset{\rightarrow0}{\varphi(\grad\varphi)d\vec{S}}\bigg)=}
+\fc{=\frac{1}{8\pi}\underset{i}{\Sigma}\varphi_{i}\underset{S_i}{\oiint}\vec{E}d\vec{S}=[\underset{S_i}{\oiint}\vec{E}d\vec{S}=4\pi q_i]=\frac{1}{2}\varphi_i q_i}
 
-\imc[0.4\textwidth]{25.png}
-
-\fc{W_{\text{эл}}=\underset{V}{\int}W_{\text{эл}}dV=\int \frac{E^2}{4\pi}dV}
-
-Если $q=\rho dV$ :
-
-\fc{W=\frac{1}{2}\int\varphi\rho dV=[\Delta\varphi=-4\pi\rho]=-\frac{1}{8\pi}\int (\Delta\varphi\cdot\varphi)dV=}
-\fc{=[\mm{div}(\varphi\grad\varphi=\varphi\Delta\varphi+(\grad\varphi)^2]=}
-\fc{=-\frac{1}{8\pi}\int\underset{\rightarrow0}{\mm{div}(\varphi\Delta\varphi )dV}+\frac{1}{8\pi}\int (\grad\varphi)^2dV=\int \frac{E^2}{8\pi}dV=\int wdV}
-где $w=\frac{E^2}{8\pi}-$\kr{плотность энергии}
-
-
-
-\newpage
+\kr{Плотность энергии: }$w=\frac{E^2}{8\pi}$, энергия $W=\iiint wdV$.
 
 \section*{14. Электрическая ёмкость. Матрица емкостных коэффициентов, её симметричность.}
 
@@ -1108,7 +1100,165 @@ q_i \\
 \section*{15. Диэлектрики. Связанный заряд. Вектор поляризации. Электрическое поле
 в диэлектрике. Вектор индукции. Диэлектрическая проницаемость.}
 
+\subsection*{Диэлектрики}
 
+\kr{Неполярный диэлеткрик}(к примеру $H_2,O_2$):
+
+\imc[0.3\textwidth]{29.png}
+
+\fc{\vec{d_i}=0}
+
+Под действием поля $\vec{E}$ происходит смещение электронного облака
+ $\text{ и}<\vec{d_i}\neq0>$
+
+\kr{Ионный диэлектрик:}
+
+\imc[0.4\textwidth]{30.png}
+
+\fc{\vec{d_i}=0}
+\fc{\text{Eсли }\vec{E}=0\Rightarrow <\vec{d_i}>=0}
+\fc{\text{Eсли }\vec{E}\neq0\Rightarrow U=-\vec{d}\vec{E}\text{, }<\vec{d}>\neq0}
+
+\newpage
+
+\kr{Полярный диэлектрик:}
+
+\imc[0.25\textwidth]{31.png}
+
+\fc{\vec{d_i}\neq0}
+\fc{\text{Eсли }\vec{E}=0\Rightarrow <\vec{d}>=0\text{, }U=-\vec{d}\vec{E}}
+
+\subsection*{Связанный заряд и Вектор поляризации}
+
+\imc[0.4\textwidth]{32.png}
+
+\fc{\iiint<\rho_c>dV=0, \rho_c\text{-связанные заряды }}
+
+\fc{<\rho_c>=\frac{1}{\Delta V}\underset{V}{\iiint}\rho_c(\vec{r}+\vec{\xi})d\vec{\xi}\text{, }\Delta V\sim 10^{-6}\text{см}^3}
+
+Определение\kr{ вектора поляризации:}
+
+\fc{<\rho_c>=:-\mm{div}\vec{P}}
+
+Вне тела $\vec{P}=0$
+
+\newpage
+
+\imc[0.3\textwidth]{33.png}
+
+По формуле Остроградского-Гаусса (1):
+
+\fc{\iiint<\rho_c>dV=-\iiint\mm{div}\vec{D}dV\overset{(1)}{=}-\oiint\vec{P}d\vec{S}\Rightarrow}
+\fc{\Rightarrow P_n=-\sigma_c}
+
+Связь вектора поляризации и дипольного момента:
+
+\fc{\vec{d}=\iiint <\rho_c>\vec{r}dV=-\iiint\vec{r}(\grad\vec{P})dV=-\iiint\grad\underset{\rightarrow0}{(\vec{P}\vec{r})}dV+\iiint(\vec{r}\grad)\vec{P}dV=}
+\fc{\grad(\vec{P}\vec{r})=\vec{r}(\grad\vec{P})+(\vec{r}\grad)\vec{P}\text{ , }(\vec{r}\grad)\vec{P}=\bigg(x\frac{\partial}{\partial x}+y\frac{\partial}{\partial y}+z\frac{\partial}{\partial z}\bigg)(P_1,P_2,P_3)=\vec{P}}
+\fc{=\iiint\vec{P}dV}
+\fc{\Rightarrow\vec{P}=n<\vec{d}>}
+
+Вектор поляризации $\vec{P}$ равен дипольному моменту единицы объема поляризованного диэлектрика.
+
+\fc{\vec{P}=\chi\vec{E}, \chi \text{-поляризуемость.}}
+
+\subsection*{Электрическое поле в диэлектрике и Вектор индукции и Диэлектрическая проницаемость}
+
+\fc{
+\begin{cases}
+\mm{div}<\vec{E}>=4\pi(\rho+<\rho_c>) \qquad\qquad  \mm{div}(\vec{E}+4\pi\vec{P})=4\pi\rho\Rightarrow \mm{div}\vec{D}=4\pi\rho\\
+\mm{rot}\vec{E}=0 \qquad\qquad\qquad\qquad\qquad\quad\quad \vec{D}:=\vec{E}+4\pi\vec{P}\text{(нет физического смысла)}
+\end{cases}}
+
+$<\vec{E}>:=\vec{E}$-напряженность электрического поля,
+
+$\vec{D}$-\kr{вектор индукции электрического тока}.
+
+По теореме Гаусса:
+
+\fc{\oiint\vec{D}d\vec{S}=4\pi Q }
+
+\fc{\underset{\text{Г}}{\oint}\vec{E}d\vec{l}=0\Rightarrow\vec{E}=-\grad\varphi\text{, }\varphi=-\int\vec{E}d\vec{l}}
+\fc{\vec{D}=\vec{E}+4\pi\chi\vec{E}=(1+4\pi\chi)\vec{E}=\varepsilon\vec{E}}
+
+$\varepsilon$\kr{-диэлектрическая проницаемость}($\varepsilon\geq1$)
+
+\fc{\vec{P}=\frac{\vec{D}-\vec{E}}{4\pi}}
+
+\fc{\rho_c=-\grad\bigg(\frac{\vec{D}-\vec{E}}{4\pi}\bigg)=-\grad\bigg(\frac{\varepsilon-1}{4\pi}\vec{E}\bigg)=\frac{1-\varepsilon}{4\pi}\grad\vec{E}-\vec{E}\frac{\grad\varepsilon}{4\pi}}
+
+\kr{Итого имеем:}
+
+\fc{
+\begin{cases}
+\mm{div}\vec{D}=4\pi\rho \qquad\qquad \oiint\vec{D}d\vec{S}=4\pi Q \\
+\mm{rot}\vec{E}=0 \qquad\qquad\quad \oint\vec{E}d\vec{S}=0\\
+\vec{D}=\varepsilon\vec{E}
+\end{cases}}
+
+\section*{16. Уравнения электрического поля в диэлектрике. Граничные условия.}
+
+\subsection*{Уравнения электрического поля в диэлектрике}
+
+\fc{
+\text{Усреднение:}
+\begin{cases}
+\text{div}\, \vec{E} = 4\pi (\langle \rho_c \rangle + \rho) & \quad \langle \rho_c \rangle = - \text{div}\, \vec{P} \\
+\text{rot}\, \vec{E} = 0 & \quad \vec{P} = \chi \langle \vec{E} \rangle
+\end{cases}
+}
+\fc{
+\text{Обозначения:}
+\begin{array}{rl}
+<\vec{E}>=:\vec{E} 
+ \begin{array}{rl}
+\end{array}   \\
+\vec{E}+4\pi\vec{P}=:\vec{D}
+\end{array}
+}
+\fc{
+\begin{cases}
+\mm{div}\vec{D}=4\pi\rho \\
+\mm{rot}\vec{E}=0 \qquad \vec{E}=-\grad\varphi	
+\end{cases}
+}
+
+\fc{\text{Вектор индукции: }\vec{D}=\vec{E}+4\pi\vec{P}=(1+4\pi\chi)\vec{E}=\varepsilon\vec{E}}
+\newpage
+
+\subsection*{Граничные условия}
+
+\kr{Тангенсальная компонента:}
+
+\imc[0.4\textwidth]{34.png}
+
+\fc{\begin{cases}
+\mm{rot}\vec{E}=0 \\
+\underset{L}{\oint}\vec{E}d\vec{l}=0 \qquad \Rightarrow E_{1\tau}|=E_{2\tau}|
+\end{cases}
+}
+
+То есть тангенсальная компонента вектора напряжённости электрического поля на границе непрерывна, а так же:
+
+\fc{\varphi_1|=\varphi_2|}
+
+\kr{Нормальная компонента:}
+
+\imc[0.55\textwidth]{35.png}
+
+\fc{\begin{cases}
+\mm{div}\vec{D}=4\pi\rho \\
+\underset{S}{\oiint}\vec{D}d\vec{S}=4\pi Q \qquad \Rightarrow D_{1n}|-D_{2n}|=4\pi\sigma\text{ или } \varepsilon_1E_{1n}-\varepsilon_2E_{2n}=4\pi\sigma
+\end{cases}
+}
+
+То есть нормальная компонента вектора
+индукции электрического поля
+терпит разрыв.
+
+\newpage
+
+\section*{17. Оценка диэлектрической проницаемости полярного диэлектрика (газа).}
 
 
 \end{document}
