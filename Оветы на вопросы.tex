@@ -963,11 +963,150 @@ x_3
 \fc{=\frac{D}{2r^5}\left(-r^2\frac{\sin^2\theta}{2}+r^2\cos^2\theta \right)=\frac{D}{2r^3}\cdot\frac{3\cos^2\theta-1}{2}}
 где последний член это полином Лежанра $P(\cos \theta)$
 
+\newpage
+
+Вкратце о аксиально-симметричном тензоре:
+
+\fc{D_{\alpha\beta}=\begin{pmatrix}
+\frac{1}{2}D_{zz} & 0 & 0 \\
+0 & \frac{1}{2}D_{zz} & 0 \\
+0 & 0 & D_{zz}
+\end{pmatrix}}
+
+\fc{1) D_{xx}+D_{yy}+D_{zz}=0}
+\fc{2) D_{xy}'=-D_{yx}=-D_{xy}(\text{ свойство тензора при повороте на }90^{\circ})}
+\fc{D_{xy}'=D_{xy} (\text{ из симметрии })}
+\fc{\Downarrow}
+\fc{D_{xy}=0}
+\fc{3) D_{xz}'=-D_{xz} (\text{ свойство тензора при повороте на }180^{\circ})}
+\fc{D_{xz}'=D_{xz}}
+\fc{\Downarrow}
+\fc{D_{xz}=0}
 
 
 
+\subsection*{13. Энергия электрического поля. Плотность энергии электрического поля.}
+
+\imc[0.4\textwidth]{23.png}
+
+\fc{A_{12}=W_{12}=q_2\varphi_{1B}=q_1\varphi_{2A}}
+\fc{W_{12}=\frac{1}{2}(q\varphi_A+q_2\varphi_B)}
+\fc{W=W_1+W_2+W_{12}}
+
+\newpage
+
+\imc[0.4\textwidth]{24.png}
+
+\fc{W_{12}=q_1(\varphi_{2A}+\varphi_{3A}+q_2(\varphi_{1B}+\varphi_{2B})+q_3(\varphi_{1C}+\varphi_{2C})}
+\fc{W_{12}=\frac{1}{2}(q_1\varphi_1+q_2\varphi_2+q_3\varphi_3)}
+
+Итог:
+
+\fc{W_{\text{вз}}=\frac{1}{2}\Sigma q_i\varphi_i=\frac{1}{2}\int\varphi dq}
+
+\imc[0.4\textwidth]{25.png}
+
+\fc{W_{\text{эл}}=\underset{V}{\int}W_{\text{эл}}dV=\int \frac{E^2}{4\pi}dV}
+
+Если $q=\rho dV$ :
+
+\fc{W=\frac{1}{2}\int\varphi\rho dV=[\Delta\varphi=-4\pi\rho]=-\frac{1}{8\pi}\int (\Delta\varphi\cdot\varphi)dV=}
+\fc{=[\mm{div}(\varphi\grad\varphi=\varphi\Delta\varphi+(\grad\varphi)^2]=}
+\fc{=-\frac{1}{8\pi}\int\underset{\rightarrow0}{\mm{div}(\varphi\Delta\varphi )dV}+\frac{1}{8\pi}\int (\grad\varphi)^2dV=\int \frac{E^2}{8\pi}dV=\int wdV}
+где $w=\frac{E^2}{8\pi}-$\kr{плотность энергии}
 
 
+
+\newpage
+
+\section*{14. Электрическая ёмкость. Матрица емкостных коэффициентов, её симметричность.}
+
+\subsection*{Электрическая ёмкость}
+
+Конденсатор из двух проводников:
+
+\imc[0.4\textwidth]{27.png}
+
+\fc{C=\frac{|q|}{\varphi_1-\varphi_2}}
+
+Уединенный конденсатор:
+
+\imc[0.2\textwidth]{28.png}
+
+\fc{C=\frac{q}{\varphi_1-\varphi_2}}
+
+Энергия кондесатора:
+
+\fc{W=\frac{q^2}{2C}=\frac{CU^2}{2}=\frac{1}{2} \Sigma q_i\varphi_i  }
+
+\newpage
+
+\subsection*{Матрица емкостных коэффициентов, её симметричность}
+
+\imc[0.4\textwidth]{26.png}
+
+\fc{\begin{pmatrix}
+\varphi_1 \\
+\varphi_2 \\
+\vdots \\
+\varphi_i \\
+\vdots
+\end{pmatrix}
+=
+\renewcommand{\arraystretch}{1.8} % Увеличивает вертикальные интервалы в матрице
+\setlength{\arraycolsep}{1.2em}   % Увеличивает горизонтальные интервалы между столбцами
+\begin{pmatrix}
+   &   &   \\
+   & \overset{\wedge}{S} &   \\
+   &   &  
+\end{pmatrix}
+\quad
+\renewcommand{\arraystretch}{1.} 
+\setlength{\arraycolsep}{1.2em}   
+\begin{pmatrix}
+q_1 \\
+q_2 \\
+\vdots \\
+q_i \\
+\vdots
+\end{pmatrix}
+\quad
+}
+
+или в другом виде:
+
+\fc{\varphi_{i}=S_{ij}q_{j}}
+
+где $S_{ij}$-\kr{матрица потенциальных коэффициентов,}
+
+\fc{q_{i}=C_{ij}\varphi_j}
+
+где $С_{ij}$-\kr{матрица емкостных коэффициентов,}$S_{ij}^{-1}=C_{ij}$-симметричны.
+
+Свойства матриц:
+
+\fc{dW=\underset{i}{\Sigma}\varphi_i dq_i=\varphi_i dq_i}
+и
+\fc{W=\frac{1}{2}\varphi_i q_i=dW=\frac{1}{2}\varphi_i dq_i+\frac{1}{2}q_id\varphi_i}
+\fc{\Downarrow}
+
+\fc{\varphi_idq_i=q_id\varphi_i}
+
+где $\varphi_i=S_{ij}q_j$
+
+\fc{0=S_{i j} q_j d q_i-q_i S_{i j} d q_i=S_{i j} q_j  d q_i-q_j S_{j i} d q_i=(S_{i j}-S_{ji})q_idq_j}
+получаем:
+
+\fc{S_{ij}=S_{ji}}
+\fc{\Downarrow}
+\fc{C_{ij}=C_{ji}}
+
+это справедливо $\forall q_i$ и $\forall dq_i$.
+
+\newpage
+
+\section*{15. Диэлектрики. Связанный заряд. Вектор поляризации. Электрическое поле
+в диэлектрике. Вектор индукции. Диэлектрическая проницаемость.}
 
 
 
