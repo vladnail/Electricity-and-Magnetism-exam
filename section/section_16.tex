@@ -1,0 +1,59 @@
+\section*{16. Уравнения электрического поля в диэлектрике. Граничные условия.}
+
+\subsection*{Уравнения электрического поля в диэлектрике}
+
+\fc{
+\text{Усреднение:}
+\begin{cases}
+\text{div}\, \vec{E} = 4\pi (\langle \rho_c \rangle + \rho) & \quad \langle \rho_c \rangle = - \text{div}\, \vec{P} \\
+\text{rot}\, \vec{E} = 0 & \quad \vec{P} = \chi \langle \vec{E} \rangle
+\end{cases}
+}
+\fc{
+\text{Обозначения:}
+\begin{array}{rl}
+<\vec{E}>=:\vec{E} 
+ \begin{array}{rl}
+\end{array}   \\
+\vec{E}+4\pi\vec{P}=:\vec{D}
+\end{array}
+}
+\fc{
+\begin{cases}
+\mm{div}\vec{D}=4\pi\rho \\
+\mm{rot}\vec{E}=0 \qquad \vec{E}=-\grad\varphi	
+\end{cases}
+}
+
+\fc{\text{Вектор индукции: }\vec{D}=\vec{E}+4\pi\vec{P}=(1+4\pi\chi)\vec{E}=\varepsilon\vec{E}}
+\newpage
+
+\subsection*{Граничные условия}
+
+\kr{Тангенсальная компонента:}
+
+\imc[0.4\textwidth]{34.png}
+
+\fc{\begin{cases}
+\mm{rot}\vec{E}=0 \\
+\underset{L}{\oint}\vec{E}d\vec{l}=0 \qquad \Rightarrow E_{1\tau}|=E_{2\tau}|
+\end{cases}
+}
+
+То есть тангенсальная компонента вектора напряжённости электрического поля на границе непрерывна, а так же:
+
+\fc{\varphi_1|=\varphi_2|}
+
+\kr{Нормальная компонента:}
+
+\imc[0.55\textwidth]{35.png}
+
+\fc{\begin{cases}
+\mm{div}\vec{D}=4\pi\rho \\
+\underset{S}{\oiint}\vec{D}d\vec{S}=4\pi Q \qquad \Rightarrow D_{1n}|-D_{2n}|=4\pi\sigma\text{ или } \varepsilon_1E_{1n}-\varepsilon_2E_{2n}=4\pi\sigma
+\end{cases}
+}
+
+То есть нормальная компонента вектора
+индукции электрического поля
+терпит разрыв.

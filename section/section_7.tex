@@ -1,0 +1,107 @@
+\section*{7. Граничные условия для нормальной и тангенциальной компонент
+электрического поля. Поверхностная плотность зарядов. Поле вблизи
+поверхности металлов. Граничные условия для электрического поля,
+выраженные через его скалярный потенциал.}
+
+\subsection*{Граничные условия для нормальной и тангенциальной компонент
+электрического поля}
+
+\kr{Тангенциальная компонента}
+
+\fc{\mm{rot}\vec{E}=0 \Rightarrow \oint \vec{E}d\vec{l}\leftarrow \text{интегральная форма}}
+
+По теореме Стокса
+
+\fc{0=\underset{(\forall )S}{\iint} \mm{rot}\vec{E}dS=\underset{(\forall )S}{\oint }\vec{E}d\vec{l}}
+
+\imc[0.826\textwidth]{10.png} 
+
+\newpage
+
+
+\fc{\oint \vec{E}d\vec{l}=E_x|_1\cdot l-E_x|_2\cdot l\Rightarrow E_x|_1=E_x|_2}
+
+или же 
+
+\fc{E_\tau|_1=E_\tau|_2}
+
+\kr{Нормальная компонента}
+
+\fc{\mm{div}\vec{E}=4\pi \rho \Rightarrow \underset{(\forall)S}{\oiint}\vec{E}d\vec{S}=4\pi Q \Rightarrow}
+
+\fc{\Rightarrow \underset{(\forall)V}{\iiint} \mm{div}\vec{E}dV=4\pi \underset{(\forall)V}{\iiint} \rho dV \Rightarrow \underset{(\forall)\delta S}{\oiint}\vec{E}d\vec{S}=4\pi Q }
+
+\imc[0.7\textwidth]{11.png}
+
+\fc{E_{1n}|\cdot S-E_{2n}|\cdot S=4\pi Q=4\pi \rho S}
+
+или же 
+
+\fc{E_{1n}| -E_{2n}| =4\pi \rho }
+
+\subsection*{Поверхностная плотность зарядов(???)}
+
+\fc{dq\overset{df}{=}\sigma dS}
+
+\newpage
+
+
+\subsection*{Поле вблизи поверхности металлов}
+
+Надо доказать что поле вблизи металлов равно
+
+\fc{\vec{E}=4\pi \sigma \vec{n}}
+
+Рассмотрим тангенсальную и нормальную компоненту поля $\vec{E}$ на границе металла
+ 
+\imc[0.7\textwidth]{12.png}
+
+Если в проводнике имеется электрическое поле, то по нему течёт ток. Следовательно, для электростатических явлений электрическое поле внутри проводника $E_{1n}=0$ отсюда 
+
+\fc{E_{2n}=4\pi \sigma}
+
+Снаружи металла поле $E_{2\tau }=0$ и из граничных условий  
+
+\fc{E_{1\tau}=0}
+
+Итоговое поле равно 
+
+\fc{\vec{E}_{2n}=4\pi \sigma \vec{n}}
+
+Что и требовалось доказать.
+
+\newpage
+
+
+\subsection*{Граничные условия для электрического поля,
+выраженные через его скалярный потенциал}
+
+Можно рассмотреть две точки А и B с одной стороны поверхности и C,D с другой стороны. Найдем напряжение между парами этих  точек:
+
+%Использовал пакет TikZ для пробы
+\begin{center}
+\begin{tikzpicture}
+    % Ось X
+    \draw[->] (-3,0) -- (3,0) node[right] {$x$};
+
+    % Верхний вектор от A к B
+    \node[above] at (-2,1) {$A$};
+    \node[above] at (2,1) {$B$};
+    \draw[->, thick] (-2,1) -- (2,1);
+
+    % Нижний вектор от C к D
+    \node[below] at (-2,-1) {$C$};
+    \node[below] at (2,-1) {$D$};
+    \draw[->, thick] (-2,-1) -- (2,-1);
+\end{tikzpicture}
+\end{center}
+
+Из граничных условий, что $E_{\tau}-$непрерывно следует, что:
+
+\fc{E_{\text{AB}|} = E_{\text{CD}}|} 
+
+потенциал можно выразить через напряженность так:
+
+\fc{{E}=-\mm{grad}\varphi}
+
+отсюда получаем, что $\varphi_{\text{AB}}|=\varphi_{\text{CD}}|\Rightarrow \varphi|-\text{непрерывно}$

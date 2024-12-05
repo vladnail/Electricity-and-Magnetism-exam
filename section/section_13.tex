@@ -1,0 +1,25 @@
+\section*{13. Энергия электрического поля. Плотность энергии электрического поля.}
+
+В обьеме $V : \Delta\varphi=0$
+и граничные условия $\underset{S_i}{\oiint}(-\gradd\varphi) d\vec{S}=4\pi q_i \Rightarrow$ 
+
+$\Rightarrow$задача линейна.
+
+\imc[0.6\textwidth]{24.png}
+
+\fc{\delta A=\varphi_idq_i 
+\bigg| \;
+\begin{array}{rl}
+\tilde{\varphi}_i &= \alpha\varphi_i \\
+\tilde{q}_i &= \alpha q_i \text{ , } \tilde{q_i}=q_id\alpha(0\leqslant\alpha\leqslant1)
+\end{array}
+}
+
+\fc{\Delta A=\int \underset{i}{\Sigma}\tilde{\varphi_i}d\tilde{q_i}=\int \underset{i}{\Sigma}\alpha\varphi_id(\alpha q_i)=(\int_0^1\alpha d\alpha )\underset{i}{\Sigma}\varphi_i q_i=\frac{1}{2}\underset{i}{\Sigma}\varphi_i q_i=\frac{1}{2}\varphi_i q_i}
+
+\fc{\underset{V}{\iiint}\frac{E^2}{8\pi}dV=\underset{V}{\iiint}\frac{(-\grad\varphi)^2}{8\pi}dV=[\grad(\varphi\grad\varphi)=(\grad\varphi)^2+\varphi\grad\varphi=(\grad\varphi)^2]=}
+
+\fc{=\underset{V}{\iiint}\frac{1}{8\pi}\grad(\varphi\grad\varphi)dV=\frac{1}{8\pi} \bigg(\underset{i}{\Sigma}\underset{S_i}{\oiint}\varphi(-\grad\varphi)d\vec{S}+\underset{S_{\infty}}{\oiint}\underset{\rightarrow0}{\varphi(\grad\varphi)d\vec{S}}\bigg)=}
+\fc{=\frac{1}{8\pi}\underset{i}{\Sigma}\varphi_{i}\underset{S_i}{\oiint}\vec{E}d\vec{S}=[\underset{S_i}{\oiint}\vec{E}d\vec{S}=4\pi q_i]=\frac{1}{2}\varphi_i q_i}
+
+\kr{Плотность энергии: }$w=\frac{E^2}{8\pi}$, энергия $W=\iiint wdV$.

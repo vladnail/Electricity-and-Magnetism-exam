@@ -1,0 +1,21 @@
+\section*{6. Уравнение Лапласа. Разделение переменных в уравнении Лапласа в
+цилиндрической системе координат.}
+
+\subsection*{Уравнение Лапласа(повтор)}
+
+\subsection*{Разделение переменных в уравнении Лапласа в
+цилиндрической системе координат}
+
+Пусть $\varphi(r,\alpha)=\varphi(r,\alpha)$. Кроме того $\varphi(r,\alpha)=R(z)Y(\alpha)$
+(то есть переменные разделяются)
+
+\fc{Y(\alpha)=e^{\pm im\alpha}}
+
+\fc{\varphi(r,\alpha)=R(r)(\underset{i}{\Sigma}e^{ im\alpha}),\text{где m}\in Z}
+
+Пусть внутри, рассматриваемой области нет зарядов $\Rightarrow \Delta \varphi=0 \Rightarrow$
+
+\fc{\Rightarrow \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial \varphi}{\partial r}\right)+\frac{1}{r^2} \frac{\partial^2 \varphi}{\partial \alpha^2}=0 \Rightarrow e^{i m \alpha} \cdot \frac{1}{r}\left(r R^{\prime}\right)^{\prime}+R \cdot \frac{1}{r^2}\left(-m^2 e^{i m \alpha}\right)=0 \Rightarrow \frac{r(rR')'}{R}=m^2}
+
+Ищем решение в виде $R(r)\varpropto r^l$:
+\fc{l^2=m^2 ,\text{т.е }l=\pm m \text{. Т.е } \varphi(r,\alpha)=\left(\frac{C_1}{r^m}+C_2r^m\right)e^{\pm im\alpha}}

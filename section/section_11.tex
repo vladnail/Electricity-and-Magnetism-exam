@@ -1,0 +1,79 @@
+\section*{11. Сила и момент сил, действующие на диполь в слабонеоднородном
+электрическом поле.}
+
+\kr{Момент сил:}
+
+Рассмотрим случай двух зарядов:
+
+\imc[0.45\textwidth]{17.png}
+
+
+\fc{\vec{F} = q\vec{E} \text{ , } \vec{M} = [\vec{r} \times \vec{F}]=[\vec{r} \times q\vec{E}]=[\vec{d} \times \vec{E}]}
+
+Обобщим на случай нескольких зарядов:
+
+\imc[0.45\textwidth]{18.png}
+
+\fc{\vec{M}=\underset{i}{\Sigma}[\vec{r_i} \times \vec{F_i}]=\underset{i}{\Sigma}[\vec{r_i} \times q_i\vec{E}]=\underset{i}{\Sigma}[q_i\vec{r_i} \times \vec{E}]=[(\underset{i}{\Sigma}q_i\vec{r_i}) \times \vec{E}]=[\vec{d} \times \vec{E}]}
+
+\newpage
+
+\kr{Сила:}
+
+Рассмотрим случай двух зарядов:
+
+\imc[0.45\textwidth]{19.png}
+
+В однородном поле $F=0$, если полный заряд равен нулю:
+
+\fc{\vec{F}=\underset{i}{\Sigma}q_i\vec{E}=\underset{\rightarrow0}{(\underset{i}{\Sigma}q_i)}\vec{E}=0}
+
+\fc{\vec{F}=q\vec{E}(d\vec{r}+d\vec{r})-q\vec{E}(\vec{r})=q(\vec{E}(d\vec{r}+d\vec{r})-\vec{E}(\vec{r}))=q(d\vec{r}\gradd)\vec{E}=(\vec{d}\gradd)\vec{E}}
+с учетом , что $\mm{rot}\vec{E}=0$:
+
+\fc{0=[\grad \times \vec{E}]\Rightarrow 0=[\vec{d}\times[\grad\times\vec{E}]]\underset{bac-cab}{=}\grad(\vec{d}\vec{E})-\overset{\downarrow}{\vec{E}}(\vec{d}\grad)\Rightarrow \grad(\vec{d}\vec{E})=(\vec{d}\grad)\vec{E}}
+
+Получаем нашу силу:
+
+\fc{\vec{F}=\gradd(\vec{d}\vec{E})}
+
+Можно ввести потенциальную функцию по общему правилу:
+
+\fc{\vec{F}=-\grad U}
+
+Тогда 
+
+\fc{U=-\vec{d}\vec{E}}
+
+\newpage
+
+Обобщим на случай нескольких зарядов:
+
+\imc[0.45\textwidth]{20.png}
+
+Предполагается, что система мала по сравнению с масштабами изменения электрического поля:
+
+\fc{\vec{F}=\underset{i}{\Sigma}q_i\vec{E_i}(\vec{r}+\vec{r_i})}
+
+с учетом, что $\underset{i}{\Sigma}q_i=0$, получим:
+
+\fc{\vec{F}=\underset{i}{\Sigma}q_i(\vec{E}(\vec{r}+\vec{r_i})-\vec{E}(\vec{r}))=\underset{i}{\Sigma}q_i(\vec{r_i}\grad)\vec{E}=\underset{i}{\Sigma}(q_i\vec{r_i}\grad)\vec{E}=((\underset{i}{\Sigma}q_i)\vec{r_i}\grad)\vec{E}=(\vec{d}\grad)\vec{E}}
+
+Получим нашу силу:
+
+\fc{\vec{F}=\grad(\vec{d}\vec{E})}
+
+и 
+
+\fc{U=-\vec{d}\vec{E}}
+
+В случае упругого диполя:
+
+\fc{\vec{d}\overset{df}{=}\alpha\vec{E}}
+
+тогда запишем нашу силу:
+
+\fc{\vec{F}=\grad(\vec{d}\cdot\overset{\downarrow}{\vec{E}})=\grad(\alpha\vec{E}\cdot\overset{\downarrow}{\vec{E}})=\frac{1}{2}\left[\grad(\overset{\downarrow}{\alpha\vec{E}}\cdot \vec{E})+\grad(\alpha\vec{E}\cdot\overset{\downarrow}{\vec{E}})\right]=}
+\fc{=\frac{1}{2}\grad(\alpha\overset{\downarrow}{\vec{E}}\cdot \overset{\downarrow}{\vec{E}})=\frac{1}{2}\grad(\overset{\downarrow}{\vec{d}}\cdot\overset{\downarrow}{\vec{E}})=\vec{F}}
+
+с учетом $\vec{F}=-\grad U$, получаем $U=-\frac{1}{2}\vec{d}\vec{E}$

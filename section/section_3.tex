@@ -1,0 +1,101 @@
+\section*{3. Циркуляция и ротор электрического поля. Теорема Стокса. Электрический
+потенциал. Работа электрического поля. Потенциал точечного заряда.}
+
+\subsection*{Циркуляция и ротор электрического поля}
+
+Циркуляция векторного поля $\vec{E}$ вдоль контура L
+
+\fc{\underset{L}{\int} \vec{E} d\vec{l}} 
+
+а по замкнутому контуру
+
+\fc{\underset{L}{\oint} \vec{E} d\vec{l}=0} 
+
+или в дифференциальной форме 
+
+\fc{\mm{rot}\vec{E}=0}
+
+\imc[0.5\textwidth]{5.png} 
+
+Как следствие из теоремы о циркуляции $\vec{E}$ работа при перемещении
+заряда из одной точки поля в другую не зависит от формы траектории движения.
+
+\subsection*{Теорема Стокса}
+
+\fc{\underset{\delta
+S}{\oint}\vec{E}d\vec{l}=\underset{S}{\iint}\mm{rot}\vec{E}d\vec{S}}
+
+\imc[0.5\textwidth]{6.png}
+
+\fc{(\mm{rot}\vec{E})_{\vec{n}'}=\frac{\mm{rot}\vec{E}}{\frac{1}{\mm{cos}\theta
+}}}
+
+где $\frac{1}{\mm{cos}\theta}=\frac{dS_{\vec{n}'}}{dS_{\vec{n}}}$, получим
+
+\fc{(\mm{rot}\vec{E})_{\vec{n}'}=\mm{rot}\vec{E}\cdot\mm{cos}\theta} 
+
+
+\subsection*{Электрический потенциал}
+
+Рассмотрим скаляроное поле
+
+\imc[0.5\textwidth]{7.png}
+
+\fc{\varphi(\vec{r})\overset{df}{=}\int_{\vec{r}}^{\vec{r_0}}\vec{E}d\vec{l}}
+
+Чтобы определение было корректным, нужно чтобы этот интеграл не зависел от
+формы $L$.
+
+\kr{Доказательство:}
+
+\fc{\mm{rot}\vec{E}=0 \Rightarrow \forall L
+\underset{L}{\oint}\vec{E}d\vec{l}=0}
+
+Запишем выражение при обходе $L-L'$ - сначала идем по контуру $L$, а
+потом обратно по контуру $L'$ : 
+
+\fc{\underset{L-L'}{\oint}\vec{E}d\vec{l}=0=\underset{L}{\oint}\vec{E}d\vec{l}
+-\underset{L'}{\oint}\vec{E}d\vec{l}=0}
+
+Такие поля называются потенциальными.
+
+\kr{Доказано.}
+
+Еще свойства потенциала: 
+
+\imc[0.35\textwidth]{8.png}
+   
+\fc{\varphi(\vec{r})=\int \vec{E}(\vec{r})d\vec{r} + \underset{L}{\int}
+\vec{E}d\vec{l} }
+
+\fc{\text{и}}
+
+\fc{\varphi(\vec{r}+d\vec{r_0})=\underset{L}{\int} \vec{E}d\vec{l}}
+ 
+отсюда получим
+
+\fc{\varphi(\vec{r}+d\vec{r_0})-\varphi(\vec{r})=-\vec{E}(\vec{r})d\vec{r}}
+
+\fc{\text{так же используем}}
+
+\fc{d\varphi=d\vec{r}\gradd \varphi }
+
+отсюда получим
+
+\fc{\forall d\vec{r} , \vec{E}(\vec{r})d\vec{r}=-\grad \varphi d\vec{r} \Rightarrow \vec{E}=-\mm{grad} \varphi=-\grad \varphi }
+
+\fc{\mm{rot}\vec{E}=0=-[\grad \times \grad \varphi]}  
+
+\newpage
+
+\subsection*{Работа электрического поля}
+
+\fc{A=\underset{L}{\int}\vec{F}d\vec{l}=\underset{L}{\int}q\vec{E}d\vec{l}=q\left[\int_{\vec{r_1}}^{\vec{r_0}}\vec{E}d\vec{l}- \int_{\vec{r_2}}^{\vec{r_1}}\vec{E}d\vec{l}   \right]=q(\varphi_2-\varphi_2)=qU}
+
+\subsection*{Потенциал точечного заряда}
+
+\fc{\varphi(r) = \frac{q}{r}}
+
+или в общем виде
+
+\fc{\varphi(\vec{r}) = \underset{i}{\Sigma} \frac{q_i}{|\vec{r} - \vec{r}_i|}}

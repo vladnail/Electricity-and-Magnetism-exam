@@ -1,0 +1,98 @@
+\section*{15. Диэлектрики. Связанный заряд. Вектор поляризации. Электрическое поле
+в диэлектрике. Вектор индукции. Диэлектрическая проницаемость.}
+
+\subsection*{Диэлектрики}
+
+\kr{Неполярный диэлеткрик}(к примеру $H_2,O_2$):
+
+\imc[0.3\textwidth]{29.png}
+
+\fc{\vec{d_i}=0}
+
+Под действием поля $\vec{E}$ происходит смещение электронного облака
+ $\text{ и}<\vec{d_i}\neq0>$
+
+\kr{Ионный диэлектрик:}
+
+\imc[0.4\textwidth]{30.png}
+
+\fc{\vec{d_i}=0}
+\fc{\text{Eсли }\vec{E}=0\Rightarrow <\vec{d_i}>=0}
+\fc{\text{Eсли }\vec{E}\neq0\Rightarrow U=-\vec{d}\vec{E}\text{, }<\vec{d}>\neq0}
+
+\newpage
+
+\kr{Полярный диэлектрик:}
+
+\imc[0.25\textwidth]{31.png}
+
+\fc{\vec{d_i}\neq0}
+\fc{\text{Eсли }\vec{E}=0\Rightarrow <\vec{d}>=0\text{, }U=-\vec{d}\vec{E}}
+
+\subsection*{Связанный заряд и Вектор поляризации}
+
+\imc[0.4\textwidth]{32.png}
+
+\fc{\iiint<\rho_c>dV=0, \rho_c\text{-связанные заряды }}
+
+\fc{<\rho_c>=\frac{1}{\Delta V}\underset{V}{\iiint}\rho_c(\vec{r}+\vec{\xi})d\vec{\xi}\text{, }\Delta V\sim 10^{-6}\text{см}^3}
+
+Определение\kr{ вектора поляризации:}
+
+\fc{<\rho_c>=:-\mm{div}\vec{P}}
+
+Вне тела $\vec{P}=0$
+
+\newpage
+
+\imc[0.3\textwidth]{33.png}
+
+По формуле Остроградского-Гаусса (1):
+
+\fc{\iiint<\rho_c>dV=-\iiint\mm{div}\vec{D}dV\overset{(1)}{=}-\oiint\vec{P}d\vec{S}\Rightarrow}
+\fc{\Rightarrow P_n=-\sigma_c}
+
+Связь вектора поляризации и дипольного момента:
+
+\fc{\vec{d}=\iiint <\rho_c>\vec{r}dV=-\iiint\vec{r}(\grad\vec{P})dV=-\iiint\grad\underset{\rightarrow0}{(\vec{P}\vec{r})}dV+\iiint(\vec{r}\grad)\vec{P}dV=}
+\fc{\grad(\vec{P}\vec{r})=\vec{r}(\grad\vec{P})+(\vec{r}\grad)\vec{P}\text{ , }(\vec{r}\grad)\vec{P}=\bigg(x\frac{\partial}{\partial x}+y\frac{\partial}{\partial y}+z\frac{\partial}{\partial z}\bigg)(P_1,P_2,P_3)=\vec{P}}
+\fc{=\iiint\vec{P}dV}
+\fc{\Rightarrow\vec{P}=n<\vec{d}>}
+
+Вектор поляризации $\vec{P}$ равен дипольному моменту единицы объема поляризованного диэлектрика.
+
+\fc{\vec{P}=\chi\vec{E}, \chi \text{-поляризуемость.}}
+
+\subsection*{Электрическое поле в диэлектрике и Вектор индукции и Диэлектрическая проницаемость}
+
+\fc{
+\begin{cases}
+\mm{div}<\vec{E}>=4\pi(\rho+<\rho_c>) \qquad\qquad  \mm{div}(\vec{E}+4\pi\vec{P})=4\pi\rho\Rightarrow \mm{div}\vec{D}=4\pi\rho\\
+\mm{rot}\vec{E}=0 \qquad\qquad\qquad\qquad\qquad\quad\quad \vec{D}:=\vec{E}+4\pi\vec{P}\text{(нет физического смысла)}
+\end{cases}}
+
+$<\vec{E}>:=\vec{E}$-напряженность электрического поля,
+
+$\vec{D}$-\kr{вектор индукции электрического тока}.
+
+По теореме Гаусса:
+
+\fc{\oiint\vec{D}d\vec{S}=4\pi Q }
+
+\fc{\underset{\text{Г}}{\oint}\vec{E}d\vec{l}=0\Rightarrow\vec{E}=-\grad\varphi\text{, }\varphi=-\int\vec{E}d\vec{l}}
+\fc{\vec{D}=\vec{E}+4\pi\chi\vec{E}=(1+4\pi\chi)\vec{E}=\varepsilon\vec{E}}
+
+$\varepsilon$\kr{-диэлектрическая проницаемость}($\varepsilon\geq1$)
+
+\fc{\vec{P}=\frac{\vec{D}-\vec{E}}{4\pi}}
+
+\fc{\rho_c=-\grad\bigg(\frac{\vec{D}-\vec{E}}{4\pi}\bigg)=-\grad\bigg(\frac{\varepsilon-1}{4\pi}\vec{E}\bigg)=\frac{1-\varepsilon}{4\pi}\grad\vec{E}-\vec{E}\frac{\grad\varepsilon}{4\pi}}
+
+\kr{Итого имеем:}
+
+\fc{
+\begin{cases}
+\mm{div}\vec{D}=4\pi\rho \qquad\qquad \oiint\vec{D}d\vec{S}=4\pi Q \\
+\mm{rot}\vec{E}=0 \qquad\qquad\quad \oint\vec{E}d\vec{S}=0\\
+\vec{D}=\varepsilon\vec{E}
+\end{cases}}

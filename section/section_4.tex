@@ -1,0 +1,64 @@
+\section*{4. Уравнение Лапласа. Разделение переменных в уравнении Лапласа в
+декартовой системе координат.}
+
+\subsection*{Уравнение Лапласа}
+
+В декартовой системе координат
+
+\fc{\displaystyle {\frac {\partial ^{2}\varphi}{\partial x^{2}}}+{\frac {\partial ^{2}\varphi}{\partial y^{2}}}+{\frac {\partial ^{2}\varphi}{\partial z^{2}}}=0}
+
+В сферической системе ($r,\theta,\alpha$) координат
+
+\fc{{\displaystyle {1 \over r^{2}}{\partial  \over \partial r}\left(r^{2}{\partial \varphi \over \partial r}\right)+{1 \over r^{2}\sin \theta }{\partial  \over \partial \theta }\left(\sin \theta {\partial \varphi \over \partial \theta }\right)+{1 \over r^{2}\sin ^{2}\theta }{\partial ^{2}\varphi \over \partial \alpha ^{2}}=0}}
+
+В цилиндрической ($r,\alpha,z$) координат
+
+\fc{{\displaystyle {1 \over r}{\partial  \over \partial r}\left(r{\partial \varphi \over \partial r}\right)+{\partial ^{2}\varphi \over \partial z^{2}}+{1 \over r^{2}}{\partial ^{2}\varphi \over \partial \alpha ^{2}}=0}}
+
+\subsection*{Разделение переменных в уравнении Лапласа в
+декартовой системе координат}
+
+Предположим, что в декартовых координатах переменные разделяются -это означает, что: 
+\fc{\varphi(x,y,z)=X(x)\cdot Y(y)\cdot Z(z)}
+
+\fc{\Delta \varphi=0 \Rightarrow X''YZ+XY''Z+XYZ''=0}
+
+\newpage
+
+
+\fc{\frac{X''}{X}+\frac{Y''}{Y}+\frac{Z''}{Z}=0 \Rightarrow Const_1+C_2+C_3=0}
+
+\fc{\frac{X''}{X}=C \Rightarrow X''=CX}
+
+\fc{(1)X(x)=
+\left\{
+\begin{aligned}
+\text{при C} >0 ,Ae^{\sqrt{c}x} \\
+\text{при C} <0 ,Ae^{\pm i\sqrt{c}x} \\
+\text{при C} =0 ,Ax+B
+\end{aligned}
+\right.}
+
+При $\rho \neq0$. Допустим, что 
+
+\fc{\rho(x,y,z)=\rho \cdot X(x)\cdot Y(y)\cdot Z(z),\text{где X,Y,Z функции вида (1)}}
+
+Тогда 
+
+\fc{\varphi=A\cdot X(x)\cdot Y(y)\cdot Z(z)}
+
+\fc{A(X''YZ+XY''Z+XYZ'')=-4\pi \rho_0 XYZ\Rightarrow \frac{X''}{X}+\frac{Y''}{Y}+\frac{Z''}{Z}=-\frac{4\pi \rho_0}{A}}
+
+\fc{C_1+C_2+C_3=-\frac{4\pi \rho_0}{A}}
+
+Итог
+
+\fc{\rho = p _ { 1 } + p _ { 2 } , \Delta \varphi = - 4 \pi \rho , \varphi = \varphi _ { 1 } + \varphi _ { 2 } ;}
+
+\fc{
+\left\{
+\begin{aligned}
+\Delta \varphi_1=-4\pi \rho_1 \\
+\Delta \varphi_2=-4\pi \rho_2  \
+\end{aligned}
+\right.}

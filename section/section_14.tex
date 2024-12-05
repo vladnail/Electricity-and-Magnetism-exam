@@ -1,0 +1,83 @@
+\section*{14. Электрическая ёмкость. Матрица емкостных коэффициентов, её симметричность.}
+
+\subsection*{Электрическая ёмкость}
+
+Конденсатор из двух проводников:
+
+\imc[0.4\textwidth]{27.png}
+
+\fc{C=\frac{|q|}{\varphi_1-\varphi_2}}
+
+Уединенный конденсатор:
+
+\imc[0.2\textwidth]{28.png}
+
+\fc{C=\frac{q}{\varphi_1-\varphi_2}}
+
+Энергия кондесатора:
+
+\fc{W=\frac{q^2}{2C}=\frac{CU^2}{2}=\frac{1}{2} \Sigma q_i\varphi_i  }
+
+\newpage
+
+\subsection*{Матрица емкостных коэффициентов, её симметричность}
+
+\imc[0.4\textwidth]{26.png}
+
+\fc{\begin{pmatrix}
+\varphi_1 \\
+\varphi_2 \\
+\vdots \\
+\varphi_i \\
+\vdots
+\end{pmatrix}
+=
+\renewcommand{\arraystretch}{1.8} % Увеличивает вертикальные интервалы в матрице
+\setlength{\arraycolsep}{1.2em}   % Увеличивает горизонтальные интервалы между столбцами
+\begin{pmatrix}
+   &   &   \\
+   & \overset{\wedge}{S} &   \\
+   &   &  
+\end{pmatrix}
+\quad
+\renewcommand{\arraystretch}{1.} 
+\setlength{\arraycolsep}{1.2em}   
+\begin{pmatrix}
+q_1 \\
+q_2 \\
+\vdots \\
+q_i \\
+\vdots
+\end{pmatrix}
+\quad
+}
+
+или в другом виде:
+
+\fc{\varphi_{i}=S_{ij}q_{j}}
+
+где $S_{ij}$-\kr{матрица потенциальных коэффициентов,}
+
+\fc{q_{i}=C_{ij}\varphi_j}
+
+где $С_{ij}$-\kr{матрица емкостных коэффициентов,}$S_{ij}^{-1}=C_{ij}$-симметричны.
+
+Свойства матриц:
+
+\fc{dW=\underset{i}{\Sigma}\varphi_i dq_i=\varphi_i dq_i}
+и
+\fc{W=\frac{1}{2}\varphi_i q_i=dW=\frac{1}{2}\varphi_i dq_i+\frac{1}{2}q_id\varphi_i}
+\fc{\Downarrow}
+
+\fc{\varphi_idq_i=q_id\varphi_i}
+
+где $\varphi_i=S_{ij}q_j$
+
+\fc{0=S_{i j} q_j d q_i-q_i S_{i j} d q_i=S_{i j} q_j  d q_i-q_j S_{j i} d q_i=(S_{i j}-S_{ji})q_idq_j}
+получаем:
+
+\fc{S_{ij}=S_{ji}}
+\fc{\Downarrow}
+\fc{C_{ij}=C_{ji}}
+
+это справедливо $\forall q_i$ и $\forall dq_i$.
