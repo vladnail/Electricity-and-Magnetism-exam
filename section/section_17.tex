@@ -1,4 +1,32 @@
-	
-\section*{17. Оценка диэлектрической проницаемости полярного диэлектрика (газа).}
-dslkmsdlkmsdlkndslndslnds
 
+
+\section*{17. Оценка диэлектрической проницаемости полярного диэлектрика (газа).}
+
+
+\imc[0.5\textwidth]{36.png} 
+
+Вероятность нахождения для $\theta+d\theta$:
+
+\fc{W\sim e^{-\frac{U}{kT}}\text{, где } U=-\vec{d_0}\vec{E}=-d_0\cos \theta}
+
+\fc{n=\frac{N}{V}:dn=Ae^{(\frac{d_0E\cos\theta}{kT})}d\Omega\text{, где }d\Omega=2\pi\sin\theta d\theta}
+
+\fc{\int Ae^(\frac{d_0E\cos\theta}{kT})d\Omega=n}
+
+Для вектора поляризации $\vec{P}=n<\vec{d}>$:
+
+\fc{\vec{P}=n<\vec{d_z}>=n\frac{\int d_0\cos\theta e^{\frac{d_0E\cos\theta}{kT}}\cdot2\pi\sin\theta d\theta}{\int e^{\frac{d_0E\cos\theta}{kT}}\cdot2\pi\sin\theta d\theta}=\bigg[\alpha=\frac{d_0E}{kT}\bigg]=}
+
+\fc{=n\frac{\int d_0\cos\theta e^{\alpha\cos\theta}  d\cos\theta}{\int e^{\alpha\cos\theta} d\cos\theta}=n^2d_0\frac{\frac{d}{d\alpha}\int_{-1}^{1}e^{\alpha\cos\theta}d\cos\theta}{\int_{-1}^{1}e^{\alpha\cos\theta}d\cos\theta}=}
+
+\fc{=n^2d_0\frac{d}{d\alpha}\ln\bigg[\frac{1}{\alpha}\int_{-1}^{1}e^{\alpha\cos\theta}d(\alpha\cos\theta)\bigg]=n^2d_0\frac{d}{d\alpha}\ln\bigg[\frac{e^{\alpha}-e^{-\alpha}}{\alpha}\bigg]=}
+
+\fc{=n^2d_0\frac{d}{d\alpha}\ln\bigg[2\frac{\sh\alpha}{\alpha}\bigg]=n^2d_0\frac{\alpha}{2\sh\alpha}\bigg(\frac{2\ch\alpha}{\alpha}-\frac{2\sh\alpha}{\alpha^2}\bigg)=n^2d_0\bigg(\cth\alpha-\frac{1}{\alpha}\bigg)}
+  
+  Где $\cth\alpha-\frac{1}{\alpha}=\underset{\alpha<<1}{L(\alpha)}$ функция Ланжевена.
+  
+\fc{\cth\alpha=\frac{1}{\alpha}+\frac{\alpha}{3}+\frac{\alpha^3}{45}}
+
+\fc{P_z=n^2\frac{d_0^2E_z}{kT}\text{, где }n=\frac{6\cdot 10^{23}}{22,4\cdot10^3}=\frac{N_A}{V_A}\text{ и }d_0=e\cdot l=4,8\cdot10^{-10}\cdot0,5\cdot10^{-8}}
+
+\fc{\chi=\frac{nd_0^2}{kT}=\frac{6\cdot 10^{23}}{22,4\cdot10^3}\cdot\frac{(4,8\cdot10^{-10}\cdot0,5\cdot10^{-8})^2}{1,38\cdot10{-16}}\thickapprox4\cdot10^{-3}}
