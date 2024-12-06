@@ -1,2 +1,103 @@
 \section*{20. Электрический ток, дрейфовая скорость, подвижность. Объемная и
 поверхностная плотность тока. Электропроводность. Закон Ома.}
+
+\subsection*{Электрический ток, дрейфовая скорость, подвижность}
+
+Скорость Ферми в Me(metal?):
+
+\fc{\upsilon_F\thicksim10^6\text{ м/с}}
+
+\fc{\frac{4}{3}\pi \upsilon_F^3\propto n}
+
+\newpage
+
+Пространство скоростей квазиэлектронов(?):
+
+\imc[0.5\textwidth]{40.png} 
+
+При $\vec{E}=0\text{, то }<\vec{\upsilon}>=0$
+
+При конченом малом $\vec{E}\text{, то} <\vec{\upsilon}>=<\vec{\upsilon_d}>$
+
+\fc{\vec{\upsilon}=\vec{\upsilon_0}+\frac{\vec{E}e}{m}t}
+
+\fc{<\vec{\upsilon}>=\underset{\rightarrow0}{<\vec{\upsilon_0}}>+\frac{\vec{E}e}{m}<t>}
+
+Где $<t>=\tau-$ время релаксации импульса.
+
+Релаксация импульса:
+\fc{<\vec{\upsilon}>=\frac{\vec{E}e}{m}\tau=\vec{\upsilon_d}\Rightarrow\frac{e\tau }{m}\vec{E}=\vec{\upsilon_d}}
+
+Или
+
+\fc{\vec{\upsilon_d}=\mu\vec{E}}
+
+где $\mu=\frac{e\tau }{m}-$\kr{подвижность носителей заряда.}
+
+\newpage
+
+\subsection*{Объемная и поверхностная плотность тока}
+
+Ток-это заряд в единицу времени.
+
+\kr{Ток в проводе:}
+ 
+\imc[0.5\textwidth]{41.png} 
+
+\fc{I = \frac{dQ}{dt} = \frac{en\upsilon \, dt \cdot S_0}{dt}  = ne \, \vec{\upsilon} \cdot \vec{S}}
+
+\kr{Электрический ток через} $\vec{S}:$
+
+\imc[0.5\textwidth]{42.png} 
+
+\fc{\begin{array}{l|l}
+I\overset{df}{=}\underset{S}{\iint} \vec{j}d\vec{S} & \Rightarrow\vec{j}=ne\vec{\upsilon_d} \\ 
+I=\underset{S}{\iint} ne\vec{\upsilon_d}d\vec{S}	 & \vec{j}=\rho \vec{\upsilon_d} \
+\end{array}
+}
+
+\kr{Ток по поверхности:}
+
+\imc[0.5\textwidth]{43.png} 
+
+\fc{dI=idl \text{, где } i-\text{поверхностная плотность тока.}}
+
+\newpage
+
+\subsection*{Электропроводность}
+
+\imc[0.7\textwidth]{44.png}
+
+\fc{\vec{j}=\sigma\vec{E}\text{, где }\sigma-\kr{электропровдность(проводимость).}}
+
+\fc{
+\begin{array}{l|l}
+	\vec{j}=ne\vec{\upsilon_d} &\Rightarrow\sigma=ne\mu=\frac{ne^2\tau}{m}\\
+	\vec{\upsilon_d}=\frac{e\tau}{m}\vec{E}=\mu\vec{E} &
+
+\end{array}
+}
+
+\fc{\sigma=ne\mu=\frac{ne^2\tau}{m}-\kr{формула Пауля Друде.}}
+
+\subsection*{Закон Ома}
+
+Закон Ома в дифференциальной форме: $\vec{j}=\sigma\vec{E}$
+
+\imc[0.7\textwidth]{45.png}
+
+
+
+\fc{jV=\sigma EV}
+
+\fc{jSl=\sigma ElS\Rightarrow I\cdot l=\sigma US\Rightarrow U=\frac{1}{\sigma}\frac{l}{S}I}
+Со школы:$U=\rho\frac{l}{S}I$,
+
+\fc{\rho=\frac{1}{\sigma}-\text{удельное сопротивление.}}
+
+
+
+
+
+
+
