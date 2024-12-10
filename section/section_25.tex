@@ -1,0 +1,80 @@
+\section*{25. Электродвижущая сила. Электрические цепи. Законы Кирхгофа.}
+ 
+\subsection*{Электродвижущая сила}
+
+\imc[0.4\textwidth]{46.png}
+
+$\vec{F}-$стороняя сила, действующая на единичный заряд.
+
+Сторонее "электрическое" поле $\vec{E_c}= \frac{\vec{F_c}}{q}.$
+
+\[\vec{F}=\vec{F_e}+\vec{F_c}=q(\vec{E}+\vec{E_c})\]
+
+\[\underset{L}{\oint}\vec{F}d\vec{l}=q\left( \underset{L}{\oint} \underset{\rightarrow 0}{\vec{E}d\vec{l}} + \underset{L}{\oint} \vec{E_c}d\vec{l} \right)=q\underset{L}{\oint} \vec{E_c}d\vec{l}\]
+
+\[-jV=\sigma V(E-E_c)\Rightarrow-jSl=\sigma S(El-E_cl)\]
+
+\[
+\begin{array}{l|l}
+    -jSl=\sigma S(El-E_cl) & \Rightarrow -Il=\sigma S(U-\varepsilon)\\
+    \varepsilon\overset{df}{=}\underset{L}{\oint} \vec{E_c}d\vec{l} & U=-\frac{q}{\sigma}\frac{l}{S}I+\varepsilon     
+\end{array}
+\]
+
+Напоминание:$\frac{q}{\sigma}=\rho, \rho\frac{l}{S}=r-$внутрение сопротивление источника.
+
+\begin{center}
+    Итог:\boxed{U=\varepsilon-Ir}
+\end{center}
+
+\newpage
+
+\subsection*{Электрические цепи и законы Кирхгофа}
+
+\textit{Первый закон Кирхгофа (закон токов):}
+\[
+\sum_{i} I_i = 0,
+\]
+где:  
+\begin{itemize}
+    \item \( I_i \) — сила тока, текущего в узел (положительное значение для входящих токов и отрицательное для выходящих).
+\end{itemize}
+
+\textit{Физический смысл:}  
+Сумма токов, входящих в узел электрической цепи, равна сумме токов, выходящих из него. Это выражение закона сохранения заряда.
+
+\textit{Второй закон Кирхгофа (закон напряжений):}
+\[
+\sum_{k} \mathcal{E}_k - \sum_{j} I_j R_j = 0,
+\]
+где:  
+\begin{itemize}
+    \item \( \mathcal{E}_k \) — \textit{электродвижущая сила (ЭДС)} источников в контуре, измеряется в вольтах (\( \text{В} \));
+    \item \( I_j \) — \textit{сила тока} в ветви, измеряется в амперах (\( \text{А} \));
+    \item \( R_j \) — \textit{сопротивление} элементов в контуре, измеряется в омах (\( \Omega \)).
+\end{itemize}
+
+Физический смысл:  
+Алгебраическая сумма ЭДС и падений напряжений на всех элементах любого замкнутого контура электрической цепи равна нулю. Это следствие закона сохранения энергии.
+
+
+
+\textit{Пример применения:}
+
+\imc[0.8\textwidth]{51.png}
+
+\newpage
+
+1. Для узла:  
+Если три тока подходят к узлу, а два выходят, то:
+\[
+I_1 + I_2 - I_3 - I_4 = 0.
+\]
+
+2. \textit{Для замкнутого контура:}  
+Для цепи с ЭДС \( \mathcal{E}_1, \mathcal{E}_2  \), сопротивлениями \( R_1, R_2, R_3 \), и токами \( I_1, I_2, I_3 \):
+\[
+\mathcal{E}_1+\mathcal{E}_2 - I_1 R_1 - I_2 R_2-I_3 R_3 = 0.
+\]
+
+

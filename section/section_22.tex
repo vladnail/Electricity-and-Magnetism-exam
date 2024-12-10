@@ -1,0 +1,38 @@
+\newpage
+
+\section*{22. Уравнения постоянного тока. Граничные условия.}
+ 
+\subsection*{Уравнения постоянного тока}
+
+\[\boxed{\text{Требуется помощь для коректного ответа на вопрос!}}\]
+
+\[I=\frac{U}{R} \]
+
+\subsection*{Граничные условия}
+\[
+\begin{array}{l|l}
+    \mathrm{div}\vec{j}=0 \quad (1)& (1)\Rightarrow\underset{V}{\iiint}\mathrm{div}\vec{j}dV=\underset{\delta V}{\oiint}\vec{j}d\vec{S}=0 \quad (1') \\
+    
+    \begin{array}{l|l}
+        \vec{j}=\sigma\vec{E} &\Rightarrow \mathrm{rot} \frac{\vec{j}}{\sigma}=0 \quad (2)  \\
+        \mathrm{rot}\vec{E}=0 
+    \end{array}    & (2)\Rightarrow \underset{S}{ \iint}\mathrm{rot} \frac{\vec{j}}{\sigma}dS=\underset{\delta S}{\oint} \frac{\vec{j}}{\sigma} d\vec{l}=0\quad (2')  
+    
+\end{array}
+\]
+
+\textit{Нормальная состовляющая}
+
+\imc[0.4\textwidth]{47.png}
+
+\[(1')=j_{1n}|S-j_{2n}|S=0\Rightarrow j_{1n}=j_{2n} \]
+
+\[\boxed{j_n-\text{непр.}}\]
+
+\textit{Тангенсальная состовляющая}
+
+\imc[0.45\textwidth]{48.png}
+
+\[(2')=\Rightarrow \frac{j_{1\tau}}{\sigma_1}\bigg|l-\frac{j_{2\tau}}{\sigma_2}\bigg|l=0\Rightarrow \frac{j_{1\tau}|}{\sigma_1}=\frac{j_{2\tau}|}{\sigma_2}\]
+
+\[\boxed{\frac{j_{\tau}}{\sigma} -\text{непр.}}\]

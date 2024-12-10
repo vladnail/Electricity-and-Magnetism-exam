@@ -1,0 +1,30 @@
+\section*{23. Максвелловская релаксация зарядов в среде.}
+ 
+
+\imc[0.45\textwidth]{49.png}
+
+Где $V-$обьем занятый однородной средой.
+
+По условию:
+
+\(  \vec{j}=\sigma\vec{E}\)
+
+\( \vec{D}=\varepsilon\vec{E} \) 
+
+Уравнение непрерывности в обьеме $V$:
+
+\[\frac{\partial\rho}{\partial t} +\mathrm{div}\vec{j}=0 \Rightarrow \]
+
+\[\Rightarrow\frac{\partial\rho}{\partial t} =-\mathrm{div}\vec{j}=-\mathrm{div}\sigma\vec{E}=-\sigma \mathrm{div}\vec{E}=-\sigma \mathrm{div} \frac{\vec{D}}{\varepsilon}=-\frac{\sigma}{\varepsilon} \mathrm{div}\vec{D}=-\frac{\sigma}{\varepsilon}4\pi\rho   \]
+
+Получили уравнение:
+
+\[\frac{\partial \rho}{\partial t}=-\frac{\rho}{\tau} \text{, где }\tau:=\frac{\varepsilon}{4\pi\sigma}   \]
+
+В интегральной форме:
+
+\[\frac{dq}{dt}=-I=-\underset{S}{\oiint}\vec{j}d\vec{S}=-\underset{S}{\oiint}\sigma\vec{E}d\vec{S}= -\frac{\sigma}{\varepsilon}\underset{S}{\oiint}\vec{D}d\vec{S}=-\frac{4\pi \sigma}{\varepsilon}q  \]
+
+Уравнение релаксации:$\boxed{ \frac{dq}{dt}=-\frac{q}{\tau} }\text{, где }\tau= \frac{\varepsilon}{4\pi\sigma}.$
+
+Решение:$q=q_0e^{-\frac{t}{\tau}}.$
