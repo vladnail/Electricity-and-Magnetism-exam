@@ -1,4 +1,58 @@
 \section*{26. Ток в вакууме. Закон «трёх вторых».}
  
+\textit{Вакуумный диод:}
 
+\imc[0.8\textwidth]{52.png}
 
+\textit{Термоэлекронная эмисия }-из нагретого электрода вылетают электроны.
+
+\textit{Режим насыщения}-при больших напряжениях электрон эмисировал и тут же его прятнуло к положительному электроду.
+
+\imc[0.6\textwidth]{53.png}
+
+\[\Delta\varphi=-4\pi\rho=-4\pi n e \text{, где  } n \text{ плотность электронов, зависит от x}\]
+
+\[I=jS.\text{Из уравнения непрерывности:} \left( \cancelto{\scriptstyle{0\text{ (стационарный режим)}}}{ \frac{\partial\rho}{\partial t}}+\mathrm{div}\vec{j}   \right)=0\Rightarrow\]
+
+\newpage
+
+\[\Rightarrow \mathrm{div}\vec{j}=0\Rightarrow \frac{\partial j_x}{\partial x}=0 \text{ ,т.е } j=\mathrm{const}=\frac{I}{S}   \]
+
+\[\begin{cases}
+    \varphi''=-4\pi ne & \\
+    \mathrm{const}=\frac{I}{S}=nev & \Rightarrow 
+    \begin{cases}
+        v=\sqrt{\frac{2e}{m}}\varphi^{\frac{1}{2}} & \\
+        ne=-\frac{I}{S}\frac{1}{v} &   \\
+    \end{cases} \\
+    \frac{mv^2}{2}=e\varphi &
+\end{cases}
+\]
+ 
+\[ \text{Гран.условия:} 1)\varphi'|_{x=0}=0;2)\varphi|_{x=0}=0;3)\varphi|_{x=d}=U. \]
+
+\[
+\begin{aligned}
+    \begin{array}{l|l}
+        v=\sqrt{\frac{2e}{m}}\varphi^{\frac{1}{2}} & \\
+        ne=-\frac{I}{S}\frac{1}{v} & 
+    \end{array}
+    \begin{array}{l|l}
+        \Rightarrow ne=\sqrt{\frac{m}{2e}} \frac{-I}{S}  & \\
+        \varphi''=-4\pi en &
+    \end{array}
+    \begin{array}{ll}
+        \Rightarrow \varphi '\varphi ''=4\pi \sqrt{\frac{m}{2e}}\varphi^{\frac{1}{2}} \frac{I}{S}\varphi^{-\frac{1}{2} }\varphi' &\\
+        \frac{1}{2}(\varphi'^2)'=4\pi \sqrt{\frac{m}{2e}} (\varphi^{\frac{1}{2} })'\cdot 2 &\\
+    \end{array} \\
+    \varphi'^2=\underbrace{16\pi\sqrt{\frac{m}{2e}}\frac{I}{S}\varphi^{\frac{1}{2}}}_{a} +\cancelto{\scriptstyle{0(\text{Гран.услов.})}}{C} \\
+    \varphi'=\sqrt{a}\varphi^{\frac{1}{4}}\Rightarrow \frac{\partial\varphi}{\partial x}=\sqrt{a}\varphi^{\frac{1}{4} } \\
+    \frac{4}{3}\varphi^{\frac{1}{4}}=\sqrt{a}x +\cancelto{\scriptstyle{0(\text{Гран.услов.})}}{C}
+\end{aligned}
+\]
+
+\[
+\frac{4}{3}U^{\frac{3}{4}}=\sqrt[1]{a}d\Rightarrow a=\frac{16}{9} \frac{1}{d^2}U^{\frac{3}{2}}=16\pi\sqrt{\frac{m}{2e}}\frac{I}{S} \Rightarrow \boxed{I=\frac{\sqrt{2}}{9\pi}\sqrt{\frac{e}{m}}\frac{S}{d^{2}}U^{\frac{3}{2} }  }  
+\]
+
+\imc[0.75\textwidth]{54.png}
