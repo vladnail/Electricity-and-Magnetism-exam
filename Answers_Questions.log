@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.6)  11 DEC 2024 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.6)  12 DEC 2024 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1059,25 +1059,48 @@ File: im/54.png Graphic file (type png)
 <use im/54.png>
 Package pdftex.def Info: im/54.png  used on input line 58.
 (pdftex.def)             Requested size: 341.43307pt x 254.24121pt.
-) (./section/section_27.tex) [47 <./im/54.png>] [48] (./Answers_Questions.aux)
+) (./section/section_27.tex
+<im/50.png, id=271, 341.275pt x 142.5325pt>
+File: im/50.png Graphic file (type png)
+<use im/50.png>
+Package pdftex.def Info: im/50.png  used on input line 6.
+(pdftex.def)             Requested size: 273.14923pt x 114.08704pt.
+ [47 <./im/54.png>]
+<im/55.png, id=276, 646.415pt x 504.88625pt>
+File: im/55.png Graphic file (type png)
+<use im/55.png>
+Package pdftex.def Info: im/55.png  used on input line 16.
+(pdftex.def)             Requested size: 182.09486pt x 142.2223pt.
+<im/56.png, id=277, 646.415pt x 504.88625pt>
+File: im/56.png Graphic file (type png)
+<use im/56.png>
+Package pdftex.def Info: im/56.png  used on input line 38.
+(pdftex.def)             Requested size: 182.09486pt x 142.2223pt.
+ [48 <./im/50.png> <./im/55.png>] [49 <./im/56.png>]
+<im/57.png, id=288, 717.68124pt x 878.28125pt>
+File: im/57.png Graphic file (type png)
+<use im/57.png>
+Package pdftex.def Info: im/57.png  used on input line 64.
+(pdftex.def)             Requested size: 159.33821pt x 194.99147pt.
+) [50 <./im/57.png>] (./Answers_Questions.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16661 strings out of 474116
- 318519 string characters out of 5743682
+ 16689 strings out of 474116
+ 318963 string characters out of 5743682
  1943187 words of memory out of 5000000
- 38661 multiletter control sequences out of 15000+600000
+ 38689 multiletter control sequences out of 15000+600000
  573370 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,17n,107p,535b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Answers_Questions.pdf (48 pages, 4281178 bytes).
+Output written on Answers_Questions.pdf (50 pages, 4448906 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
+ 378 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
