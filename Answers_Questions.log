@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.6)  12 DEC 2024 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.6)  14 DEC 2024 02:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -574,6 +574,30 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen267
 \Gm@layoutvoffset=\dimen268
 \Gm@dimlist=\toks38
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen269
+\captionmargin=\dimen270
+\caption@leftmargin=\dimen271
+\caption@rightmargin=\dimen272
+\caption@width=\dimen273
+\caption@indent=\dimen274
+\caption@parindent=\dimen275
+\caption@hangindent=\dimen276
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
+Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count304
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count305
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (./Answers_Questions.aux
@@ -583,35 +607,35 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `Answers_Questions.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Info: Redefining \th on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Info: Redefining \th on input line 67.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
-\scratchdimen=\dimen269
+\scratchcounter=\count306
+\scratchdimen=\dimen277
 \scratchbox=\box66
-\nofMPsegments=\count303
-\nofMParguments=\count304
+\nofMPsegments=\count307
+\nofMParguments=\count308
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count305
-\MPscratchDim=\dimen270
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen278
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
 \everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -653,6 +677,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 (./section/section_1.tex
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 11.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
@@ -1080,27 +1106,105 @@ Package pdftex.def Info: im/56.png  used on input line 38.
 <im/57.png, id=288, 717.68124pt x 878.28125pt>
 File: im/57.png Graphic file (type png)
 <use im/57.png>
-Package pdftex.def Info: im/57.png  used on input line 64.
+Package pdftex.def Info: im/57.png  used on input line 66.
 (pdftex.def)             Requested size: 159.33821pt x 194.99147pt.
-) [50 <./im/57.png>] (./Answers_Questions.aux)
+
+Overfull \hbox (26.95712pt too wide) detected at line 73
+[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 ^^Mm[]v \OT1/cmr/m/n/14.4 = [][[] \OMS/cmsy/m/n/14.4 ^^B []\OT1/cmr/m/n/14.4 ] \OMS/cmsy/m/n/14.4 ) []\OML/cmm/m/it/14.4 v \OT1/cmr/m/n/14.4 = []
+ []
+
+<im/58.png, id=289, 597.23125pt x 709.65125pt>
+File: im/58.png Graphic file (type png)
+<use im/58.png>
+Package pdftex.def Info: im/58.png  used on input line 83.
+(pdftex.def)             Requested size: 204.85846pt x 243.42224pt.
+
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 84.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 84.
+See the caption package documentation for explanation.
+
+<im/59.png, id=290, 598.235pt x 663.47874pt>
+File: im/59.png Graphic file (type png)
+<use im/59.png>
+Package pdftex.def Info: im/59.png  used on input line 90.
+(pdftex.def)             Requested size: 204.85846pt x 227.1996pt.
+
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 91.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 91.
+See the caption package documentation for explanation.
+
+[50 <./im/57.png> <./im/58.png> <./im/59.png>]
+<im/60.png, id=295, 857.2025pt x 384.43625pt>
+File: im/60.png Graphic file (type png)
+<use im/60.png>
+Package pdftex.def Info: im/60.png  used on input line 109.
+(pdftex.def)             Requested size: 318.66948pt x 142.91377pt.
+<im/61.png, id=296, 979.66pt x 383.4325pt>
+File: im/61.png Graphic file (type png)
+<use im/61.png>
+Package pdftex.def Info: im/61.png  used on input line 115.
+(pdftex.def)             Requested size: 318.66948pt x 124.72525pt.
+) (./section/section_28.tex
+<im/62.png, id=297, 569.12625pt x 823.075pt>
+File: im/62.png Graphic file (type png)
+<use im/62.png>
+Package pdftex.def Info: im/62.png  used on input line 8.
+(pdftex.def)             Requested size: 91.04742pt x 131.66957pt.
+
+Underfull \hbox (badness 7238) in paragraph at lines 17--18
+[]\T2A/cmr/m/n/14.4 Достаточно до-ка-зать, что $[]\OML/cmm/m/it/14.4 d[]$\T2A/cmr/m/n/14.4 , так как
+ []
+
+[51 <./im/60.png> <./im/61.png>]
+<im/63.png, id=301, 984.67876pt x 754.82pt>
+File: im/63.png Graphic file (type png)
+<use im/63.png>
+Package pdftex.def Info: im/63.png  used on input line 36.
+(pdftex.def)             Requested size: 159.33821pt x 122.13274pt.
+
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 34--50
+$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (65.09998pt too wide) detected at line 66
+[][] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[]
+ []
+
+[52 <./im/62.png> <./im/63.png>]
+Overfull \hbox (18.35156pt too wide) detected at line 107
+[][] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [] [] [] [] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [] \U/msa/m/n/14 ^^D
+ []
+
+[53]) [54] (./section/section_29.tex) [55] (./Answers_Questions.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16689 strings out of 474116
- 318963 string characters out of 5743682
- 1943187 words of memory out of 5000000
- 38689 multiletter control sequences out of 15000+600000
+ 18200 strings out of 474116
+ 348063 string characters out of 5743682
+ 1947187 words of memory out of 5000000
+ 40185 multiletter control sequences out of 15000+600000
  573370 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,17n,107p,535b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,19n,107p,535b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Answers_Questions.pdf (50 pages, 4448906 bytes).
+Output written on Answers_Questions.pdf (55 pages, 4700799 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
+ 400 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
 
