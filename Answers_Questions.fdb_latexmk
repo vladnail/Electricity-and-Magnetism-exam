@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1734284339.24084 "/Users/vladbelousov/Desktop/Экзамен по ЭиМ/Answers_Questions.tex" "Answers_Questions.pdf" "Answers_Questions" 1734284343.09498 0
+["pdflatex"] 1734284644.90741 "/Users/vladbelousov/Desktop/Экзамен по ЭиМ/Answers_Questions.tex" "Answers_Questions.pdf" "Answers_Questions" 1734284648.6186 0
   "/Users/vladbelousov/Desktop/Экзамен по ЭиМ/Answers_Questions.tex" 1734165434.92944 3919 fd69c3e15dc2979a41df35efd4359e27 ""
   "/Users/vladbelousov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1733735244.46584 3304 6a543c07045572737981351171e0505e ""
   "/Users/vladbelousov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1733735219.29259 3312 d199be9bd555944e2403193d58a0256a ""
@@ -161,7 +161,7 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733472253.85388 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733472170 8221428 0ad3ef386179033b20fae0e1d978affb ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Answers_Questions.aux" 1734284342.76072 508 1c39d3c36c37e58871694a3cbd4dc0b7 "pdflatex"
+  "Answers_Questions.aux" 1734284648.46657 508 1c39d3c36c37e58871694a3cbd4dc0b7 "pdflatex"
   "Answers_Questions.tex" 1734165434.92944 3919 fd69c3e15dc2979a41df35efd4359e27 ""
   "im/1.png" 1732715294.95227 34367 2ed34500a970636e7f94f3335254486b ""
   "im/10.png" 1732861828.03297 41300 be3f0f77b750edfa81801981a69d6fd7 ""
@@ -246,7 +246,7 @@
   "section/section_26.tex" 1733980467.32611 2622 c47e5c3173ca1fdcf05e0a3d2b2f2dca ""
   "section/section_27.tex" 1734106652.21118 5178 d088e092451c5b891d7486a28f3bbe78 ""
   "section/section_28.tex" 1734284338.79357 6916 e9cd1366e288399973c1d7d7d35a8feb ""
-  "section/section_29.tex" 1734165267.69318 1554 728016f42458299a1e6daf20d2a9198e ""
+  "section/section_29.tex" 1734284644.60438 2054 85d6eee319ed1d8d66cb3f75661273b0 ""
   "section/section_3.tex" 1733905483.87756 3447 cf886227dbff966b001c9e61d9aff75d ""
   "section/section_30.tex" 1734165791.50606 323 cd80a9aafa46baccd048fcda1c22c006 ""
   "section/section_4.tex" 1733395765.0172 2481 032881846a9747fca4f386a5ecf9819d ""
