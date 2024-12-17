@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.6)  16 DEC 2024 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  17 DEC 2024 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1202,25 +1202,63 @@ File: im/65.png Graphic file (type png)
 <use im/65.png>
 Package pdftex.def Info: im/65.png  used on input line 24.
 (pdftex.def)             Requested size: 182.09486pt x 140.6045pt.
-) (./section/section_30.tex) [55 <./im/64.png> <./im/65.png>] (./Answers_Questions.aux)
+) [55 <./im/64.png> <./im/65.png>] (./section/section_30.tex
+<im/66.png, id=317, 1129.21875pt x 927.465pt>
+File: im/66.png Graphic file (type png)
+<use im/66.png>
+Package pdftex.def Info: im/66.png  used on input line 8.
+(pdftex.def)             Requested size: 227.62206pt x 186.94736pt.
+ [56 <./im/66.png>]
+<im/67.png, id=321, 279.0425pt x 129.48375pt>
+File: im/67.png Graphic file (type png)
+<use im/67.png>
+Package pdftex.def Info: im/67.png  used on input line 30.
+(pdftex.def)             Requested size: 227.62206pt x 105.6261pt.
+<im/68.png, id=322, 275.0275pt x 128.48pt>
+File: im/68.png Graphic file (type png)
+<use im/68.png>
+Package pdftex.def Info: im/68.png  used on input line 43.
+(pdftex.def)             Requested size: 227.62206pt x 106.33841pt.
+
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 29--54
+$[]$ $[]$
+ []
+
+
+Overfull \hbox (30.37248pt too wide) in paragraph at lines 29--54
+[]$ $[]$ $[]$ 
+ []
+
+) (./section/section_31.tex
+Overfull \hbox (2.33539pt too wide) in paragraph at lines 3--3
+\T2A/cmr/bx/n/17.28 ре-ше-ние для без-гра-нич-но-го про-стран-ства. Маг-нит-ный
+ []
+
+[57 <./im/67.png> <./im/68.png>]
+<im/69.png, id=328, 1140.26pt x 648.4225pt>
+File: im/69.png Graphic file (type png)
+<use im/69.png>
+Package pdftex.def Info: im/69.png  used on input line 53.
+(pdftex.def)             Requested size: 227.62206pt x 129.43484pt.
+) [58 <./im/69.png>] (./Answers_Questions.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18220 strings out of 474116
- 348432 string characters out of 5743682
- 1947187 words of memory out of 5000000
- 40202 multiletter control sequences out of 15000+600000
+ 18256 strings out of 474116
+ 349081 string characters out of 5743681
+ 51925187 words of memory out of 55000000
+ 40235 multiletter control sequences out of 15000+600000
  573370 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,19n,107p,627b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Answers_Questions.pdf (55 pages, 4935978 bytes).
+Output written on Answers_Questions.pdf (58 pages, 5400296 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
+ 418 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 
