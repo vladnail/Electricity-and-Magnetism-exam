@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  17 DEC 2024 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  18 DEC 2024 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1238,27 +1238,126 @@ Overfull \hbox (2.33539pt too wide) in paragraph at lines 3--3
 <im/69.png, id=328, 1140.26pt x 648.4225pt>
 File: im/69.png Graphic file (type png)
 <use im/69.png>
-Package pdftex.def Info: im/69.png  used on input line 53.
+Package pdftex.def Info: im/69.png  used on input line 52.
 (pdftex.def)             Requested size: 227.62206pt x 129.43484pt.
-) [58 <./im/69.png>] (./Answers_Questions.aux)
+ [58 <./im/69.png>]
+<im/70.png, id=333, 376.40625pt x 156.585pt>
+File: im/70.png Graphic file (type png)
+<use im/70.png>
+Package pdftex.def Info: im/70.png  used on input line 88.
+(pdftex.def)             Requested size: 227.62206pt x 94.6924pt.
+
+Overfull \hbox (40.3884pt too wide) in paragraph at lines 87--97
+[]$[]$ $[]$ 
+ []
+
+) [59 <./im/70.png>] (./section/section_32.tex
+<im/71.png, id=338, 143.53625pt x 99.37125pt>
+File: im/71.png Graphic file (type png)
+<use im/71.png>
+Package pdftex.def Info: im/71.png  used on input line 27.
+(pdftex.def)             Requested size: 113.81102pt x 78.79355pt.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 31.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
+
+) [60 <./im/71.png>] (./section/section_33.tex) [61] (./Answers_Questions.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18256 strings out of 474116
- 349081 string characters out of 5743681
+ 18324 strings out of 474116
+ 350007 string characters out of 5743681
  51925187 words of memory out of 55000000
- 40235 multiletter control sequences out of 15000+600000
- 573370 words of font info for 70 fonts, out of 8000000 for 9000
+ 40279 multiletter control sequences out of 15000+600000
+ 579880 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,19n,107p,627b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Answers_Questions.pdf (58 pages, 5400296 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on Answers_Questions.pdf (61 pages, 5485237 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
+ 463 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
