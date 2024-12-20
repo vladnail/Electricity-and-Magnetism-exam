@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  18 DEC 2024 12:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  20 DEC 2024 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1339,25 +1339,79 @@ LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
 
-) [60 <./im/71.png>] (./section/section_33.tex) [61] (./Answers_Questions.aux)
+) [60 <./im/71.png>] (./section/section_33.tex
+<im/72.png, id=349, 1302.8675pt x 1133.23375pt>
+File: im/72.png Graphic file (type png)
+<use im/72.png>
+Package pdftex.def Info: im/72.png  used on input line 8.
+(pdftex.def)             Requested size: 113.81102pt x 98.97787pt.
+) [61 <./im/72.png>] (./section/section_34.tex) [62] (./section/section_35.tex
+<im/73.png, id=357, 1103.12125pt x 832.10875pt>
+File: im/73.png Graphic file (type png)
+<use im/73.png>
+Package pdftex.def Info: im/73.png  used on input line 5.
+(pdftex.def)             Requested size: 182.09486pt x 137.3555pt.
+
+Overfull \hbox (45.52023pt too wide) in paragraph at lines 4--15
+$[]$ $[]$ 
+ []
+
+<im/74.png, id=358, 1232.605pt x 753.81625pt>
+File: im/74.png Graphic file (type png)
+<use im/74.png>
+Package pdftex.def Info: im/74.png  used on input line 21.
+(pdftex.def)             Requested size: 182.09486pt x 111.35371pt.
+
+Overfull \hbox (17.6248pt too wide) in paragraph at lines 20--31
+[]$[]$ $[]$ 
+ []
+
+) (./section/section_36.tex
+<im/75.png, id=359, 1432.35126pt x 1188.44pt>
+File: im/75.png Graphic file (type png)
+<use im/75.png>
+Package pdftex.def Info: im/75.png  used on input line 17.
+(pdftex.def)             Requested size: 182.09486pt x 151.07527pt.
+ [63 <./im/73.png> <./im/74.png>]
+<im/76.png, id=363, 623.32875pt x 838.13126pt>
+File: im/76.png Graphic file (type png)
+<use im/76.png>
+Package pdftex.def Info: im/76.png  used on input line 38.
+(pdftex.def)             Requested size: 91.04742pt x 122.41473pt.
+
+Overfull \hbox (41.02783pt too wide) detected at line 47
+[][]
+ []
+
+<im/77.png, id=364, 1522.68875pt x 1000.73875pt>
+File: im/77.png Graphic file (type png)
+<use im/77.png>
+Package pdftex.def Info: im/77.png  used on input line 51.
+(pdftex.def)             Requested size: 227.62206pt x 149.58516pt.
+
+Overfull \hbox (63.152pt too wide) in paragraph at lines 50--59
+[]$[]$ $[]$ 
+ []
+
+) [64 <./im/75.png> <./im/76.png> <./im/77.png>] (./section/section_37.tex) [65] (./Answers_Questions.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18324 strings out of 474116
- 350007 string characters out of 5743681
+ 18390 strings out of 474116
+ 351261 string characters out of 5743681
  51925187 words of memory out of 55000000
- 40279 multiletter control sequences out of 15000+600000
+ 40333 multiletter control sequences out of 15000+600000
  579880 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,19n,107p,627b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Answers_Questions.pdf (61 pages, 5485237 bytes).
+Output written on Answers_Questions.pdf (65 pages, 6493709 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
+ 482 PDF objects out of 1000 (max. 8388607)
+ 228 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
