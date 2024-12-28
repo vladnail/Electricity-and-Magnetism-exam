@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  20 DEC 2024 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  29 DEC 2024 01:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,6 +600,52 @@ Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count305
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip53
+\cftbeforetoctitleskip=\skip54
+\cftaftertoctitleskip=\skip55
+\cftbeforepartskip=\skip56
+\cftpartnumwidth=\skip57
+\cftpartindent=\skip58
+\cftbeforesecskip=\skip59
+\cftsecindent=\skip60
+\cftsecnumwidth=\skip61
+\cftbeforesubsecskip=\skip62
+\cftsubsecindent=\skip63
+\cftsubsecnumwidth=\skip64
+\cftbeforesubsubsecskip=\skip65
+\cftsubsubsecindent=\skip66
+\cftsubsubsecnumwidth=\skip67
+\cftbeforeparaskip=\skip68
+\cftparaindent=\skip69
+\cftparanumwidth=\skip70
+\cftbeforesubparaskip=\skip71
+\cftsubparaindent=\skip72
+\cftsubparanumwidth=\skip73
+\cftbeforeloftitleskip=\skip74
+\cftafterloftitleskip=\skip75
+\cftbeforefigskip=\skip76
+\cftfigindent=\skip77
+\cftfignumwidth=\skip78
+\c@lofdepth=\count307
+\c@lotdepth=\count308
+\cftbeforelottitleskip=\skip79
+\cftafterlottitleskip=\skip80
+\cftbeforetabskip=\skip81
+\cfttabindent=\skip82
+\cfttabnumwidth=\skip83
 ) (./Answers_Questions.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmr.fd
@@ -607,35 +653,35 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `Answers_Questions.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Info: Redefining \th on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Info: Redefining \th on input line 77.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
+\scratchcounter=\count309
 \scratchdimen=\dimen277
 \scratchbox=\box66
-\nofMPsegments=\count307
-\nofMParguments=\count308
+\nofMPsegments=\count310
+\nofMParguments=\count311
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count309
+\MPscratchCnt=\count312
 \MPscratchDim=\dimen278
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
 \everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -679,22 +725,58 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-(./section/section_1.tex
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 11.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}] (./Answers_Questions.toc
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<im/2.png, id=4, 397.485pt x 193.72375pt>
+Overfull \hbox (10.04488pt too wide) in paragraph at lines 5--5
+ [][] []\T2A/cmr/m/n/14.4 Циркуляция и ро-тор элек-три-че-ско-го по-ля. Тео-ре-ма Сток-са. Элек- 
+ []
+
+
+Overfull \hbox (6.02762pt too wide) in paragraph at lines 11--11
+ \T2A/cmr/m/n/14.4 ме-ре плос-кой и сфе-ри-че-ской гра-ниц раз-де-ла про-вод-ни-ка и непро- 
+ []
+
+[1]
+Overfull \hbox (5.4677pt too wide) in paragraph at lines 18--18
+ [][] []\T2A/cmr/m/n/14.4 Уравнения элек-три-че-ско-го по-ля в ди-элек-три-ке. Гра-нич-ные усло- 
+ []
+
+
+Overfull \hbox (31.37178pt too wide) in paragraph at lines 23--23
+ [][] []\T2A/cmr/m/n/14.4 Закон со-хра-не-ния за-ря-да. Урав-не-ние непре-рыв-но-сти. За-кон Джоуля- 
+ []
+
+
+Overfull \hbox (15.18938pt too wide) in paragraph at lines 32--32
+ \T2A/cmr/m/n/14.4 ин-те-граль-ная фор-ма урав-не-ний маг-ни-то-ста-ти-ки. Гра-нич-ные усло- 
+ []
+
+
+Overfull \hbox (27.5688pt too wide) in paragraph at lines 33--33
+ \T2A/cmr/m/n/14.4 без-гра-нич-но-го про-стран-ства. Маг-нит-ный ди-поль. Вектор-потенциал 
+ []
+
+[2])
+\tf@toc=\write4
+\openout4 = `Answers_Questions.toc'.
+
+ [3] (./section/section_1.tex
+<im/2.png, id=22, 397.485pt x 193.72375pt>
 File: im/2.png Graphic file (type png)
 <use im/2.png>
 Package pdftex.def Info: im/2.png  used on input line 13.
 (pdftex.def)             Requested size: 227.62206pt x 110.94096pt.
-<im/1.png, id=6, 404.51125pt x 224.84pt>
+<im/1.png, id=24, 404.51125pt x 224.84pt>
 File: im/1.png Graphic file (type png)
 <use im/1.png>
 Package pdftex.def Info: im/1.png  used on input line 29.
@@ -703,38 +785,35 @@ Package pdftex.def Info: im/1.png  used on input line 29.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[1
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc} <./im/2.png>]) (./section/section_2.tex
-Overfull \hbox (3.13858pt too wide) in paragraph at lines 3--3
-[]\T2A/cmr/bx/n/17.28 2. Ди-вер-ген-ция элек-три-че-ско-го по-ля. Рас-пре-де-лјн-ный
- []
-
-[2 <./im/1.png>]
-<im/4.png, id=27, 337.26pt x 221.82875pt>
+[4 <./im/2.png>]) (./section/section_2.tex [5 <./im/1.png>]
+<im/4.png, id=40, 337.26pt x 221.82875pt>
 File: im/4.png Graphic file (type png)
 <use im/4.png>
 Package pdftex.def Info: im/4.png  used on input line 43.
 (pdftex.def)             Requested size: 227.62206pt x 149.71777pt.
- [3 <./im/4.png>]) (./section/section_3.tex
-<im/5.png, id=32, 337.26pt x 221.82875pt>
+ [6 <./im/4.png>]) (./section/section_3.tex
+Overfull \hbox (4.12387pt too wide) in paragraph at lines 2--2
+\T2A/cmr/bx/n/17.28 ма Сток-са. Элек-три-че-ский по-тен-ци-ал. Ра-бо-та элек-
+ []
+
+<im/5.png, id=46, 337.26pt x 221.82875pt>
 File: im/5.png Graphic file (type png)
 <use im/5.png>
 Package pdftex.def Info: im/5.png  used on input line 18.
 (pdftex.def)             Requested size: 227.62206pt x 149.71777pt.
- [4 <./im/5.png>]
-<im/6.png, id=37, 337.26pt x 221.82875pt>
+[7 <./im/5.png>]
+<im/6.png, id=51, 337.26pt x 221.82875pt>
 File: im/6.png Graphic file (type png)
 <use im/6.png>
 Package pdftex.def Info: im/6.png  used on input line 28.
 (pdftex.def)             Requested size: 227.62206pt x 149.71777pt.
-<im/7.png, id=38, 337.26pt x 221.82875pt>
+<im/7.png, id=52, 337.26pt x 221.82875pt>
 File: im/7.png Graphic file (type png)
 <use im/7.png>
 Package pdftex.def Info: im/7.png  used on input line 40.
 (pdftex.def)             Requested size: 227.62206pt x 149.71777pt.
- [5 <./im/6.png> <./im/7.png>]
-<im/8.png, id=47, 337.26pt x 221.82875pt>
+ [8 <./im/6.png> <./im/7.png>]
+<im/8.png, id=61, 337.26pt x 221.82875pt>
 File: im/8.png Graphic file (type png)
 <use im/8.png>
 Package pdftex.def Info: im/8.png  used on input line 64.
@@ -743,9 +822,9 @@ Package pdftex.def Info: im/8.png  used on input line 64.
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 79.
 
-[6 <./im/8.png>]) (./section/section_4.tex
-Overfull \hbox (5.41788pt too wide) in paragraph at lines 2--2
-[]\T2A/cmr/bx/n/17.28 4. Урав-не-ние Ла-пла-са. Раз-де-ле-ние пе-ре-мен-ных в урав-
+[9 <./im/8.png>]) (./section/section_4.tex
+Overfull \hbox (14.72728pt too wide) in paragraph at lines 2--2
+[]\T2A/cmr/bx/n/17.28 Уравнение Ла-пла-са. Раз-де-ле-ние пе-ре-мен-ных в урав-
  []
 
 
@@ -753,14 +832,14 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 12.
 
-[7]) (./section/section_5.tex
-Overfull \hbox (5.41788pt too wide) in paragraph at lines 3--3
-[]\T2A/cmr/bx/n/17.28 5. Урав-не-ние Ла-пла-са. Раз-де-ле-ние пе-ре-мен-ных в урав-
+[10]) (./section/section_5.tex
+Overfull \hbox (14.72728pt too wide) in paragraph at lines 3--3
+[]\T2A/cmr/bx/n/17.28 Уравнение Ла-пла-са. Раз-де-ле-ние пе-ре-мен-ных в урав-
  []
 
-[8]) (./section/section_6.tex
-Overfull \hbox (5.41788pt too wide) in paragraph at lines 2--2
-[]\T2A/cmr/bx/n/17.28 6. Урав-не-ние Ла-пла-са. Раз-де-ле-ние пе-ре-мен-ных в урав-
+[11]) (./section/section_6.tex
+Overfull \hbox (14.72728pt too wide) in paragraph at lines 2--2
+[]\T2A/cmr/bx/n/17.28 Уравнение Ла-пла-са. Раз-де-ле-ние пе-ре-мен-ных в урав-
  []
 
 
@@ -768,19 +847,19 @@ Overfull \hbox (55.44514pt too wide) detected at line 18
 \OMS/cmsy/m/n/14.4 ) [][] [] \OT1/cmr/m/n/14.4 + [][] = 0 \OMS/cmsy/m/n/14.4 ) \OML/cmm/m/it/14.4 e[] \OMS/cmsy/m/n/14.4 ^^A [] [][] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 R \OMS/cmsy/m/n/14.4 ^^A [] [] \OT1/cmr/m/n/14.4 = 0 \OMS/cmsy/m/n/14.4 ) [] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 m[]
  []
 
-) (./section/section_7.tex [9]
-<im/10.png, id=64, 337.26pt x 221.82875pt>
+) (./section/section_7.tex [12]
+<im/10.png, id=78, 337.26pt x 221.82875pt>
 File: im/10.png Graphic file (type png)
 <use im/10.png>
 Package pdftex.def Info: im/10.png  used on input line 17.
 (pdftex.def)             Requested size: 376.03346pt x 247.33626pt.
- [10 <./im/10.png>]
-<im/11.png, id=69, 337.26pt x 221.82875pt>
+ [13 <./im/10.png>]
+<im/11.png, id=83, 337.26pt x 221.82875pt>
 File: im/11.png Graphic file (type png)
 <use im/11.png>
 Package pdftex.def Info: im/11.png  used on input line 33.
 (pdftex.def)             Requested size: 318.66948pt x 209.60556pt.
-<im/12.png, id=70, 337.26pt x 221.82875pt>
+<im/12.png, id=84, 337.26pt x 221.82875pt>
 File: im/12.png Graphic file (type png)
 <use im/12.png>
 Package pdftex.def Info: im/12.png  used on input line 53.
@@ -789,13 +868,13 @@ Package pdftex.def Info: im/12.png  used on input line 53.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <./im/11.png>]) (./section/section_8.tex
-<im/13.png, id=75, 133.49875pt x 140.525pt>
+[14 <./im/11.png>]) (./section/section_8.tex
+<im/13.png, id=89, 133.49875pt x 140.525pt>
 File: im/13.png Graphic file (type png)
 <use im/13.png>
 Package pdftex.def Info: im/13.png  used on input line 7.
 (pdftex.def)             Requested size: 182.09486pt x 191.69682pt.
- [12 <./im/12.png>] [13 <./im/13.png>]
+ [15 <./im/12.png>] [16 <./im/13.png>]
 Overfull \hbox (36.66515pt too wide) detected at line 53
 []\OMS/cmsy/m/n/14.4 j[]\OT1/cmr/m/n/14.4 ([]) \OMS/cmsy/m/n/14.4 ^^@ []\OT1/cmr/m/n/14.4 ([])\OMS/cmsy/m/n/14.4 j[]\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 = []\OMS/cmsy/m/n/14.4 j[]j[]\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 = [] [] []([]\OML/cmm/m/it/14.4 '\OT1/cmr/m/n/14.4 )[]\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 = [] [] [] [][][]\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 =
  []
@@ -805,20 +884,20 @@ Overfull \hbox (2.37663pt too wide) detected at line 55
 \OT1/cmr/m/n/14.4 = [][](\OML/cmm/m/it/14.4 '[]'\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 = [] \OMS/cmsy/m/n/14.4 ^^@ [][]\OML/cmm/m/it/14.4 '[]'d[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 '[][]\OT1/cmr/m/n/14.4 (\OMS/cmsy/m/n/14.4 ^^@[]\OML/cmm/m/it/14.4 '\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 d[] \OT1/cmr/m/n/14.4 =
  []
 
-) [14] (./section/section_9.tex
-<im/14.png, id=89, 358.33875pt x 259.97125pt>
+) [17] (./section/section_9.tex
+<im/14.png, id=102, 358.33875pt x 259.97125pt>
 File: im/14.png Graphic file (type png)
 <use im/14.png>
 Package pdftex.def Info: im/14.png  used on input line 7.
 (pdftex.def)             Requested size: 273.14923pt x 198.17918pt.
- [15 <./im/14.png>]
-<im/15.png, id=94, 332.24126pt x 221.82875pt>
+ [18 <./im/14.png>]
+<im/15.png, id=108, 332.24126pt x 221.82875pt>
 File: im/15.png Graphic file (type png)
 <use im/15.png>
 Package pdftex.def Info: im/15.png  used on input line 59.
 (pdftex.def)             Requested size: 250.38564pt x 167.17673pt.
- [16 <./im/15.png>]) (./section/section_10.tex
-<im/16.png, id=99, 231.86626pt x 217.81375pt>
+ [19 <./im/15.png>] [20]) (./section/section_10.tex
+<im/16.png, id=116, 231.86626pt x 217.81375pt>
 File: im/16.png Graphic file (type png)
 <use im/16.png>
 Package pdftex.def Info: im/16.png  used on input line 7.
@@ -827,19 +906,19 @@ Package pdftex.def Info: im/16.png  used on input line 7.
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 16.
 
-[17 <./im/16.png>]) [18] (./section/section_11.tex
-<im/17.png, id=107, 231.86626pt x 217.81375pt>
+[21 <./im/16.png>]) [22] (./section/section_11.tex
+<im/17.png, id=124, 231.86626pt x 217.81375pt>
 File: im/17.png Graphic file (type png)
 <use im/17.png>
 Package pdftex.def Info: im/17.png  used on input line 8.
 (pdftex.def)             Requested size: 204.85846pt x 192.44774pt.
-<im/18.png, id=108, 231.86626pt x 217.81375pt>
+<im/18.png, id=125, 231.86626pt x 217.81375pt>
 File: im/18.png Graphic file (type png)
 <use im/18.png>
 Package pdftex.def Info: im/18.png  used on input line 16.
 (pdftex.def)             Requested size: 204.85846pt x 192.44774pt.
- [19 <./im/17.png> <./im/18.png>]
-<im/19.png, id=115, 231.86626pt x 217.81375pt>
+ [23 <./im/17.png> <./im/18.png>]
+<im/19.png, id=131, 231.86626pt x 217.81375pt>
 File: im/19.png Graphic file (type png)
 <use im/19.png>
 Package pdftex.def Info: im/19.png  used on input line 28.
@@ -859,8 +938,8 @@ Overfull \hbox (14.94179pt too wide) detected at line 37
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 41.
 
-[20 <./im/19.png>]
-<im/20.png, id=120, 231.86626pt x 217.81375pt>
+[24 <./im/19.png>]
+<im/20.png, id=137, 231.86626pt x 217.81375pt>
 File: im/20.png Graphic file (type png)
 <use im/20.png>
 Package pdftex.def Info: im/20.png  used on input line 55.
@@ -871,17 +950,22 @@ Overfull \hbox (26.99617pt too wide) detected at line 63
  []
 
 ) (./section/section_12.tex
-Overfull \hbox (21.93161pt too wide) in paragraph at lines 1--1
-[]\T2A/cmr/bx/n/17.28 12. Элек-три-че-ский квад-ру-поль-ный мо-мент. Тен-зор квад-
+Overfull \hbox (31.24101pt too wide) in paragraph at lines 1--1
+[]\T2A/cmr/bx/n/17.28 Электрический квад-ру-поль-ный мо-мент. Тен-зор квад-
  []
 
-<im/21.png, id=121, 642.4pt x 604.2575pt>
+
+Overfull \hbox (6.81703pt too wide) in paragraph at lines 1--1
+\T2A/cmr/bx/n/17.28 ру-поль-но-го мо-мен-та для аксиально-симметричной
+ []
+
+<im/21.png, id=138, 642.4pt x 604.2575pt>
 File: im/21.png Graphic file (type png)
 <use im/21.png>
 Package pdftex.def Info: im/21.png  used on input line 5.
 (pdftex.def)             Requested size: 204.85846pt x 192.69327pt.
-[21 <./im/20.png>] [22 <./im/21.png>] [23]
-<im/22.png, id=134, 231.86626pt x 217.81375pt>
+[25 <./im/20.png>] [26 <./im/21.png>] [27]
+<im/22.png, id=151, 231.86626pt x 217.81375pt>
 File: im/22.png Graphic file (type png)
 <use im/22.png>
 Package pdftex.def Info: im/22.png  used on input line 72.
@@ -891,28 +975,28 @@ Overfull \hbox (29.87904pt too wide) detected at line 115
 \OT1/cmr/m/n/14.4 = [](\OML/cmm/m/it/14.4 x[]; x[]; x[]\OT1/cmr/m/n/14.4 ) [] = [] [] = [] [] =
  []
 
-[24 <./im/22.png>]) (./section/section_13.tex
+[28 <./im/22.png>]) (./section/section_13.tex
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 4.
 
-<im/24.png, id=139, 803.0pt x 511.9125pt>
+<im/24.png, id=156, 803.0pt x 511.9125pt>
 File: im/24.png Graphic file (type png)
 <use im/24.png>
 Package pdftex.def Info: im/24.png  used on input line 8.
 (pdftex.def)             Requested size: 273.14923pt x 174.13387pt.
-[25 <./im/24.png>]) (./section/section_14.tex
-<im/27.png, id=145, 287.0725pt x 154.5775pt>
+[29 <./im/24.png>]) (./section/section_14.tex
+<im/27.png, id=161, 287.0725pt x 154.5775pt>
 File: im/27.png Graphic file (type png)
 <use im/27.png>
 Package pdftex.def Info: im/27.png  used on input line 7.
 (pdftex.def)             Requested size: 182.09486pt x 98.05418pt.
-<im/28.png, id=146, 164.615pt x 108.405pt>
+<im/28.png, id=162, 164.615pt x 108.405pt>
 File: im/28.png Graphic file (type png)
 <use im/28.png>
 Package pdftex.def Info: im/28.png  used on input line 13.
 (pdftex.def)             Requested size: 91.04742pt x 59.95871pt.
- [26 <./im/27.png> <./im/28.png>]
-<im/26.png, id=152, 311.1625pt x 203.76125pt>
+ [30 <./im/27.png> <./im/28.png>]
+<im/26.png, id=169, 311.1625pt x 203.76125pt>
 File: im/26.png Graphic file (type png)
 <use im/26.png>
 Package pdftex.def Info: im/26.png  used on input line 25.
@@ -923,30 +1007,30 @@ LaTeX Warning: Command \CYRS invalid in math mode on input line 63.
 
 Missing character: There is no С in font cmr12!
 ) (./section/section_15.tex
-<im/29.png, id=153, 261.97874pt x 364.36125pt>
+<im/29.png, id=170, 261.97874pt x 364.36125pt>
 File: im/29.png Graphic file (type png)
 <use im/29.png>
 Package pdftex.def Info: im/29.png  used on input line 8.
 (pdftex.def)             Requested size: 136.57462pt x 189.95262pt.
- [27 <./im/26.png>]
-<im/30.png, id=158, 544.0325pt x 432.61626pt>
+ [31 <./im/26.png>]
+<im/30.png, id=175, 544.0325pt x 432.61626pt>
 File: im/30.png Graphic file (type png)
 <use im/30.png>
 Package pdftex.def Info: im/30.png  used on input line 17.
 (pdftex.def)             Requested size: 182.09486pt x 144.80357pt.
- [28 <./im/29.png> <./im/30.png>]
-<im/31.png, id=164, 220.825pt x 322.20375pt>
+ [32 <./im/29.png> <./im/30.png>]
+<im/31.png, id=181, 220.825pt x 322.20375pt>
 File: im/31.png Graphic file (type png)
 <use im/31.png>
 Package pdftex.def Info: im/31.png  used on input line 27.
 (pdftex.def)             Requested size: 113.81102pt x 166.06215pt.
-<im/32.png, id=165, 547.04375pt x 498.86375pt>
+<im/32.png, id=182, 547.04375pt x 498.86375pt>
 File: im/32.png Graphic file (type png)
 <use im/32.png>
 Package pdftex.def Info: im/32.png  used on input line 34.
 (pdftex.def)             Requested size: 182.09486pt x 166.05661pt.
- [29 <./im/31.png> <./im/32.png>]
-<im/33.png, id=171, 547.04375pt x 498.86375pt>
+ [33 <./im/31.png> <./im/32.png>]
+<im/33.png, id=188, 547.04375pt x 498.86375pt>
 File: im/33.png Graphic file (type png)
 <use im/33.png>
 Package pdftex.def Info: im/33.png  used on input line 48.
@@ -961,149 +1045,157 @@ Overfull \hbox (45.84576pt too wide) detected at line 72
 []
  []
 
-[30 <./im/33.png>]) (./section/section_16.tex [31]
-<im/34.png, id=180, 413.545pt x 234.8775pt>
+[34 <./im/33.png>]) (./section/section_16.tex [35]
+<im/34.png, id=196, 413.545pt x 234.8775pt>
 File: im/34.png Graphic file (type png)
 <use im/34.png>
 Package pdftex.def Info: im/34.png  used on input line 35.
 (pdftex.def)             Requested size: 182.09486pt x 103.42526pt.
-<im/35.png, id=181, 719.68875pt x 246.9225pt>
+<im/35.png, id=197, 719.68875pt x 246.9225pt>
 File: im/35.png Graphic file (type png)
 <use im/35.png>
 Package pdftex.def Info: im/35.png  used on input line 49.
 (pdftex.def)             Requested size: 250.38564pt x 85.90797pt.
-) [32 <./im/34.png> <./im/35.png>] (./section/section_17.tex
-<im/36.png, id=187, 288.07625pt x 250.9375pt>
+) [36 <./im/34.png> <./im/35.png>] (./section/section_17.tex
+<im/36.png, id=204, 288.07625pt x 250.9375pt>
 File: im/36.png Graphic file (type png)
 <use im/36.png>
-Package pdftex.def Info: im/36.png  used on input line 6.
+Package pdftex.def Info: im/36.png  used on input line 4.
 (pdftex.def)             Requested size: 227.62206pt x 198.2844pt.
- [33 <./im/36.png>]) (./section/section_18.tex
-<im/37.png, id=192, 628.3475pt x 304.13625pt>
+ [37 <./im/36.png>]) (./section/section_18.tex
+<im/37.png, id=209, 628.3475pt x 304.13625pt>
 File: im/37.png Graphic file (type png)
 <use im/37.png>
 Package pdftex.def Info: im/37.png  used on input line 8.
 (pdftex.def)             Requested size: 364.19667pt x 176.27847pt.
-<im/38.png, id=193, 290.08376pt x 136.51pt>
+<im/38.png, id=210, 290.08376pt x 136.51pt>
 File: im/38.png Graphic file (type png)
 <use im/38.png>
 Package pdftex.def Info: im/38.png  used on input line 12.
 (pdftex.def)             Requested size: 273.14923pt x 128.54854pt.
- [34 <./im/37.png> <./im/38.png>]) (./section/section_19.tex
-<im/39.png, id=200, 294.09875pt x 313.17pt>
+ [38 <./im/37.png> <./im/38.png>]) (./section/section_19.tex
+<im/39.png, id=217, 294.09875pt x 313.17pt>
 File: im/39.png Graphic file (type png)
 <use im/39.png>
 Package pdftex.def Info: im/39.png  used on input line 5.
 (pdftex.def)             Requested size: 136.57462pt x 145.4314pt.
- [35 <./im/39.png>]) (./section/section_20.tex
-Overfull \hbox (15.87872pt too wide) in paragraph at lines 2--2
-\T2A/cmr/bx/n/17.28 ность. Объ-ем-ная и по-верх-ност-ная плот-ность то-ка. Элек-
+ [39 <./im/39.png>]) (./section/section_20.tex
+Overfull \hbox (4.14568pt too wide) in paragraph at lines 2--2
+[]\T2A/cmr/bx/n/17.28 Электрический ток, дрей-фо-вая ско-рость, по-движ-
  []
 
-[36]
-<im/40.png, id=208, 538.01pt x 441.65pt>
+[40]
+<im/40.png, id=225, 538.01pt x 441.65pt>
 File: im/40.png Graphic file (type png)
 <use im/40.png>
 Package pdftex.def Info: im/40.png  used on input line 16.
 (pdftex.def)             Requested size: 227.62206pt x 186.85301pt.
- [37 <./im/40.png>]
-<im/41.png, id=214, 642.4pt x 480.79625pt>
+ [41 <./im/40.png>]
+<im/41.png, id=230, 642.4pt x 480.79625pt>
 File: im/41.png Graphic file (type png)
 <use im/41.png>
 Package pdftex.def Info: im/41.png  used on input line 45.
 (pdftex.def)             Requested size: 227.62206pt x 170.35739pt.
-<im/42.png, id=215, 536.0025pt x 340.27126pt>
+<im/42.png, id=231, 536.0025pt x 340.27126pt>
 File: im/42.png Graphic file (type png)
 <use im/42.png>
 Package pdftex.def Info: im/42.png  used on input line 51.
 (pdftex.def)             Requested size: 227.62206pt x 144.50172pt.
-<im/43.png, id=216, 519.9425pt x 167.62625pt>
+<im/43.png, id=232, 519.9425pt x 167.62625pt>
 File: im/43.png Graphic file (type png)
 <use im/43.png>
 Package pdftex.def Info: im/43.png  used on input line 61.
 (pdftex.def)             Requested size: 227.62206pt x 73.38232pt.
- [38 <./im/41.png> <./im/42.png> <./im/43.png>]
-<im/44.png, id=223, 493.3632pt x 227.4096pt>
+ [42 <./im/41.png> <./im/42.png> <./im/43.png>]
+<im/44.png, id=240, 493.3632pt x 227.4096pt>
 File: im/44.png Graphic file (type png)
 <use im/44.png>
 Package pdftex.def Info: im/44.png  used on input line 69.
 (pdftex.def)             Requested size: 318.66948pt x 146.89146pt.
-<im/45.png, id=224, 587.19376pt x 212.795pt>
+<im/45.png, id=241, 587.19376pt x 212.795pt>
 File: im/45.png Graphic file (type png)
 <use im/45.png>
 Package pdftex.def Info: im/45.png  used on input line 87.
 (pdftex.def)             Requested size: 318.66948pt x 115.48228pt.
-) (./section/section_21.tex [39 <./im/44.png> <./im/45.png>]) (./section/section_22.tex [40]
-<im/47.png, id=233, 231.86626pt x 142.5325pt>
+) (./section/section_21.tex [43 <./im/44.png> <./im/45.png>]) (./section/section_22.tex [44]
+Overfull \hbox (2.58931pt too wide) in paragraph at lines 3--3
+[]\T2A/cmr/bx/n/17.28 Уравнения по-сто-ян-но-го то-ка. Гра-нич-ные усло-вия. 
+ []
+
+<im/47.png, id=250, 231.86626pt x 142.5325pt>
 File: im/47.png Graphic file (type png)
 <use im/47.png>
 Package pdftex.def Info: im/47.png  used on input line 26.
 (pdftex.def)             Requested size: 182.09486pt x 111.93826pt.
-<im/48.png, id=234, 231.86626pt x 142.5325pt>
+<im/48.png, id=251, 231.86626pt x 142.5325pt>
 File: im/48.png Graphic file (type png)
 <use im/48.png>
 Package pdftex.def Info: im/48.png  used on input line 34.
 (pdftex.def)             Requested size: 204.85846pt x 125.93353pt.
-) [41 <./im/47.png> <./im/48.png>] (./section/section_23.tex
-<im/49.png, id=240, 646.415pt x 504.88625pt>
+) [45 <./im/47.png> <./im/48.png>] (./section/section_23.tex
+<im/49.png, id=257, 646.415pt x 504.88625pt>
 File: im/49.png Graphic file (type png)
 <use im/49.png>
 Package pdftex.def Info: im/49.png  used on input line 4.
 (pdftex.def)             Requested size: 204.85846pt x 160.00299pt.
-) [42 <./im/49.png>] (./section/section_24.tex
-<im/404.png, id=245, 803.0pt x 602.25pt>
+) [46 <./im/49.png>] (./section/section_24.tex
+<im/404.png, id=262, 803.0pt x 602.25pt>
 File: im/404.png Graphic file (type png)
 <use im/404.png>
-Package pdftex.def Info: im/404.png  used on input line 12.
+Package pdftex.def Info: im/404.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 341.43895pt.
-) [43 <./im/404.png>] (./section/section_25.tex
-<im/46.png, id=251, 231.86626pt x 217.81375pt>
+) [47 <./im/404.png>] (./section/section_25.tex
+Overfull \hbox (2.66151pt too wide) in paragraph at lines 1--1
+[]\T2A/cmr/bx/n/17.28 Электродвижущая си-ла. Элек-три-че-ские це-пи. За-
+ []
+
+<im/46.png, id=267, 231.86626pt x 217.81375pt>
 File: im/46.png Graphic file (type png)
 <use im/46.png>
 Package pdftex.def Info: im/46.png  used on input line 5.
 (pdftex.def)             Requested size: 182.09486pt x 171.0606pt.
- [44 <./im/46.png>]
-<im/51.png, id=256, 776.9025pt x 424.58624pt>
+[48 <./im/46.png>]
+<im/51.png, id=273, 776.9025pt x 424.58624pt>
 File: im/51.png Graphic file (type png)
 <use im/51.png>
 Package pdftex.def Info: im/51.png  used on input line 64.
 (pdftex.def)             Requested size: 364.19667pt x 199.04375pt.
- [45{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./im/51.png>]) (./section/section_26.tex
-<im/52.png, id=262, 406.51875pt x 193.72375pt>
+ [49{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./im/51.png>]) (./section/section_26.tex
+<im/52.png, id=280, 406.51875pt x 193.72375pt>
 File: im/52.png Graphic file (type png)
 <use im/52.png>
 Package pdftex.def Info: im/52.png  used on input line 5.
 (pdftex.def)             Requested size: 364.19667pt x 173.5605pt.
-<im/53.png, id=263, 340.27126pt x 138.5175pt>
+<im/53.png, id=281, 340.27126pt x 138.5175pt>
 File: im/53.png Graphic file (type png)
 <use im/53.png>
 Package pdftex.def Info: im/53.png  used on input line 11.
 (pdftex.def)             Requested size: 273.14923pt x 111.1988pt.
- [46 <./im/52.png> <./im/53.png>]
-<im/54.png, id=270, 558.085pt x 415.5525pt>
+ [50 <./im/52.png> <./im/53.png>]
+<im/54.png, id=288, 558.085pt x 415.5525pt>
 File: im/54.png Graphic file (type png)
 <use im/54.png>
 Package pdftex.def Info: im/54.png  used on input line 58.
 (pdftex.def)             Requested size: 341.43307pt x 254.24121pt.
 ) (./section/section_27.tex
-<im/50.png, id=271, 341.275pt x 142.5325pt>
+<im/50.png, id=289, 341.275pt x 142.5325pt>
 File: im/50.png Graphic file (type png)
 <use im/50.png>
 Package pdftex.def Info: im/50.png  used on input line 6.
 (pdftex.def)             Requested size: 273.14923pt x 114.08704pt.
- [47 <./im/54.png>]
-<im/55.png, id=276, 646.415pt x 504.88625pt>
+ [51 <./im/54.png>]
+<im/55.png, id=294, 646.415pt x 504.88625pt>
 File: im/55.png Graphic file (type png)
 <use im/55.png>
 Package pdftex.def Info: im/55.png  used on input line 16.
 (pdftex.def)             Requested size: 182.09486pt x 142.2223pt.
-<im/56.png, id=277, 646.415pt x 504.88625pt>
+<im/56.png, id=295, 646.415pt x 504.88625pt>
 File: im/56.png Graphic file (type png)
 <use im/56.png>
 Package pdftex.def Info: im/56.png  used on input line 38.
 (pdftex.def)             Requested size: 182.09486pt x 142.2223pt.
- [48 <./im/50.png> <./im/55.png>] [49 <./im/56.png>]
-<im/57.png, id=288, 717.68124pt x 878.28125pt>
+ [52 <./im/50.png> <./im/55.png>] [53 <./im/56.png>]
+<im/57.png, id=305, 717.68124pt x 878.28125pt>
 File: im/57.png Graphic file (type png)
 <use im/57.png>
 Package pdftex.def Info: im/57.png  used on input line 66.
@@ -1113,7 +1205,7 @@ Overfull \hbox (26.95712pt too wide) detected at line 73
 [] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 ^^Mm[]v \OT1/cmr/m/n/14.4 = [][[] \OMS/cmsy/m/n/14.4 ^^B []\OT1/cmr/m/n/14.4 ] \OMS/cmsy/m/n/14.4 ) []\OML/cmm/m/it/14.4 v \OT1/cmr/m/n/14.4 = []
  []
 
-<im/58.png, id=289, 597.23125pt x 709.65125pt>
+<im/58.png, id=306, 597.23125pt x 709.65125pt>
 File: im/58.png Graphic file (type png)
 <use im/58.png>
 Package pdftex.def Info: im/58.png  used on input line 83.
@@ -1128,7 +1220,7 @@ Package caption Warning: Cannot determine current font size.
 (caption)                Try setting it with `size=' explicitly on input line 84.
 See the caption package documentation for explanation.
 
-<im/59.png, id=290, 598.235pt x 663.47874pt>
+<im/59.png, id=307, 598.235pt x 663.47874pt>
 File: im/59.png Graphic file (type png)
 <use im/59.png>
 Package pdftex.def Info: im/59.png  used on input line 90.
@@ -1143,19 +1235,23 @@ Package caption Warning: Cannot determine current font size.
 (caption)                Try setting it with `size=' explicitly on input line 91.
 See the caption package documentation for explanation.
 
-[50 <./im/57.png> <./im/58.png> <./im/59.png>]
-<im/60.png, id=295, 857.2025pt x 384.43625pt>
+[54 <./im/57.png> <./im/58.png> <./im/59.png>]
+<im/60.png, id=312, 857.2025pt x 384.43625pt>
 File: im/60.png Graphic file (type png)
 <use im/60.png>
 Package pdftex.def Info: im/60.png  used on input line 109.
 (pdftex.def)             Requested size: 318.66948pt x 142.91377pt.
-<im/61.png, id=296, 979.66pt x 383.4325pt>
+<im/61.png, id=313, 979.66pt x 383.4325pt>
 File: im/61.png Graphic file (type png)
 <use im/61.png>
 Package pdftex.def Info: im/61.png  used on input line 115.
 (pdftex.def)             Requested size: 318.66948pt x 124.72525pt.
 ) (./section/section_28.tex
-<im/62.png, id=297, 569.12625pt x 823.075pt>
+Overfull \hbox (6.03459pt too wide) in paragraph at lines 2--2
+[]\T2A/cmr/bx/n/17.28 Дивергенция маг-нит-но-го по-ля. Вектор-потенциал.
+ []
+
+<im/62.png, id=314, 569.12625pt x 823.075pt>
 File: im/62.png Graphic file (type png)
 <use im/62.png>
 Package pdftex.def Info: im/62.png  used on input line 8.
@@ -1165,8 +1261,8 @@ Underfull \hbox (badness 7238) in paragraph at lines 17--18
 []\T2A/cmr/m/n/14.4 Достаточно до-ка-зать, что $[]\OML/cmm/m/it/14.4 d[]$\T2A/cmr/m/n/14.4 , так как
  []
 
-[51 <./im/60.png> <./im/61.png>]
-<im/63.png, id=301, 984.67876pt x 754.82pt>
+[55 <./im/60.png> <./im/61.png>]
+<im/63.png, id=318, 984.67876pt x 754.82pt>
 File: im/63.png Graphic file (type png)
 <use im/63.png>
 Package pdftex.def Info: im/63.png  used on input line 36.
@@ -1181,40 +1277,40 @@ Overfull \hbox (65.09998pt too wide) detected at line 66
 [][] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[]
  []
 
-[52 <./im/62.png> <./im/63.png>]
+[56 <./im/62.png> <./im/63.png>]
 Overfull \hbox (18.35156pt too wide) detected at line 107
 [][] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [] [] [] [] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [] \U/msa/m/n/14 ^^D
  []
 
-[53])
-Overfull \hbox (2.7137pt too wide) in paragraph at lines 181--124
+[57])
+Overfull \hbox (2.7137pt too wide) in paragraph at lines 181--159
 []\T2A/cmr/m/n/14.4 Эта ка-либ-ров-ка при-ме-ня-ет-ся для рас-смот-ре-ния нере-ля-ти-вист-ских маг-
  []
 
-[54] (./section/section_29.tex
-<im/64.png, id=311, 500.87125pt x 439.6425pt>
+[58] (./section/section_29.tex
+<im/64.png, id=328, 500.87125pt x 439.6425pt>
 File: im/64.png Graphic file (type png)
 <use im/64.png>
 Package pdftex.def Info: im/64.png  used on input line 9.
 (pdftex.def)             Requested size: 136.57462pt x 119.87903pt.
-<im/65.png, id=312, 1167.36125pt x 901.3675pt>
+<im/65.png, id=329, 1167.36125pt x 901.3675pt>
 File: im/65.png Graphic file (type png)
 <use im/65.png>
 Package pdftex.def Info: im/65.png  used on input line 24.
 (pdftex.def)             Requested size: 182.09486pt x 140.6045pt.
-) [55 <./im/64.png> <./im/65.png>] (./section/section_30.tex
-<im/66.png, id=317, 1129.21875pt x 927.465pt>
+) [59 <./im/64.png> <./im/65.png>] (./section/section_30.tex
+<im/66.png, id=333, 1129.21875pt x 927.465pt>
 File: im/66.png Graphic file (type png)
 <use im/66.png>
 Package pdftex.def Info: im/66.png  used on input line 8.
 (pdftex.def)             Requested size: 227.62206pt x 186.94736pt.
- [56 <./im/66.png>]
-<im/67.png, id=321, 279.0425pt x 129.48375pt>
+ [60 <./im/66.png>]
+<im/67.png, id=338, 279.0425pt x 129.48375pt>
 File: im/67.png Graphic file (type png)
 <use im/67.png>
 Package pdftex.def Info: im/67.png  used on input line 30.
 (pdftex.def)             Requested size: 227.62206pt x 105.6261pt.
-<im/68.png, id=322, 275.0275pt x 128.48pt>
+<im/68.png, id=339, 275.0275pt x 128.48pt>
 File: im/68.png Graphic file (type png)
 <use im/68.png>
 Package pdftex.def Info: im/68.png  used on input line 43.
@@ -1229,19 +1325,14 @@ Overfull \hbox (30.37248pt too wide) in paragraph at lines 29--54
 []$ $[]$ $[]$ 
  []
 
-) (./section/section_31.tex
-Overfull \hbox (2.33539pt too wide) in paragraph at lines 3--3
-\T2A/cmr/bx/n/17.28 ре-ше-ние для без-гра-нич-но-го про-стран-ства. Маг-нит-ный
- []
-
-[57 <./im/67.png> <./im/68.png>]
-<im/69.png, id=328, 1140.26pt x 648.4225pt>
+) (./section/section_31.tex [61 <./im/67.png> <./im/68.png>]
+<im/69.png, id=345, 1140.26pt x 648.4225pt>
 File: im/69.png Graphic file (type png)
 <use im/69.png>
 Package pdftex.def Info: im/69.png  used on input line 52.
 (pdftex.def)             Requested size: 227.62206pt x 129.43484pt.
- [58 <./im/69.png>]
-<im/70.png, id=333, 376.40625pt x 156.585pt>
+ [62 <./im/69.png>]
+<im/70.png, id=350, 376.40625pt x 156.585pt>
 File: im/70.png Graphic file (type png)
 <use im/70.png>
 Package pdftex.def Info: im/70.png  used on input line 88.
@@ -1251,8 +1342,8 @@ Overfull \hbox (40.3884pt too wide) in paragraph at lines 87--97
 []$[]$ $[]$ 
  []
 
-) [59 <./im/70.png>] (./section/section_32.tex
-<im/71.png, id=338, 143.53625pt x 99.37125pt>
+) [63 <./im/70.png>] (./section/section_32.tex
+<im/71.png, id=355, 143.53625pt x 99.37125pt>
 File: im/71.png Graphic file (type png)
 <use im/71.png>
 Package pdftex.def Info: im/71.png  used on input line 27.
@@ -1339,41 +1430,45 @@ LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
 
-) [60 <./im/71.png>] (./section/section_33.tex
-<im/72.png, id=349, 1302.8675pt x 1133.23375pt>
+) [64 <./im/71.png>] (./section/section_33.tex
+Overfull \hbox (8.63399pt too wide) in paragraph at lines 2--2
+[]\T2A/cmr/bx/n/17.28 Магнитное по-ле в сре-де. Мо-ле-ку-ляр-ные то-ки. Век-
+ []
+
+<im/72.png, id=366, 1302.8675pt x 1133.23375pt>
 File: im/72.png Graphic file (type png)
 <use im/72.png>
 Package pdftex.def Info: im/72.png  used on input line 8.
 (pdftex.def)             Requested size: 113.81102pt x 98.97787pt.
-) [61 <./im/72.png>] (./section/section_34.tex) [62] (./section/section_35.tex
-<im/73.png, id=357, 1103.12125pt x 832.10875pt>
+) [65 <./im/72.png>] (./section/section_34.tex) [66] (./section/section_35.tex
+<im/73.png, id=374, 1103.12125pt x 832.10875pt>
 File: im/73.png Graphic file (type png)
 <use im/73.png>
-Package pdftex.def Info: im/73.png  used on input line 5.
+Package pdftex.def Info: im/73.png  used on input line 7.
 (pdftex.def)             Requested size: 182.09486pt x 137.3555pt.
 
-Overfull \hbox (45.52023pt too wide) in paragraph at lines 4--15
-$[]$ $[]$ 
+Overfull \hbox (63.14505pt too wide) in paragraph at lines 6--17
+[]$[]$ $[]$ 
  []
 
-<im/74.png, id=358, 1232.605pt x 753.81625pt>
+<im/74.png, id=375, 1232.605pt x 753.81625pt>
 File: im/74.png Graphic file (type png)
 <use im/74.png>
-Package pdftex.def Info: im/74.png  used on input line 21.
+Package pdftex.def Info: im/74.png  used on input line 25.
 (pdftex.def)             Requested size: 182.09486pt x 111.35371pt.
 
-Overfull \hbox (17.6248pt too wide) in paragraph at lines 20--31
+Overfull \hbox (17.6248pt too wide) in paragraph at lines 24--35
 []$[]$ $[]$ 
  []
 
 ) (./section/section_36.tex
-<im/75.png, id=359, 1432.35126pt x 1188.44pt>
+<im/75.png, id=376, 1432.35126pt x 1188.44pt>
 File: im/75.png Graphic file (type png)
 <use im/75.png>
 Package pdftex.def Info: im/75.png  used on input line 17.
 (pdftex.def)             Requested size: 182.09486pt x 151.07527pt.
- [63 <./im/73.png> <./im/74.png>]
-<im/76.png, id=363, 623.32875pt x 838.13126pt>
+ [67 <./im/73.png> <./im/74.png>]
+<im/76.png, id=380, 623.32875pt x 838.13126pt>
 File: im/76.png Graphic file (type png)
 <use im/76.png>
 Package pdftex.def Info: im/76.png  used on input line 38.
@@ -1383,7 +1478,7 @@ Overfull \hbox (41.02783pt too wide) detected at line 47
 [][]
  []
 
-<im/77.png, id=364, 1522.68875pt x 1000.73875pt>
+<im/77.png, id=381, 1522.68875pt x 1000.73875pt>
 File: im/77.png Graphic file (type png)
 <use im/77.png>
 Package pdftex.def Info: im/77.png  used on input line 51.
@@ -1393,25 +1488,48 @@ Overfull \hbox (63.152pt too wide) in paragraph at lines 50--59
 []$[]$ $[]$ 
  []
 
-) [64 <./im/75.png> <./im/76.png> <./im/77.png>] (./section/section_37.tex) [65] (./Answers_Questions.aux)
+) [68 <./im/75.png> <./im/76.png> <./im/77.png>] (./section/section_37.tex) (./section/section_38.tex
+<im/78.png, id=386, 896.34875pt x 765.86125pt>
+File: im/78.png Graphic file (type png)
+<use im/78.png>
+Package pdftex.def Info: im/78.png  used on input line 13.
+(pdftex.def)             Requested size: 141.12456pt x 120.57704pt.
+ [69 <./im/78.png>]
+<im/79.png, id=390, 1571.8725pt x 520.94624pt>
+File: im/79.png Graphic file (type png)
+<use im/79.png>
+Package pdftex.def Info: im/79.png  used on input line 19.
+(pdftex.def)             Requested size: 309.56265pt x 102.58965pt.
+<im/80.png, id=391, 1391.9202pt x 1480.0896pt>
+File: im/80.png Graphic file (type png)
+<use im/80.png>
+Package pdftex.def Info: im/80.png  used on input line 26.
+(pdftex.def)             Requested size: 250.38564pt x 266.24654pt.
+ [70 <./im/79.png> <./im/80.png>]
+<im/81.png, id=396, 420.57124pt x 403.5075pt>
+File: im/81.png Graphic file (type png)
+<use im/81.png>
+Package pdftex.def Info: im/81.png  used on input line 40.
+(pdftex.def)             Requested size: 250.38564pt x 240.22847pt.
+) (./section/section_39.tex) [71 <./im/81.png (PNG copy)>] (./Answers_Questions.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18390 strings out of 474116
- 351261 string characters out of 5743681
+ 19126 strings out of 474116
+ 361969 string characters out of 5743681
  51925187 words of memory out of 55000000
- 40333 multiletter control sequences out of 15000+600000
- 579880 words of font info for 94 fonts, out of 8000000 for 9000
+ 41047 multiletter control sequences out of 15000+600000
+ 580771 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,19n,107p,627b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Answers_Questions.pdf (65 pages, 6493709 bytes).
+ 102i,19n,107p,899b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on Answers_Questions.pdf (72 pages, 7224152 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
+ 514 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 

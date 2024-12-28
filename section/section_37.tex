@@ -1,4 +1,4 @@
-\section*{37. Парамагнетики. Оценки магнитной проницаемости парамагнетика (газа).}
+\section{Парамагнетики. Оценки магнитной проницаемости парамагнетика (газа).}
 
 \[
 \chi>0; \qquad |\chi|<<1
@@ -8,11 +8,19 @@
 
 \[
 \begin{array}{l|l}
-    U=\vec{m}\vec{H}=mH\cos\theta & \text{Берем частный случай:} \\
-    \omega \propto e^{-\frac{U}{kT}}=e^{\frac{mH\cos\theta}{kT} } & \frac{mH}{kT}<<1 ; \qquad \frac{m_0H}{kT}:=\beta  
+    \underset{\text{(Пот.энерг.магн.моментов)}}{U=\vec{m}\vec{H}=mH\cos\theta} & \text{Берем частный случай:} \\
+    \underset{\text{(Вероятность нахождения)}}{\omega \propto e^{-\frac{U}{kT}}=e^{\frac{mH\cos\theta}{kT}} } & \frac{mH}{kT}<<1 ; \qquad \frac{m_0H}{kT}:=\beta  
 \end{array}
 \]
 
 \[
 <\vec{m}>=\vec{e_z}<m_z>
 \]
+
+
+\begin{gather*}
+    <m_z>=\frac{\int m_0\cos\theta\cdot e^{\frac{m_0H}{kT}\cos\theta } d\Omega }{\int e^{\frac{m_0H}{kT}\cos\theta } d\Omega}=[\cos\theta=x]=m_0\frac{\int \cos\theta\cdot e^{\beta\cos\theta} d\Omega }{\int e^{\beta\cos\theta}\sin\theta d\Omega}= \\
+    =m_0 \frac{\int_{1}^{-1} xe^{\beta x}dx}{\int_{1}^{-1} e^{\beta x}dx}= m_0 \frac{\int_{1}^{-1} x(1+\beta x)dx}{\int_{1}^{-1} (1+\beta x)dx }=m_0 \frac{\frac{\beta x^3}{2}|_1^{-1} }{-2}=\frac{m_0\beta}{3}\frac{-2}{-2}=m_0 \frac{\beta}{3} \\
+    <\vec{m}>\vec{e_z}<m_z>=\frac{m_0\cdot m_o H}{3kT}\vec{e_z}=\frac{m_{0}^2}{3kT}\vec{H} \\
+    \vec{M}=n<\vec{m}>=\frac{nm_0^2}{3kT}\vec{H}\Rightarrow \chi= \frac{nm_0^2}{3kT}
+\end{gather*}

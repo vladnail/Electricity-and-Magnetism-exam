@@ -9,6 +9,9 @@
 \usepackage{geometry}
 \usepackage{subcaption} % Для подграфиков
 \usepackage{cancel}  % Для перечёркивания
+\usepackage{etoolbox}
+\usepackage{tocbibind}
+\usepackage{tocloft} % Для настройки оглавления
 
 \geometry{top=2cm, bottom=2cm, left=2.5cm, right=2.5cm}
 
@@ -64,7 +67,39 @@
 }
 %%%%%%Команды которые обязательны в использовании%%%%%%
 
+% Изменяем внешний вид оглавления
+\setlength{\cftsecnumwidth}{2.em} % Размер для номера секции
+\setlength{\cftsecindent}{0em}     % Отступ от левого края
+\renewcommand{\cftsecfont}{\normalfont} % Обычный шрифт в оглавлении
+\renewcommand{\cftsecpagefont}{\normalfont} % Обычный шрифт для номеров страниц в оглавлении
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Точечки до номера страницы
+
 \begin{document}
+
+% Титульный лист
+\begin{titlepage}
+    \begin{center}
+        \textbf{\large Министерство науки и высшего образования}\\
+        \textbf{\largeРоссийской Федерации} \\
+        \textbf{\large Федеральное государственное автономное образовательное
+                        учреждение высшего образования} \\
+        \textbf{\large «Новосибирский государственный университет» } \\
+        \vspace{1em}
+        \textbf{\large Физический факультет} \\
+        \vspace{5em}
+        \textbf{\Large Дисциплина: Электромагнетизм} \\
+        \vspace{2em}
+        \textbf{\Large Зимняя сессия } \\
+        \vspace{25em}
+        \textbf{\large Приговор будет исполнен: 11.01.2025}\\
+        \vspace{1em}
+        \textbf{\kr {Я не несу ответственности за возможные ошибки или некорректность предоставленных ответов на билеты. Используйте их только как вспомогательный материал и обязательно сверяйтесь с официальными источниками.}  }
+    \end{center}
+\end{titlepage}
+
+\newpage
+\tableofcontents % Создание оглавления
+\newpage
 
 \input{section/section_1.tex}
 
@@ -139,4 +174,9 @@
 \input{section/section_36.tex}
     \newpage
 \input{section/section_37.tex}
+
+\input{section/section_38.tex}
+
+\input{section/section_39.tex}
+
 \end{document}
