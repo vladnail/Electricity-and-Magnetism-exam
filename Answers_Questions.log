@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  29 DEC 2024 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.16)  29 DEC 2024 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1090,13 +1090,12 @@ Overfull \hbox (6.81703pt too wide) in paragraph at lines 1--1
 \T2A/cmr/bx/n/17.28 ру-поль-но-го мо-мен-та для аксиально-симметричной
  []
 
-<im/21.png, id=448, 642.4pt x 604.2575pt>
-File: im/21.png Graphic file (type png)
-<use im/21.png>
-Package pdftex.def Info: im/21.png  used on input line 5.
-(pdftex.def)             Requested size: 204.85846pt x 192.69327pt.
-[24 <./im/20.png>] [25 <./im/21.png>] [26]
-<im/22.png, id=469, 417.56pt x 344.28625pt>
+File: im/16.png Graphic file (type png)
+<use im/16.png>
+Package pdftex.def Info: im/16.png  used on input line 5.
+(pdftex.def)             Requested size: 204.85846pt x 141.82957pt.
+[24 <./im/20.png>] [25] [26]
+<im/22.png, id=467, 417.56pt x 344.28625pt>
 File: im/22.png Graphic file (type png)
 <use im/22.png>
 Package pdftex.def Info: im/22.png  used on input line 72.
@@ -1110,24 +1109,24 @@ Overfull \hbox (29.87904pt too wide) detected at line 115
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 4.
 
-<im/24.png, id=477, 379.4175pt x 411.5375pt>
+<im/24.png, id=475, 379.4175pt x 411.5375pt>
 File: im/24.png Graphic file (type png)
 <use im/24.png>
 Package pdftex.def Info: im/24.png  used on input line 8.
 (pdftex.def)             Requested size: 136.57462pt x 148.13455pt.
 [28 <./im/24.png>]) (./section/section_14.tex
-<im/27.png, id=484, 314.17375pt x 174.6525pt>
+<im/27.png, id=482, 314.17375pt x 174.6525pt>
 File: im/27.png Graphic file (type png)
 <use im/27.png>
 Package pdftex.def Info: im/27.png  used on input line 7.
 (pdftex.def)             Requested size: 182.09486pt x 101.22656pt.
-<im/28.png, id=485, 175.65625pt x 123.46124pt>
+<im/28.png, id=483, 175.65625pt x 123.46124pt>
 File: im/28.png Graphic file (type png)
 <use im/28.png>
 Package pdftex.def Info: im/28.png  used on input line 13.
 (pdftex.def)             Requested size: 91.04742pt x 63.99486pt.
  [29 <./im/27.png> <./im/28.png>]
-<im/26.png, id=495, 336.25626pt x 291.0875pt>
+<im/26.png, id=493, 336.25626pt x 291.0875pt>
 File: im/26.png Graphic file (type png)
 <use im/26.png>
 Package pdftex.def Info: im/26.png  used on input line 25.
@@ -1138,194 +1137,202 @@ LaTeX Warning: Command \CYRS invalid in math mode on input line 63.
 
 Missing character: There is no С in font cmr12!
 [30 <./im/26.png>]) (./section/section_15.tex
-<im/29.png, id=504, 261.97874pt x 364.36125pt>
+<im/29.png, id=502, 261.97874pt x 364.36125pt>
 File: im/29.png Graphic file (type png)
 <use im/29.png>
 Package pdftex.def Info: im/29.png  used on input line 8.
 (pdftex.def)             Requested size: 136.57462pt x 189.95262pt.
-<im/30.png, id=505, 544.0325pt x 432.61626pt>
+<im/30.png, id=503, 544.0325pt x 432.61626pt>
 File: im/30.png Graphic file (type png)
 <use im/30.png>
 Package pdftex.def Info: im/30.png  used on input line 17.
 (pdftex.def)             Requested size: 182.09486pt x 144.80357pt.
- [31 <./im/29.png> <./im/30.png>] [32]
-<im/31.png, id=519, 220.825pt x 322.20375pt>
+ [31 <./im/29.png> <./im/30.png>]
+<im/31.png, id=513, 220.825pt x 322.20375pt>
 File: im/31.png Graphic file (type png)
 <use im/31.png>
-Package pdftex.def Info: im/31.png  used on input line 27.
+Package pdftex.def Info: im/31.png  used on input line 26.
 (pdftex.def)             Requested size: 113.81102pt x 166.06215pt.
-<im/32.png, id=520, 547.04375pt x 498.86375pt>
+<im/32.png, id=514, 547.04375pt x 498.86375pt>
 File: im/32.png Graphic file (type png)
 <use im/32.png>
-Package pdftex.def Info: im/32.png  used on input line 34.
+Package pdftex.def Info: im/32.png  used on input line 33.
 (pdftex.def)             Requested size: 182.09486pt x 166.05661pt.
- [33 <./im/31.png> <./im/32.png>]
-<im/33.png, id=530, 547.04375pt x 498.86375pt>
+ [32 <./im/31.png> <./im/32.png>]
+<im/33.png, id=524, 1224.575pt x 652.4375pt>
 File: im/33.png Graphic file (type png)
 <use im/33.png>
-Package pdftex.def Info: im/33.png  used on input line 48.
-(pdftex.def)             Requested size: 136.57462pt x 124.54816pt.
+Package pdftex.def Info: im/33.png  used on input line 47.
+(pdftex.def)             Requested size: 136.57462pt x 72.76387pt.
 
-Overfull \hbox (55.6896pt too wide) detected at line 57
+Overfull \hbox (55.6896pt too wide) detected at line 56
 [] \OT1/cmr/m/n/14.4 = [] [] [] \OML/cmm/m/it/14.4 < ^^Z[] > []dV \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 ^^@ [] [] [] []\OT1/cmr/m/n/14.4 ([][])\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 ^^@ [] [] [] [][]\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 + [] [] []([][])[]\OML/cmm/m/it/14.4 dV \OT1/cmr/m/n/14.4 =
  []
 
 
-Overfull \hbox (45.84576pt too wide) detected at line 72
+Overfull \hbox (45.84576pt too wide) detected at line 71
 []
  []
 
-[34 <./im/33.png>]) (./section/section_16.tex [35]
-<im/34.png, id=543, 413.545pt x 234.8775pt>
+[33 <./im/33.png>]) (./section/section_16.tex
+<im/34.png, id=531, 413.545pt x 234.8775pt>
 File: im/34.png Graphic file (type png)
 <use im/34.png>
-Package pdftex.def Info: im/34.png  used on input line 35.
+Package pdftex.def Info: im/34.png  used on input line 34.
 (pdftex.def)             Requested size: 182.09486pt x 103.42526pt.
-<im/35.png, id=544, 719.68875pt x 246.9225pt>
+ [34 <./im/34.png>]
+<im/35.png, id=540, 719.68875pt x 246.9225pt>
 File: im/35.png Graphic file (type png)
 <use im/35.png>
-Package pdftex.def Info: im/35.png  used on input line 49.
+Package pdftex.def Info: im/35.png  used on input line 48.
 (pdftex.def)             Requested size: 250.38564pt x 85.90797pt.
-) [36 <./im/34.png> <./im/35.png>] (./section/section_17.tex
-<im/36.png, id=555, 288.07625pt x 250.9375pt>
+) (./section/section_17.tex
+<im/36.png, id=541, 288.07625pt x 250.9375pt>
 File: im/36.png Graphic file (type png)
 <use im/36.png>
 Package pdftex.def Info: im/36.png  used on input line 4.
 (pdftex.def)             Requested size: 227.62206pt x 198.2844pt.
- [37 <./im/36.png>]) (./section/section_18.tex
-<im/37.png, id=562, 628.3475pt x 304.13625pt>
+ [35 <./im/35.png> <./im/36.png>]) (./section/section_18.tex
+<im/37.png, id=550, 628.3475pt x 304.13625pt>
 File: im/37.png Graphic file (type png)
 <use im/37.png>
 Package pdftex.def Info: im/37.png  used on input line 8.
 (pdftex.def)             Requested size: 364.19667pt x 176.27847pt.
-<im/38.png, id=563, 290.08376pt x 136.51pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<im/38.png, id=551, 1261.71375pt x 735.74875pt>
 File: im/38.png Graphic file (type png)
 <use im/38.png>
-Package pdftex.def Info: im/38.png  used on input line 12.
-(pdftex.def)             Requested size: 273.14923pt x 128.54854pt.
- [38 <./im/37.png> <./im/38.png>]) (./section/section_19.tex
-<im/39.png, id=574, 294.09875pt x 313.17pt>
+Package pdftex.def Info: im/38.png  used on input line 10.
+(pdftex.def)             Requested size: 273.14923pt x 159.2831pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36]) (./section/section_19.tex
+<im/39.png, id=559, 294.09875pt x 313.17pt>
 File: im/39.png Graphic file (type png)
 <use im/39.png>
 Package pdftex.def Info: im/39.png  used on input line 5.
 (pdftex.def)             Requested size: 136.57462pt x 145.4314pt.
- [39 <./im/39.png>]) (./section/section_20.tex
+ [37 <./im/37.png> <./im/38.png>]) (./section/section_20.tex
 Overfull \hbox (4.14568pt too wide) in paragraph at lines 2--2
 []\T2A/cmr/bx/n/17.28 Электрический ток, дрей-фо-вая ско-рость, по-движ-
  []
 
-[40]
-<im/40.png, id=587, 538.01pt x 441.65pt>
+[38 <./im/39.png>]
+<im/40.png, id=574, 538.01pt x 441.65pt>
 File: im/40.png Graphic file (type png)
 <use im/40.png>
-Package pdftex.def Info: im/40.png  used on input line 16.
+Package pdftex.def Info: im/40.png  used on input line 14.
 (pdftex.def)             Requested size: 227.62206pt x 186.85301pt.
- [41 <./im/40.png>]
-<im/41.png, id=594, 642.4pt x 480.79625pt>
+ [39 <./im/40.png>]
+<im/41.png, id=582, 642.4pt x 480.79625pt>
 File: im/41.png Graphic file (type png)
 <use im/41.png>
-Package pdftex.def Info: im/41.png  used on input line 45.
+Package pdftex.def Info: im/41.png  used on input line 43.
 (pdftex.def)             Requested size: 227.62206pt x 170.35739pt.
-<im/42.png, id=595, 536.0025pt x 340.27126pt>
+<im/42.png, id=583, 536.0025pt x 340.27126pt>
 File: im/42.png Graphic file (type png)
 <use im/42.png>
-Package pdftex.def Info: im/42.png  used on input line 51.
+Package pdftex.def Info: im/42.png  used on input line 49.
 (pdftex.def)             Requested size: 227.62206pt x 144.50172pt.
-<im/43.png, id=596, 519.9425pt x 167.62625pt>
+<im/43.png, id=584, 519.9425pt x 167.62625pt>
 File: im/43.png Graphic file (type png)
 <use im/43.png>
-Package pdftex.def Info: im/43.png  used on input line 61.
+Package pdftex.def Info: im/43.png  used on input line 59.
 (pdftex.def)             Requested size: 227.62206pt x 73.38232pt.
- [42 <./im/41.png> <./im/42.png> <./im/43.png>]
-<im/44.png, id=609, 493.3632pt x 227.4096pt>
+ [40 <./im/41.png> <./im/42.png> <./im/43.png>]
+<im/44.png, id=596, 493.3632pt x 227.4096pt>
 File: im/44.png Graphic file (type png)
 <use im/44.png>
-Package pdftex.def Info: im/44.png  used on input line 69.
+Package pdftex.def Info: im/44.png  used on input line 67.
 (pdftex.def)             Requested size: 318.66948pt x 146.89146pt.
-<im/45.png, id=610, 587.19376pt x 212.795pt>
+<im/45.png, id=597, 587.19376pt x 212.795pt>
 File: im/45.png Graphic file (type png)
 <use im/45.png>
-Package pdftex.def Info: im/45.png  used on input line 87.
+Package pdftex.def Info: im/45.png  used on input line 85.
 (pdftex.def)             Requested size: 318.66948pt x 115.48228pt.
-) (./section/section_21.tex [43 <./im/44.png> <./im/45.png>]) (./section/section_22.tex [44]
+) (./section/section_21.tex [41 <./im/44.png> <./im/45.png>]) (./section/section_22.tex [42]
 Overfull \hbox (2.58931pt too wide) in paragraph at lines 3--3
 []\T2A/cmr/bx/n/17.28 Уравнения по-сто-ян-но-го то-ка. Гра-нич-ные усло-вия. 
  []
 
-<im/47.png, id=629, 231.86626pt x 142.5325pt>
+<im/47.png, id=617, 1217.54875pt x 686.565pt>
 File: im/47.png Graphic file (type png)
 <use im/47.png>
 Package pdftex.def Info: im/47.png  used on input line 26.
-(pdftex.def)             Requested size: 182.09486pt x 111.93826pt.
-<im/48.png, id=630, 231.86626pt x 142.5325pt>
+(pdftex.def)             Requested size: 182.09486pt x 102.6765pt.
+<im/48.png, id=618, 1286.8075pt x 685.56125pt>
 File: im/48.png Graphic file (type png)
 <use im/48.png>
 Package pdftex.def Info: im/48.png  used on input line 34.
-(pdftex.def)             Requested size: 204.85846pt x 125.93353pt.
-) [45 <./im/47.png> <./im/48.png>] (./section/section_23.tex
-<im/49.png, id=641, 646.415pt x 504.88625pt>
+(pdftex.def)             Requested size: 204.85846pt x 109.1376pt.
+) [43 <./im/47.png> <./im/48.png>] (./section/section_23.tex
+<im/49.png, id=627, 646.415pt x 504.88625pt>
 File: im/49.png Graphic file (type png)
 <use im/49.png>
 Package pdftex.def Info: im/49.png  used on input line 4.
 (pdftex.def)             Requested size: 204.85846pt x 160.00299pt.
-) [46 <./im/49.png>] (./section/section_24.tex
-<im/404.png, id=648, 803.0pt x 602.25pt>
+) [44 <./im/49.png>] (./section/section_24.tex
+<im/404.png, id=634, 803.0pt x 602.25pt>
 File: im/404.png Graphic file (type png)
 <use im/404.png>
 Package pdftex.def Info: im/404.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 341.43895pt.
-) [47 <./im/404.png>] (./section/section_25.tex
+) [45 <./im/404.png>] (./section/section_25.tex
 Overfull \hbox (2.66151pt too wide) in paragraph at lines 1--1
 []\T2A/cmr/bx/n/17.28 Электродвижущая си-ла. Элек-три-че-ские це-пи. За-
  []
 
-<im/46.png, id=655, 231.86626pt x 217.81375pt>
+<im/46.png, id=641, 1125.20375pt x 807.015pt>
 File: im/46.png Graphic file (type png)
 <use im/46.png>
 Package pdftex.def Info: im/46.png  used on input line 5.
-(pdftex.def)             Requested size: 182.09486pt x 171.0606pt.
-[48 <./im/46.png>]
-<im/51.png, id=664, 776.9025pt x 424.58624pt>
+(pdftex.def)             Requested size: 273.14923pt x 195.90408pt.
+[46 <./im/46.png>]
+<im/51.png, id=648, 776.9025pt x 424.58624pt>
 File: im/51.png Graphic file (type png)
 <use im/51.png>
 Package pdftex.def Info: im/51.png  used on input line 64.
 (pdftex.def)             Requested size: 364.19667pt x 199.04375pt.
- [49{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./im/51.png>]) (./section/section_26.tex
-<im/52.png, id=673, 406.51875pt x 193.72375pt>
+ [47{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./im/51.png>]) (./section/section_26.tex
+<im/52.png, id=657, 406.51875pt x 193.72375pt>
 File: im/52.png Graphic file (type png)
 <use im/52.png>
 Package pdftex.def Info: im/52.png  used on input line 5.
 (pdftex.def)             Requested size: 364.19667pt x 173.5605pt.
-<im/53.png, id=674, 340.27126pt x 138.5175pt>
+<im/53.png, id=658, 340.27126pt x 138.5175pt>
 File: im/53.png Graphic file (type png)
 <use im/53.png>
 Package pdftex.def Info: im/53.png  used on input line 11.
 (pdftex.def)             Requested size: 273.14923pt x 111.1988pt.
- [50 <./im/52.png> <./im/53.png>]
-<im/54.png, id=684, 558.085pt x 415.5525pt>
+ [48 <./im/52.png> <./im/53.png>]
+<im/54.png, id=669, 558.085pt x 415.5525pt>
 File: im/54.png Graphic file (type png)
 <use im/54.png>
 Package pdftex.def Info: im/54.png  used on input line 58.
 (pdftex.def)             Requested size: 341.43307pt x 254.24121pt.
 ) (./section/section_27.tex
-<im/50.png, id=685, 341.275pt x 142.5325pt>
+<im/50.png, id=670, 341.275pt x 142.5325pt>
 File: im/50.png Graphic file (type png)
 <use im/50.png>
 Package pdftex.def Info: im/50.png  used on input line 6.
 (pdftex.def)             Requested size: 273.14923pt x 114.08704pt.
- [51 <./im/54.png>]
-<im/55.png, id=692, 646.415pt x 504.88625pt>
+ [49 <./im/54.png>]
+<im/55.png, id=677, 1251.67625pt x 1120.185pt>
 File: im/55.png Graphic file (type png)
 <use im/55.png>
 Package pdftex.def Info: im/55.png  used on input line 16.
-(pdftex.def)             Requested size: 182.09486pt x 142.2223pt.
-<im/56.png, id=693, 646.415pt x 504.88625pt>
+(pdftex.def)             Requested size: 182.09486pt x 162.96107pt.
+<im/56.png, id=678, 646.415pt x 504.88625pt>
 File: im/56.png Graphic file (type png)
 <use im/56.png>
 Package pdftex.def Info: im/56.png  used on input line 38.
 (pdftex.def)             Requested size: 182.09486pt x 142.2223pt.
- [52 <./im/50.png> <./im/55.png>] [53 <./im/56.png>]
-<im/57.png, id=711, 717.68124pt x 878.28125pt>
+ [50 <./im/50.png> <./im/55.png>] [51 <./im/56.png>]
+<im/57.png, id=695, 717.68124pt x 878.28125pt>
 File: im/57.png Graphic file (type png)
 <use im/57.png>
 Package pdftex.def Info: im/57.png  used on input line 66.
@@ -1335,7 +1342,7 @@ Overfull \hbox (26.95712pt too wide) detected at line 73
 [] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 ^^Mm[]v \OT1/cmr/m/n/14.4 = [][[] \OMS/cmsy/m/n/14.4 ^^B []\OT1/cmr/m/n/14.4 ] \OMS/cmsy/m/n/14.4 ) []\OML/cmm/m/it/14.4 v \OT1/cmr/m/n/14.4 = []
  []
 
-<im/58.png, id=712, 597.23125pt x 709.65125pt>
+<im/58.png, id=696, 597.23125pt x 709.65125pt>
 File: im/58.png Graphic file (type png)
 <use im/58.png>
 Package pdftex.def Info: im/58.png  used on input line 83.
@@ -1350,7 +1357,7 @@ Package caption Warning: Cannot determine current font size.
 (caption)                Try setting it with `size=' explicitly on input line 84.
 See the caption package documentation for explanation.
 
-<im/59.png, id=713, 598.235pt x 663.47874pt>
+<im/59.png, id=697, 598.235pt x 663.47874pt>
 File: im/59.png Graphic file (type png)
 <use im/59.png>
 Package pdftex.def Info: im/59.png  used on input line 90.
@@ -1365,13 +1372,13 @@ Package caption Warning: Cannot determine current font size.
 (caption)                Try setting it with `size=' explicitly on input line 91.
 See the caption package documentation for explanation.
 
-[54 <./im/57.png> <./im/58.png> <./im/59.png>]
-<im/60.png, id=721, 857.2025pt x 384.43625pt>
+[52 <./im/57.png> <./im/58.png> <./im/59.png>]
+<im/60.png, id=704, 857.2025pt x 384.43625pt>
 File: im/60.png Graphic file (type png)
 <use im/60.png>
 Package pdftex.def Info: im/60.png  used on input line 109.
 (pdftex.def)             Requested size: 318.66948pt x 142.91377pt.
-<im/61.png, id=722, 979.66pt x 383.4325pt>
+<im/61.png, id=705, 979.66pt x 383.4325pt>
 File: im/61.png Graphic file (type png)
 <use im/61.png>
 Package pdftex.def Info: im/61.png  used on input line 115.
@@ -1381,7 +1388,7 @@ Overfull \hbox (6.03459pt too wide) in paragraph at lines 2--2
 []\T2A/cmr/bx/n/17.28 Дивергенция маг-нит-но-го по-ля. Вектор-потенциал.
  []
 
-<im/62.png, id=723, 569.12625pt x 823.075pt>
+<im/62.png, id=706, 569.12625pt x 823.075pt>
 File: im/62.png Graphic file (type png)
 <use im/62.png>
 Package pdftex.def Info: im/62.png  used on input line 8.
@@ -1391,8 +1398,8 @@ Underfull \hbox (badness 7238) in paragraph at lines 17--18
 []\T2A/cmr/m/n/14.4 Достаточно до-ка-зать, что $[]\OML/cmm/m/it/14.4 d[]$\T2A/cmr/m/n/14.4 , так как
  []
 
-[55 <./im/60.png> <./im/61.png>]
-<im/63.png, id=731, 984.67876pt x 754.82pt>
+[53 <./im/60.png> <./im/61.png>]
+<im/63.png, id=714, 984.67876pt x 754.82pt>
 File: im/63.png Graphic file (type png)
 <use im/63.png>
 Package pdftex.def Info: im/63.png  used on input line 36.
@@ -1407,40 +1414,40 @@ Overfull \hbox (65.09998pt too wide) detected at line 66
 [][] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[]
  []
 
-[56 <./im/62.png> <./im/63.png>]
+[54 <./im/62.png> <./im/63.png>]
 Overfull \hbox (18.35156pt too wide) detected at line 107
 [][] \OT1/cmr/m/n/14.4 = [][] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [] [] [] [] [] \OML/cmm/m/it/14.4 dV[] \OT1/cmr/m/n/14.4 = [] \U/msa/m/n/14 ^^D
  []
 
-[57])
+[55])
 Overfull \hbox (2.7137pt too wide) in paragraph at lines 181--161
 []\T2A/cmr/m/n/14.4 Эта ка-либ-ров-ка при-ме-ня-ет-ся для рас-смот-ре-ния нере-ля-ти-вист-ских маг-
  []
 
-[58] (./section/section_29.tex
-<im/64.png, id=747, 500.87125pt x 439.6425pt>
+[56] (./section/section_29.tex
+<im/64.png, id=731, 500.87125pt x 439.6425pt>
 File: im/64.png Graphic file (type png)
 <use im/64.png>
 Package pdftex.def Info: im/64.png  used on input line 9.
 (pdftex.def)             Requested size: 136.57462pt x 119.87903pt.
-<im/65.png, id=748, 1167.36125pt x 901.3675pt>
+<im/65.png, id=732, 1167.36125pt x 901.3675pt>
 File: im/65.png Graphic file (type png)
 <use im/65.png>
 Package pdftex.def Info: im/65.png  used on input line 24.
 (pdftex.def)             Requested size: 182.09486pt x 140.6045pt.
-) [59 <./im/64.png> <./im/65.png>] (./section/section_30.tex
-<im/66.png, id=753, 1129.21875pt x 927.465pt>
+) [57 <./im/64.png> <./im/65.png>] (./section/section_30.tex
+<im/66.png, id=737, 1129.21875pt x 927.465pt>
 File: im/66.png Graphic file (type png)
 <use im/66.png>
 Package pdftex.def Info: im/66.png  used on input line 8.
 (pdftex.def)             Requested size: 227.62206pt x 186.94736pt.
- [60 <./im/66.png>]
-<im/67.png, id=760, 279.0425pt x 129.48375pt>
+ [58 <./im/66.png>]
+<im/67.png, id=743, 279.0425pt x 129.48375pt>
 File: im/67.png Graphic file (type png)
 <use im/67.png>
 Package pdftex.def Info: im/67.png  used on input line 30.
 (pdftex.def)             Requested size: 227.62206pt x 105.6261pt.
-<im/68.png, id=761, 275.0275pt x 128.48pt>
+<im/68.png, id=744, 275.0275pt x 128.48pt>
 File: im/68.png Graphic file (type png)
 <use im/68.png>
 Package pdftex.def Info: im/68.png  used on input line 43.
@@ -1455,14 +1462,14 @@ Overfull \hbox (30.37248pt too wide) in paragraph at lines 29--54
 []$ $[]$ $[]$ 
  []
 
-) (./section/section_31.tex [61 <./im/67.png> <./im/68.png>]
-<im/69.png, id=770, 1140.26pt x 648.4225pt>
+) (./section/section_31.tex [59 <./im/67.png> <./im/68.png>]
+<im/69.png, id=753, 1140.26pt x 648.4225pt>
 File: im/69.png Graphic file (type png)
 <use im/69.png>
 Package pdftex.def Info: im/69.png  used on input line 52.
 (pdftex.def)             Requested size: 227.62206pt x 129.43484pt.
- [62 <./im/69.png>]
-<im/70.png, id=778, 376.40625pt x 156.585pt>
+ [60 <./im/69.png>]
+<im/70.png, id=761, 376.40625pt x 156.585pt>
 File: im/70.png Graphic file (type png)
 <use im/70.png>
 Package pdftex.def Info: im/70.png  used on input line 88.
@@ -1472,8 +1479,8 @@ Overfull \hbox (40.3884pt too wide) in paragraph at lines 87--97
 []$[]$ $[]$ 
  []
 
-) [63 <./im/70.png>] (./section/section_32.tex
-<im/71.png, id=785, 143.53625pt x 99.37125pt>
+) [61 <./im/70.png>] (./section/section_32.tex
+<im/71.png, id=769, 143.53625pt x 99.37125pt>
 File: im/71.png Graphic file (type png)
 <use im/71.png>
 Package pdftex.def Info: im/71.png  used on input line 27.
@@ -1560,18 +1567,18 @@ LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 40.
 
-) [64 <./im/71.png>] (./section/section_33.tex
+) [62 <./im/71.png>] (./section/section_33.tex
 Overfull \hbox (8.63399pt too wide) in paragraph at lines 2--2
 []\T2A/cmr/bx/n/17.28 Магнитное по-ле в сре-де. Мо-ле-ку-ляр-ные то-ки. Век-
  []
 
-<im/72.png, id=797, 1302.8675pt x 1133.23375pt>
+<im/72.png, id=781, 1302.8675pt x 1133.23375pt>
 File: im/72.png Graphic file (type png)
 <use im/72.png>
 Package pdftex.def Info: im/72.png  used on input line 8.
 (pdftex.def)             Requested size: 113.81102pt x 98.97787pt.
-) [65 <./im/72.png>] (./section/section_34.tex) [66] (./section/section_35.tex
-<im/73.png, id=812, 1103.12125pt x 832.10875pt>
+) [63 <./im/72.png>] (./section/section_34.tex) [64] (./section/section_35.tex
+<im/73.png, id=795, 1103.12125pt x 832.10875pt>
 File: im/73.png Graphic file (type png)
 <use im/73.png>
 Package pdftex.def Info: im/73.png  used on input line 7.
@@ -1581,7 +1588,7 @@ Overfull \hbox (63.14505pt too wide) in paragraph at lines 6--17
 []$[]$ $[]$ 
  []
 
-<im/74.png, id=813, 1232.605pt x 753.81625pt>
+<im/74.png, id=796, 1232.605pt x 753.81625pt>
 File: im/74.png Graphic file (type png)
 <use im/74.png>
 Package pdftex.def Info: im/74.png  used on input line 25.
@@ -1592,13 +1599,13 @@ Overfull \hbox (17.6248pt too wide) in paragraph at lines 24--35
  []
 
 ) (./section/section_36.tex
-<im/75.png, id=814, 1432.35126pt x 1188.44pt>
+<im/75.png, id=797, 1432.35126pt x 1188.44pt>
 File: im/75.png Graphic file (type png)
 <use im/75.png>
 Package pdftex.def Info: im/75.png  used on input line 17.
 (pdftex.def)             Requested size: 182.09486pt x 151.07527pt.
- [67 <./im/73.png> <./im/74.png>]
-<im/76.png, id=820, 623.32875pt x 838.13126pt>
+ [65 <./im/73.png> <./im/74.png>]
+<im/76.png, id=803, 623.32875pt x 838.13126pt>
 File: im/76.png Graphic file (type png)
 <use im/76.png>
 Package pdftex.def Info: im/76.png  used on input line 38.
@@ -1608,7 +1615,7 @@ Overfull \hbox (41.02783pt too wide) detected at line 47
 [][]
  []
 
-<im/77.png, id=821, 1522.68875pt x 1000.73875pt>
+<im/77.png, id=804, 1522.68875pt x 1000.73875pt>
 File: im/77.png Graphic file (type png)
 <use im/77.png>
 Package pdftex.def Info: im/77.png  used on input line 51.
@@ -1618,30 +1625,34 @@ Overfull \hbox (63.152pt too wide) in paragraph at lines 50--59
 []$[]$ $[]$ 
  []
 
-) [68 <./im/75.png> <./im/76.png> <./im/77.png>] (./section/section_37.tex) (./section/section_38.tex
-<im/78.png, id=830, 896.34875pt x 765.86125pt>
+) [66 <./im/75.png> <./im/76.png> <./im/77.png>] (./section/section_37.tex) (./section/section_38.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+<im/78.png, id=814, 896.34875pt x 765.86125pt>
 File: im/78.png Graphic file (type png)
 <use im/78.png>
-Package pdftex.def Info: im/78.png  used on input line 13.
+Package pdftex.def Info: im/78.png  used on input line 10.
 (pdftex.def)             Requested size: 141.12456pt x 120.57704pt.
- [69 <./im/78.png>]
-<im/79.png, id=836, 1571.8725pt x 520.94624pt>
+[67 <./im/78.png>]
+<im/79.png, id=820, 1571.8725pt x 520.94624pt>
 File: im/79.png Graphic file (type png)
 <use im/79.png>
-Package pdftex.def Info: im/79.png  used on input line 19.
+Package pdftex.def Info: im/79.png  used on input line 16.
 (pdftex.def)             Requested size: 309.56265pt x 102.58965pt.
-<im/80.png, id=837, 1391.9202pt x 1480.0896pt>
+<im/80.png, id=821, 1391.9202pt x 1480.0896pt>
 File: im/80.png Graphic file (type png)
 <use im/80.png>
-Package pdftex.def Info: im/80.png  used on input line 26.
+Package pdftex.def Info: im/80.png  used on input line 23.
 (pdftex.def)             Requested size: 250.38564pt x 266.24654pt.
- [70 <./im/79.png> <./im/80.png>]
-<im/81.png, id=845, 420.57124pt x 403.5075pt>
+ [68 <./im/79.png> <./im/80.png>]
+<im/81.png, id=829, 420.57124pt x 403.5075pt>
 File: im/81.png Graphic file (type png)
 <use im/81.png>
-Package pdftex.def Info: im/81.png  used on input line 40.
+Package pdftex.def Info: im/81.png  used on input line 37.
 (pdftex.def)             Requested size: 250.38564pt x 240.22847pt.
-) (./section/section_39.tex) [71 <./im/81.png (PNG copy)>] (./Answers_Questions.aux)
+) (./section/section_39.tex) [69 <./im/81.png (PNG copy)>] (./Answers_Questions.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1650,18 +1661,18 @@ Package rerunfilecheck Info: File `Answers_Questions.out' has not changed.
 (rerunfilecheck)             Checksum: 5EF29F1C9AF04B576CF62D6B5B74A156;28959.
  ) 
 Here is how much of TeX's memory you used:
- 26256 strings out of 474116
- 470550 string characters out of 5743681
+ 26247 strings out of 474116
+ 470425 string characters out of 5743681
  51925187 words of memory out of 55000000
- 47838 multiletter control sequences out of 15000+600000
+ 47831 multiletter control sequences out of 15000+600000
  580771 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,19n,107p,1993b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Answers_Questions.pdf (72 pages, 8616621 bytes).
+Output written on Answers_Questions.pdf (70 pages, 9263362 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 746 compressed objects within 8 object streams
- 245 named destinations out of 1000 (max. 500000)
- 733 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1003 PDF objects out of 1200 (max. 8388607)
+ 740 compressed objects within 8 object streams
+ 243 named destinations out of 1000 (max. 500000)
+ 728 words of extra memory for PDF output out of 10000 (max. 10000000)
 
