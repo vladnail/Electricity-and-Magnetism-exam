@@ -1,3 +1,56 @@
 \section{Закон сохранения энергии электромагнитного поля. Поток энергии. Вектор
 Умова – Пойнтинга.}
 
+В вакууме имеются движущиеся заряды и поля, тогда мощность: \( \vec{F}\vec{v}=q\vec{E}\vec{v} \). В перечете в единицу обьема: \( \rho <\vec{v}>\vec{E}=\vec{j}\vec{E} \) 
+
+З.С.Э. в единицу обьема:
+
+\[
+\frac{du}{dt}=\vec{j}\vec{E}
+\]
+
+\[
+\begin{cases}
+    \mathrm{div}\vec{E}=4\pi\rho \\
+    \mathrm{rot}\vec{E}=\frac{1}{c} \frac{\partial\vec{H}}{\partial t} \\
+    \mathrm{div}\vec{H}=0 \\
+    \mathrm{rot}\vec{H}=\frac{4\pi}{c}\vec{j}+\frac{1}{c} \frac{\partial\vec{E}}{\partial t}         
+\end{cases}
+\]
+
+\begin{gather*}
+    \vec{j}=\frac{c}{4\pi}\mathrm{rot}\vec{H}-\frac{1}{4\pi} \frac{\partial \vec{E}}{\partial t} \\
+    \frac{du}{dt}=\frac{c}{4\pi}\vec{E}\cdot\mathrm{rot}\vec{H}-\frac{1}{4\pi}\vec{E}\frac{\partial\vec{E}}{\partial t}         
+\end{gather*}
+
+К чему хочу прийти: \( \frac{\partial\omega}{\partial t}+\mathrm{div}\vec{S}=0   \) 
+
+,где \( \boxed{\vec{S}=\frac{c}{4\pi}[\vec{E}\times \vec{H}] } \)- \textit{вектор Пойнтинга}(плотность потока энергии)
+
+З.С.Э: \( \frac{\partial W}{\partial t} +\mathrm{div}\vec{S}=0  \)
+
+\(\qquad    \Uparrow\)
+
+Проверим если:\(\vec{S}=\frac{c}{4\pi}[\vec{E}\times \vec{H}] \)
+
+\[
+\mathrm{div}\vec{S}=\frac{c}{4\pi}\grad [\overset{\downarrow}{\vec{E}}\times\overset{\downarrow}{\vec{H}} ]=\frac{c}{4\pi}\grad [\overset{\downarrow}{\vec{E}}\times \vec{H}]+\frac{c}{4\pi}\grad[\vec{E}\times \overset{\downarrow}{\vec{H}}]=     
+\]
+
+\[
+=\frac{c}{4\pi}\vec{H}[\overset{\mathrm{rot}\vec{E} }{\grad \times \vec{E}}]-\frac{c}{4\pi}\vec{E} \mathrm{rot}\vec{H}=
+\left[ 
+    \begin{array}{ll}
+        \mathrm{rot}\vec{E}=-\frac{1}{c}\frac{\partial\vec{H}}{\partial t} \\
+        \mathrm{rot}\vec{H}=\frac{4\pi}{c}\vec{j}+\frac{1}{c}\frac{\partial\vec{E}}{\partial t}       
+    \end{array} 
+\right]=
+\]
+
+\[
+= \frac{c}{4\pi} \vec{H} \left( -\frac{1}{c}\frac{\partial\vec{H}}{\partial t} -\vec{E}\left( \frac{4\pi}{c}\vec{j}+\frac{1}{c}\frac{\partial\vec{E}}{\partial t}    \right)  \right) =-\frac{1}{4\pi}\vec{H}\frac{\partial\vec{H}}{\partial t}-\frac{1}{4\pi}\vec{E}\frac{\partial\vec{E}}{\partial t}-\vec{E}\vec{j}=    
+\]
+
+\[
+=\frac{\partial}{\partial t}\left( \frac{H^2}{8\pi}+\frac{E^2}{8\pi}   \right) -\vec{E}\vec{j}\Rightarrow frac{\partial}{\partial t} \left( W_E+W_M+q \right)+\mathrm{div}\vec{S}=0\quad \blacksquare 
+\]
