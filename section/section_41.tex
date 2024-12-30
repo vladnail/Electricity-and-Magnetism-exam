@@ -1,0 +1,57 @@
+\section{Потенциалы электромагнитного поля. Лоренцевская калибровка.}
+
+\begin{gather*}
+    \mathrm{div}\vec{B}=0\Rightarrow \vec{B}=\mathrm{rot}\vec{A} \\
+    \mathrm{rot}\vec{E}=-\frac{1}{c}\frac{\partial \vec{B}}{\partial t}=-\frac{1}{c}\frac{\partial  }{\partial t}\mathrm{rot}\vec{A}=-\frac{1}{c}\mathrm{rot}\frac{\partial \vec{A}}{\partial t}=\Rightarrow \mathrm{rot}\left( \vec{E}+\frac{1}{c}\frac{\partial \vec{A}}{\partial t}   \right)=0\Rightarrow \\
+    \text{Итог:}    
+\end{gather*}
+
+\[
+\boxed{\begin{aligned}
+    \vec{B}&=\mathrm{rot}\vec{A} \\
+    \vec{E}&=-\mathrm{grad}\varphi-\frac{1}{c}\frac{\partial \vec{A}}{\partial t}    
+\end{aligned}}
+\]
+
+Калибровка:
+
+\[
+\begin{array}{l|l}
+    \text{Если }\vec{A'}=\vec{A}+\grad f & \vec{B'}=\mathrm{rot}\vec{A'}=\mathrm{rot}\vec{A'}+\cancelto{0}{\mathrm{rot}(\grad f) }=\vec{B}  \\
+    \vec{\varphi'}=\vec{\varphi}-\frac{1}{c}\frac{\partial f}{\partial t} & \vec{E'}=-\grad\varphi +\frac{1}{c}\grad \frac{\partial f}{\partial t}-\frac{1}{c} \frac{\partial \vec{A}}{\partial t}-\frac{1}{c} \frac{\partial}{\partial t} \grad f =\vec{E}   \\      
+\end{array}
+\]
+
+\[
+\begin{aligned}
+\begin{cases}
+    \mathrm{div}\vec{E}=4\pi\rho \\
+    \mathrm{rot}\vec{E}=-\frac{1}{c} \frac{\partial \vec{H}}{\partial t} \\
+    \mathrm{div}\vec{B}=0 \\
+    \mathrm{rot}\vec{H}=\frac{4\pi}{c}\vec{j}+\frac{1}{c} \frac{\partial \vec{E}}{\partial t}    
+\end{cases}
+\text{ выполн.  }
+\begin{cases}
+    \vec{E}=-\grad \varphi -\frac{1}{c} \frac{\partial \vec{A}}{\partial t} \\
+    \vec{H}=\mathrm{rot}\vec{A} 
+\end{cases}
+\end{aligned}
+\]
+
+\[
+\begin{cases}
+    -\Delta\varphi-\frac{1}{c}\frac{\partial}{\partial t}\grad \vec{A}=4\pi\rho \\
+    \mathrm{grad div }\vec{A}-\Delta \vec{A} =\frac{4\pi}{c}\vec{j}+\frac{1}{c}  \frac{\partial }{\partial t} \left( \grad\varphi -\frac{1}{c} \frac{\partial \vec{A}}{\partial t}  \right)   
+\end{cases}
+\]
+
+Если положить \( \mathrm{div}\vec{A}+\frac{1}{c} \frac{\partial\varphi}{/partial t}=0    \) \textit{-Лоренцевская калибровка}, получим:
+
+\begin{gather*}
+    \Delta\varphi-\frac{1}{c^2} \frac{\partial^2\varphi}{\partial t^2} =-4\pi\rho \\
+    \Delta\vec{A}-\frac{1}{c^2} \frac{\partial^2}{\partial t^2}\vec{A}=-\frac{4\pi}{c}\vec{j}    
+\end{gather*}
+
+\[
+\Delta:= \frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2} +\frac{\partial^2}{\partial z^2} ;\qquad \square :=\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2} +\frac{\partial^2}{\partial z^2}-\frac{1}{c^2} \frac{\partial^2}{\partial t^2}
+\]
