@@ -1,0 +1,134 @@
+\section{Однородная система уравнений Максвелла для свободного
+электромагнитного поля. Волновое уравнение для полей E, Н.}
+
+\textit{Электкормагнитная волна:}
+
+Пусть есть среда однородная, её свойсва не изменяются по t: 
+
+\( \vec{D}=\varepsilon\vec{E}, \vec{B}=\mu\vec{H} \).
+
+\[
+\begin{cases}
+    \mathrm{div}\vec{\varepsilon E}=0 -\text{зарядов нет} \\
+    \mathrm{rot}\vec{E}=-\frac{1}{c} \frac{\partial\mu\vec{H}}{\partial t} \\
+    \mathrm{div}\vec{\mu H}=0 \\
+    \mathrm{rot}\vec{H}=0+\frac{1}{c} \frac{\partial\varepsilon\vec{E}}{\partial t}  
+\end{cases}
+\]
+
+\begin{gather*}
+    \vec{D}=\varepsilon\vec{E} \qquad \vec{B}=\mu\vec{H} \\
+    \varepsilon\neq0 \qquad \mu\neq0 \qquad \\
+    \mathrm{div}\vec{E}=0 \\
+    \mathrm{rot}\vec{E}=-\frac{1}{c} \frac{\partial\vec{H}}{\partial t} \\
+    \mathrm{div}\vec{H}=0 \\
+    \mathrm{rot}\vec{H}=\frac{1}{c} \frac{\partial\vec{E}}{\partial t}  
+\end{gather*}
+
+Берем \( \mathrm{rot}  \) от \( \mathrm{rot}  \) \( E \) или \( H \) взависимости от того, что нужно:
+
+\begin{gather*}
+    \mathrm{grad}(\underbrace{\mathrm{div}\vec{E} }_{=0})-\Delta\vec{E}=-\frac{\mu}{c}\frac{\partial}{\partial t} \frac{\varepsilon}{c}\frac{\partial\vec{E}}{\partial t} \\
+    \Delta\vec{E}-\frac{\mu\varepsilon}{c^2}\frac{\partial^2}{\partial t^2}\vec{E}=0 \text{-волновое уравнение} \\
+    \text{с } v_{\text{пр}}=\frac{c}{\sqrt{\varepsilon\mu}}=\frac{c}{n}, \text{где } n=\sqrt{\varepsilon\mu}-\text{коэффицент преломления }   
+\end{gather*}
+
+Аналогично: 
+
+\[ \Delta \vec{H}-\frac{\mu\varepsilon}{c^2}\frac{\partial^2}{\partial t^2}\vec{H}=0 \]
+
+\[
+\vec{E}=\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=\vec{E}_0e^{i(k_x x+k_y y+k_z z-\omega t)}
+\]
+
+Давайте  покажем, что \( E \) в таком виде является решением уравнения и покажем при каких \( k \text{и} \omega \) оно выполненно:
+
+\[
+\grad\vec{E}=E_0(ik_xe^{i(\vec{k}\vec{r}-\omega t)},ik_ye^{i(\vec{k}\vec{r}-\omega t)},ik_ze^{i(\vec{k}\vec{r}-\omega t)})
+\]
+
+\begin{gather*}
+    \grad \vec{E}=i\vec{k}\vec{E} \\
+    \Delta\vec{E}=\left( \frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}  \right)\vec{E}_0e^{i(k_xx+k_yy+k_zz-\omega t)}=-k^2\vec{E} \\
+    \grad e ^{i(\vec{k}\vec{r})}= e ^{i(\vec{k}\vec{r})} \underbrace{\grad(i(\vec{k}\vec{r}))}_{=i\vec{k}}=i\vec{k}e^{i(\vec{k}\vec{r})} \\
+    \grad e^{i(\vec{k}\vec{r}-\omega t)}=i\vec{k}e^{i(\vec{k}\vec{r}-\omega t)} \\
+    \vec{E}=\vec{E}_0e^{(\vec{k}\vec{r}-\omega t)} \\
+    \grad\vec{E}=\grad\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=i\vec{k}\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=i\vec{k}\vec{E} \\  
+    \text{Итак: } \grad\vec{E}=i\vec{k}\vec{E} \\
+    \Delta\vec{E}=(\grad\grad)\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=(\grad\cdot i\vec{k}e^{i(\vec{k}\vec{r}-\omega t)}\vec{E}_0  )= \\
+    = (i\vec{k})^2 e^{i(\vec{k}\vec{r}-\omega t)} \vec{E}_0=-k^2\vec{E} \\
+    [\grad \times \vec{E}]=[\grad \times \vec{E}_0 e^{i(\vec{k}\vec{r}-\omega t)}] \\
+    \mathrm{div}\vec{E}=i\vec{k}\vec{E} \qquad \mathrm{rot}\vec{E}=i[\vec{k}\times \vec{E}] \\
+    \Delta\vec{E}=-k^2\vec{E} \qquad \frac{\partial \vec{E}}{\partial t}=-i\omega\vec{E}   
+\end{gather*}
+
+\newpage
+
+Подставляем в в. уравнение:
+
+\begin{gather*}
+    -k^2\vec{E}-\frac{\varepsilon\mu}{c^2}(-\omega^{2})\vec{E}=0 \Rightarrow k=\frac{\sqrt{\varepsilon\omega}}{c}\omega \\
+    \frac{\omega}{k}=\frac{c}{n}    
+\end{gather*}
+
+зависимость \( \omega (\vec{k}) \)  называется законом дисперсии.
+
+Пусть \( \vec{E}=\vec{E}_0 e^{i\varphi}\)
+
+где \( \vec{E}_0 \)-амплитуда волны, \( \varphi \)-фаза волны.
+
+От \( \vec{r} \) и \( t \) зависит фаза волны но не амплитуда.
+
+Если \(\varphi(\vec{r},t)=f(\vec{\vec{r}-\vec{v}t}) \) любая функция то в. уравнение выполняется 
+
+\[
+\boxed{\text{Доказать самостоятельно}}
+\]
+
+Частный случай: \( \varphi=\vec{k}\vec{r}-\omega t \) 
+
+\[
+\varphi=\vec{k}(\vec{r}-\vec{v}t)=\vec{k}\vec{r}-\underbrace{\vec{v}\vec{k}}_{=\omega}t=\vec{k}\vec{r}-\omega t 
+\]
+
+\textit{Парметры плоской электромагнитной волны:}
+
+\[
+\begin{cases}
+    \vec{E}=\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)} \\
+    \vec{H}=\vec{H}_0e^{i(\vec{k}\vec{r}-\omega t)} \\
+\end{cases}
+\]
+
+, где \( \omega=\frac{c}{n}k \leftarrow  \) это следует из выполенного уравнения.
+
+\[
+E_0,H_0 -\text{амплитуды}   \qquad \varphi=\vec{k}\vec{r}-\omega t - \text{фаза}
+\]
+
+\[
+\begin{aligned}
+    \begin{array}{rl}
+        \begin{cases}
+            \mathrm{div}\vec{E} = 0, \\
+            \mathrm{rot}\vec{E} = -\frac{\mu}{c} \frac{\partial \vec{H}}{\partial t}, \\
+            \mathrm{div}\vec{H} = 0, \\
+            \mathrm{rot}\vec{H} = \frac{\varepsilon}{c} \frac{\partial \vec{E}}{\partial t}
+        \end{cases} 
+        & \Rightarrow
+        \begin{cases}
+            \vec{k} \cdot \vec{E} = 0 \Leftrightarrow \vec{k} \perp \vec{E},\ \text{т.е.}\ \vec{k} \perp \vec{E}_0, \\
+            [\vec{k} \times \vec{E}] = \frac{\mu\omega}{c} \vec{H} \Leftrightarrow [\text{Рис.1 и } kE_0 = \frac{\mu\omega}{c}H_0], \\
+            \vec{k} \cdot \vec{H} = 0 \Leftrightarrow \vec{k} \perp \vec{H},\ \text{т.е.}\ \vec{k} \perp \vec{H}_0, \\
+            [\vec{k} \times \vec{H}] = -\frac{\varepsilon\omega}{c} \vec{E} \Leftrightarrow [\text{Рис.1 и } kH_0 = -\frac{\varepsilon\omega}{c}E_0].
+        \end{cases}
+    \end{array}
+\end{aligned}
+\]
+
+\imc[0.2\textwidth]{97.png}
+
+\begin{gather*}
+    k^2\cancel{H_0}\cancel{E_0}=\frac{\varepsilon\mu\omega^2}{c^2}\cancel{H_0}\cancel{E_0} \Rightarrow \frac{\omega}{k}=\frac{c}{n} \\
+    \frac{E_0}{H_0}=\frac{\mu}{\varepsilon} \frac{H_0}{E_0}\Rightarrow \frac{E_0}{H_0}=\sqrt{\frac{\mu}{\varepsilon} }      
+\end{gather*}
