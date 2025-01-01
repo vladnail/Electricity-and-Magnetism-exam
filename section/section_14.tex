@@ -64,20 +64,23 @@ q_i \\
 
 Свойства матриц:
 
-\fc{dW=\underset{i}{\Sigma}\varphi_i dq_i=\varphi_i dq_i}
-и
-\fc{W=\frac{1}{2}\varphi_i q_i=dW=\frac{1}{2}\varphi_i dq_i+\frac{1}{2}q_id\varphi_i}
-\fc{\Downarrow}
-
-\fc{\varphi_idq_i=q_id\varphi_i}
-
-где $\varphi_i=S_{ij}q_j$
+\[
+\begin{aligned}
+   \begin{array}{l|l}
+      dW=\underset{i}{\Sigma}\varphi_i dq_i=\varphi_i dq_i \\
+      W=\frac{1}{2}\varphi_i q_i=dW=\frac{1}{2}\varphi_i dq_i+\frac{1}{2}q_id\varphi_i \\
+   \end{array}
+   \Rightarrow
+   \begin{array}{ll}
+      \varphi_idq_i=q_id\varphi_i \\
+      \text{где }\varphi_i=S_{ij}q_j
+   \end{array}   
+\end{aligned}
+\]
 
 \fc{0=S_{i j} q_j d q_i-q_i S_{i j} d q_i=S_{i j} q_j  d q_i-q_j S_{j i} d q_i=(S_{i j}-S_{ji})q_idq_j}
 получаем:
 
-\fc{S_{ij}=S_{ji}}
-\fc{\Downarrow}
-\fc{C_{ij}=C_{ji}}
+\fc{S_{ij}=S_{ji}\Rightarrow C_{ij}=C_{ji}}
 
 это справедливо $\forall q_i$ и $\forall dq_i$.

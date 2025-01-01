@@ -20,7 +20,7 @@
     \vec{D}=\varepsilon\vec{E} \qquad \vec{B}=\mu\vec{H} \\
     \varepsilon\neq0 \qquad \mu\neq0 \qquad \\
     \mathrm{div}\vec{E}=0 \\
-    \mathrm{rot}\vec{E}=-\frac{1}{c} \frac{\partial\vec{H}}{\partial t} \\
+    \mathrm{rot}\vec{E}=-\frac{\mu}{c} \frac{\partial\vec{H}}{\partial t} \\
     \mathrm{div}\vec{H}=0 \\
     \mathrm{rot}\vec{H}=\frac{1}{c} \frac{\partial\vec{E}}{\partial t}  
 \end{gather*}
@@ -30,7 +30,7 @@
 \begin{gather*}
     \mathrm{grad}(\underbrace{\mathrm{div}\vec{E} }_{=0})-\Delta\vec{E}=-\frac{\mu}{c}\frac{\partial}{\partial t} \frac{\varepsilon}{c}\frac{\partial\vec{E}}{\partial t} \\
     \Delta\vec{E}-\frac{\mu\varepsilon}{c^2}\frac{\partial^2}{\partial t^2}\vec{E}=0 \text{-волновое уравнение} \\
-    \text{с } v_{\text{пр}}=\frac{c}{\sqrt{\varepsilon\mu}}=\frac{c}{n}, \text{где } n=\sqrt{\varepsilon\mu}-\text{коэффицент преломления }   
+    \text{с } v_{\Phi}=\frac{c}{\sqrt{\varepsilon\mu}}=\frac{c}{n}, \text{где } n=\sqrt{\varepsilon\mu}-\text{коэффицент преломления }   
 \end{gather*}
 
 Аналогично: 
@@ -41,7 +41,7 @@
 \vec{E}=\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=\vec{E}_0e^{i(k_x x+k_y y+k_z z-\omega t)}
 \]
 
-Давайте  покажем, что \( E \) в таком виде является решением уравнения и покажем при каких \( k \text{и} \omega \) оно выполненно:
+Давайте  покажем, что \( E \) в таком виде является решением уравнения и покажем при каких \( k \text{ и } \omega \) оно выполненно:
 
 \[
 \grad\vec{E}=E_0(ik_xe^{i(\vec{k}\vec{r}-\omega t)},ik_ye^{i(\vec{k}\vec{r}-\omega t)},ik_ze^{i(\vec{k}\vec{r}-\omega t)})
@@ -55,7 +55,7 @@
     \vec{E}=\vec{E}_0e^{(\vec{k}\vec{r}-\omega t)} \\
     \grad\vec{E}=\grad\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=i\vec{k}\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=i\vec{k}\vec{E} \\  
     \text{Итак: } \grad\vec{E}=i\vec{k}\vec{E} \\
-    \Delta\vec{E}=(\grad\grad)\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=(\grad\cdot i\vec{k}e^{i(\vec{k}\vec{r}-\omega t)}\vec{E}_0  )= \\
+    \Delta\vec{E}=(\grad\grad)\vec{E}_0e^{i(\vec{k}\vec{r}-\omega t)}=(\grad\cdot i\vec{k}e^{i(\vec{k}\vec{r}-\omega t)})\vec{E}_0  = \\
     = (i\vec{k})^2 e^{i(\vec{k}\vec{r}-\omega t)} \vec{E}_0=-k^2\vec{E} \\
     [\grad \times \vec{E}]=[\grad \times \vec{E}_0 e^{i(\vec{k}\vec{r}-\omega t)}] \\
     \mathrm{div}\vec{E}=i\vec{k}\vec{E} \qquad \mathrm{rot}\vec{E}=i[\vec{k}\times \vec{E}] \\
@@ -120,7 +120,7 @@ E_0,H_0 -\text{амплитуды}   \qquad \varphi=\vec{k}\vec{r}-\omega t - \t
             \vec{k} \cdot \vec{E} = 0 \Leftrightarrow \vec{k} \perp \vec{E},\ \text{т.е.}\ \vec{k} \perp \vec{E}_0, \\
             [\vec{k} \times \vec{E}] = \frac{\mu\omega}{c} \vec{H} \Leftrightarrow [\text{Рис.1 и } kE_0 = \frac{\mu\omega}{c}H_0], \\
             \vec{k} \cdot \vec{H} = 0 \Leftrightarrow \vec{k} \perp \vec{H},\ \text{т.е.}\ \vec{k} \perp \vec{H}_0, \\
-            [\vec{k} \times \vec{H}] = -\frac{\varepsilon\omega}{c} \vec{E} \Leftrightarrow [\text{Рис.1 и } kH_0 = -\frac{\varepsilon\omega}{c}E_0].
+            [\vec{k} \times \vec{H}] = -\frac{\varepsilon\omega}{c} \vec{E} \Leftrightarrow [\text{Рис.1 и } kH_0 = \frac{\varepsilon\omega}{c}E_0].
         \end{cases}
     \end{array}
 \end{aligned}
@@ -132,3 +132,5 @@ E_0,H_0 -\text{амплитуды}   \qquad \varphi=\vec{k}\vec{r}-\omega t - \t
     k^2\cancel{H_0}\cancel{E_0}=\frac{\varepsilon\mu\omega^2}{c^2}\cancel{H_0}\cancel{E_0} \Rightarrow \frac{\omega}{k}=\frac{c}{n} \\
     \frac{E_0}{H_0}=\frac{\mu}{\varepsilon} \frac{H_0}{E_0}\Rightarrow \frac{E_0}{H_0}=\sqrt{\frac{\mu}{\varepsilon} }      
 \end{gather*}
+
+

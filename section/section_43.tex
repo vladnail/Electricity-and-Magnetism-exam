@@ -20,11 +20,11 @@
 \end{minipage}
 
 \begin{gather*}
-    \mathrm{rot}\mathrm{rot}\vec{E}=\cancelto{0}{\mathrm{grad}\mathrm{div}\vec{E} }-\Delta\vec{E} =-\frac{\mu}{c}\frac{\partial}{\partial t}\mathrm{rot}\vec{H}=-\frac{4\pi\mu\sigma}{c^2} \frac{\partial\vec{E}}{\partial t}\Rightarrow \\
+    \mathrm{rot}(\mathrm{rot}\vec{E})=\cancelto{0}{\mathrm{grad}(\mathrm{div}\vec{E}) }-\Delta\vec{E} =-\frac{\mu}{c}\frac{\partial}{\partial t}\mathrm{rot}\vec{H}=-\frac{4\pi\mu\sigma}{c^2} \frac{\partial\vec{E}}{\partial t}\Rightarrow \\
     \Rightarrow \Delta\vec{E}=\frac {4\pi\mu\sigma} {c^2} \frac{\partial \vec{E}}{\partial t} 
 \end{gather*}
 
-Ищем решение в виде : \( \vec{E}=E_0\vec{e}_x e^{-i\omega t}e^{ikt}   \)
+Ищем решение в виде : \( \vec{E}=E_0\vec{e}_x e^{-i\omega t}e^{ikt} e^{ikz}   \)
 
 \[
 \Delta\vec{E}=\frac{\partial^2 \vec{E}}{\partial z^2} =\frac{\partial}{\partial z} (ik\vec{E})=-k^2 \vec{E}
@@ -51,7 +51,7 @@ e^{-\pi}=\frac{1}{e^{\pi} }\backsim 0,1
 магнитного поля}
 
 \[
-\vec{j}_n\overset{df}{=}=D\grad n \qquad \frac{\partial n}{\partial t} =\mathrm{div}\vec{j}_n=0 
+\vec{j}_n\overset{df}{=}-D\grad n \qquad \frac{\partial n}{\partial t} +\mathrm{div}\vec{j}_n=0 
 \]
 
 \begin{minipage}[c]{0.2\textwidth} % Левая часть: изображение

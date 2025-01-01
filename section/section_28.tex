@@ -40,7 +40,7 @@ d\vec{H}=\frac{I}{c}\left[d\vec{l}\times \left( -\grad\left( \frac{1}{r}  \right
    
     \[
     \begin{array}{l|l}
-        \vec{H}=\sum_{i} \frac{I_i}{c}\int \left[ d\vec{r'}\times \frac{\vec{r}-\vec{r'}}{|\vec{r}-\vec{r'}|^3}  \right] & \Rightarrow \\
+        \vec{H}=\sum_i \frac{I_i}{c}\int \left[ d\vec{r'}\times \frac{\vec{r}-\vec{r'}}{|\vec{r}-\vec{r'}|^3}  \right] & \Rightarrow \\
         d\vec{l}\equiv d\vec{r'} & \\
         Id\vec{l}=\vec{j}dV' & \\
     \end{array}
@@ -62,7 +62,7 @@ d\vec{H}=\frac{I}{c}\left[d\vec{l}\times \left( -\grad\left( \frac{1}{r}  \right
 \]
 
 \[
-\mathrm{div}\vec{H}=\frac{1}{c}\underset{V}{\iiint}\left( \grad \left[ \vec{j} \times \grad \left( -\frac{q}{|\vec{r}-\vec{r'}|}  \right) \right] \right)dV'= \frac{1}{c}\underset{V}{\iiint}\left( \vec{j}\underbrace{\left[ \grad \times \grad \frac{1}{|\vec{r}-\vec{r'}|}  \right]}_{=0} \right)dV'
+\mathrm{div}\vec{H}=\frac{1}{c}\underset{V}{\iiint}\left( \grad \left[ \vec{j} \times \grad \left( -\frac{1}{|\vec{r}-\vec{r'}|}  \right) \right] \right)dV'= \frac{1}{c}\underset{V}{\iiint}\left( \vec{j}\underbrace{\left[ \grad \times \grad \frac{1}{|\vec{r}-\vec{r'}|}  \right]}_{=0} \right)dV'
 \]
 
 \subsection*{Вектор-потенциал}
@@ -121,17 +121,17 @@ $\mathrm{div}\vec{H}=0\Rightarrow \vec{H} $ можно подставить в �
 \]
 
 \[
-    +\frac{1}{c}\underset{V}{\iiint}\overset{\downarrow}{\vec{j}}(\vec{r'})\grad ' \frac{1}{{|\vec{r}-\vec{r'}|}}dV'\fbox{=}
+    +\frac{1}{c}\underset{V}{\iiint}\overset{\downarrow}{\vec{j}}(\vec{r'})\grad  \frac{1}{{|\vec{r}-\vec{r'}|}}dV'\fbox{=}
 \]
 
 \newpage
 
 \[
-\fbox{=}-\frac{1}{c}\underset{V}{\iiint} \mathrm{div} \left( \frac{\vec{j}(\vec{r'})}{|\vec{r}-\vec{r'}|} \right) dV'+\frac{1}{c}\underset{V}{\iiint}\frac{1}{|\vec{r}-\vec{r'}|}\mathrm{div}(\cancelto{0}{\vec{j}(\vec{r'})})dV'\fbox{=}
+\fbox{=}-\frac{1}{c}\underset{V}{\iiint} \mathrm{div}' \left( \frac{\vec{j}(\vec{r'})}{|\vec{r}-\vec{r'}|} \right) dV'+\frac{1}{c}\underset{V}{\iiint}\frac{1}{|\vec{r}-\vec{r'}|}\mathrm{div'}(\cancelto{0}{\vec{j}(\vec{r'})})dV'\fbox{=}
 \]
 
 \[
-\fbox{=}\underbrace{-\frac{1}{c}\underset{\delta V}{\oiint} \frac{\cancelto{0}{\vec{j}(\vec{r'})}}{|\vec{r}-\vec{r'}|}dS'}_{\text{на границе нет токов}}+\underbrace{0}_{\text{по З.С.З}}=0 \quad \blacksquare
+\fbox{=}\underbrace{-\frac{1}{c}\underset{\partial V}{\oiint} \frac{\cancelto{0}{\vec{j}(\vec{r'})}}{|\vec{r}-\vec{r'}|}dS'}_{\text{на границе нет токов}}+\underbrace{0}_{\text{по З.С.З}}=0 \quad \blacksquare
 \]
 
 Закон сохранения заряда:
