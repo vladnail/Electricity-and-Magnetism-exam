@@ -27,23 +27,23 @@
 
 \newpage
 
-\fc{\frac{\partial^2}{\partial x_1 \partial x_2}\frac{1}{r}=\frac{\partial}{\partial x_1}\left(-\frac{x_1}{r^3}\right)=-x_1 \left(-\frac{1}{r^4}\frac{x_2}{r} \right)=\frac{3 x_1 x_2}{r^5}}
+\fc{\frac{\partial^2}{\partial x_1 \partial x_2}\frac{1}{r}=\frac{\partial}{\partial x_2}\left(-\frac{x_1}{r^3}\right)=-x_1 \left(-\frac{3}{r^4}\frac{x_2}{r} \right)=\frac{3 x_1 x_2}{r^5}}
 
-\fc{\frac{\partial^2}{\partial x_1 \partial x_2}\frac{1}{r}=-\frac{\partial}{\partial x_1}\left(-\frac{x_1}{r^3}\right)=-\frac{1}{r^3}\cdot 1+\frac{3x_1x_2}{r^5}}
+\fc{\frac{\partial^2}{\partial x_1 \partial x_1}\frac{1}{r}=-\frac{\partial}{\partial x_1}\left(-\frac{x_1}{r^3}\right)=-\frac{1}{r^3}\cdot 1+\frac{3x_1x_2}{r^5}}
 
 \fc{\Downarrow}
 
-\fc{\frac{\partial^2}{\partial x_{\alpha}\partial x_{\beta}}=\frac{-\delta_{\alpha\beta}r^2+x_{\alpha}x_{\beta}}{r^5}}
+\fc{\frac{\partial^2}{\partial x_{\alpha}\partial x_{\beta}} \frac{1}{2}  =\frac{-\delta_{\alpha\beta}r^2+x_{\alpha}x_{\beta}}{r^5}}
 
 Таким образом квадрупольный член имеет вид:
 
 \fc{\varphi=\Sigma q\frac{1}{2}x_{\alpha}'x_{\beta}'\left( \frac{-\delta_{\alpha\beta}r^2+3x_{\alpha}x_{\beta}}{r^5}\right)}
 
-\fc{Q_{\alpha\beta}:=\Sigma \frac{1}{2}qx_{\alpha}x_{\beta}}
+\fc{Q_{\alpha\beta}:=\Sigma qx_{\alpha}'x_{\beta}'}
 
 тогда 
 
-\fc{\varphi=Q_{\alpha\beta}\frac{-\delta_{\alpha\beta}r^2+3x_{\alpha}x_{\beta}}{r^5}}
+\fc{\varphi=Q_{\alpha\beta}\frac{-\delta_{\alpha\beta}r^2+3x_{\alpha}x_{\beta}}{2r^5}}
 
 \fc{Tr\left(\frac{-\delta_{\alpha\beta}r^2+3x_{\alpha}x_{\beta}}{r^5}\right)=\frac{-\delta_{\alpha\beta}r^2+3x_{\alpha}x_{\beta}}{r^5}=}
 
@@ -51,13 +51,13 @@
 
 Хотим:
 
-\fc{\varphi=D_{\alpha\beta}\frac{x_{\alpha}x_{\beta}}{r^5}\text{ Как найти } D_{\alpha\beta} ?}
+\fc{\varphi=D_{\alpha\beta}\frac{x_{\alpha}x_{\beta}}{2r^5}\text{ Как найти } D_{\alpha\beta} ?}
 
 \fc{D_{\alpha\beta}:3Q_{\alpha\beta}-?\cdot\delta_{\alpha\beta}r'^2 \text{ подберем ? так, чтобы } Tr(D_{\alpha\beta})=0, \text{так как }\rightarrow}
 
 \fc{\rightarrow \text{при этом }D_{\alpha\beta}\delta_{\alpha\beta}r^2=0(=D_{\alpha\beta}=0)}
 
-\fc{D_{\alpha\beta}=3x_{\alpha}x_{\beta}-\delta_{\alpha\beta}r'^2 \text{ Действительно } Tr(D_{\alpha\beta})=D_{\alpha\alpha}=3r'^2-3r'^2=0}
+\fc{D_{\alpha\beta}=3x_{\alpha}'x_{\beta}'-\delta_{\alpha\beta}r'^2 \text{ Действительно } Tr(D_{\alpha\beta})=D_{\alpha\alpha}=3r'^2-3r'^2=0}
 
 Тогда 
 

@@ -79,13 +79,13 @@ $\mathrm{div}\vec{H}=0\Rightarrow \vec{H} $ можно подставить в �
 \begin{aligned}
     \begin{array}{l|l}
         \begin{cases}
-            \mathrm{div}\vec{A_1}=\mathrm{div}\vec{A_2} \qquad \vec{A}=\vec{A_1}-\vec{A_2} \\
+            \mathrm{div}\vec{A_1}=\mathrm{div}\vec{A_2} \qquad \vec{A}=\vec{A_1}-\vec{A_2}  \\
             \mathrm{rot}\vec{A_1}=\mathrm{rot}\vec{A_2}    
         \end{cases}   
     \end{array}
     \Rightarrow
     \begin{cases}
-        \mathrm{div}\vec{A}=0 \\
+        \mathrm{div}\vec{A}=0 \text{(Кулоновская калибровка)} \\
         \mathrm{rot}\vec{A}=0 \Rightarrow \vec{A}=-\grad\varphi 
     \end{cases}
 \end{aligned}
@@ -103,7 +103,7 @@ $\mathrm{div}\vec{H}=0\Rightarrow \vec{H} $ можно подставить в �
 Покажем, что $\mathrm{rot}\vec{A}=\vec{H} \text{ и } \mathrm{div}\vec{A}=0: $
 
 \[
-\mathrm{rot}\vec{A}=\frac{1}{c}\underset{V}{\iiint} \left[ \grad \times \frac{\vec{j}(\vec{r'})}{|\vec{r}-\vec{r'}|}  \right]dV'=\frac{1}{c}\iiint \left[ \vec{j}\times \left( -\frac{1}{|\vec{r}-\vec{r'}|}  \right) \right] dV'=\vec{H} \quad \blacksquare
+\mathrm{rot}\vec{A}=\frac{1}{c}\underset{V}{\iiint} \left[ \grad \times \frac{\vec{j}(\vec{r'})}{|\vec{r}-\vec{r'}|}  \right]dV'=\frac{1}{c}\iiint \left[ \vec{j}\times \left( - \nabla \frac{1}{|\vec{r}-\vec{r'}|}  \right) \right] dV'=\vec{H} \quad \blacksquare
 \]
 
 \[
@@ -124,7 +124,6 @@ $\mathrm{div}\vec{H}=0\Rightarrow \vec{H} $ можно подставить в �
     +\frac{1}{c}\underset{V}{\iiint}\overset{\downarrow}{\vec{j}}(\vec{r'})\grad  \frac{1}{{|\vec{r}-\vec{r'}|}}dV'\fbox{=}
 \]
 
-\newpage
 
 \[
 \fbox{=}-\frac{1}{c}\underset{V}{\iiint} \mathrm{div}' \left( \frac{\vec{j}(\vec{r'})}{|\vec{r}-\vec{r'}|} \right) dV'+\frac{1}{c}\underset{V}{\iiint}\frac{1}{|\vec{r}-\vec{r'}|}\mathrm{div'}(\cancelto{0}{\vec{j}(\vec{r'})})dV'\fbox{=}

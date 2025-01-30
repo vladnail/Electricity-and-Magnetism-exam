@@ -3,11 +3,11 @@
 
 \subsection*{Скин-эффект}
 
-\begin{minipage}[c]{0.4\textwidth} % Левая часть: изображение
+\begin{minipage}[c]{0.35\textwidth} % Левая часть: изображение
     \includegraphics[width=\textwidth]{im/90.png}% Ваше изображение
 \end{minipage}%
 \hfill
-\begin{minipage}[c]{0.6\textwidth} % Правая часть: текст
+\begin{minipage}[c]{0.7\textwidth} % Правая часть: текст
    \[
     \begin{cases}
         \mathrm{div}\vec{E}=0 \\
@@ -24,7 +24,7 @@
     \Rightarrow \Delta\vec{E}=\frac {4\pi\mu\sigma} {c^2} \frac{\partial \vec{E}}{\partial t} 
 \end{gather*}
 
-Ищем решение в виде : \( \vec{E}=E_0\vec{e}_x e^{-i\omega t}e^{ikt} e^{ikz}   \)
+Ищем решение в виде : \( \vec{E}=E_0\vec{e}_x e^{-i\omega t} e^{ikz}   \)
 
 \[
 \Delta\vec{E}=\frac{\partial^2 \vec{E}}{\partial z^2} =\frac{\partial}{\partial z} (ik\vec{E})=-k^2 \vec{E}
@@ -51,7 +51,7 @@ e^{-\pi}=\frac{1}{e^{\pi} }\backsim 0,1
 магнитного поля}
 
 \[
-\vec{j}_n\overset{df}{=}-D\grad n \qquad \frac{\partial n}{\partial t} +\mathrm{div}\vec{j}_n=0 
+\vec{j}_n\overset{df}{=}-D\grad n \qquad 3)\frac{\partial n}{\partial t} +\mathrm{div}\vec{j}_n=0 
 \]
 
 \begin{minipage}[c]{0.2\textwidth} % Левая часть: изображение
@@ -60,11 +60,11 @@ e^{-\pi}=\frac{1}{e^{\pi} }\backsim 0,1
 \hfill
 \begin{minipage}[c]{0.6\textwidth} % Правая часть: текст
    \[
-   \frac{dN}{dt}=\oiint \vec{j}_nd\vec{S}
+   1)\frac{dN}{dt}=-\oiint \vec{j}_nd\vec{S}
    \]
 \end{minipage}
 
 \begin{gather*}
-    \underset{\mathbb{V}}{\iiint} \frac{\partial n}{\partial t} dV=-\underset{\mathbb{V}}{\iiint}\mathrm{div}\vec{j}_n \, dV \Rightarrow \frac{\partial n}{\partial t}+\mathrm{div}\vec{j}_n=0, \\
+    3)\underset{\mathbb{V}}{\iiint} \frac{\partial n}{\partial t} dV=-\underset{\mathbb{V}}{\iiint}\mathrm{div}\vec{j}_n \, dV \Rightarrow \frac{\partial n}{\partial t}+\mathrm{div}\vec{j}_n=0, \\
     \frac{\partial n}{\partial t} + \nabla \cdot (-D \nabla n) = 0 \Rightarrow \boxed{\frac{\partial n}{\partial t} = D \Delta n}.
 \end{gather*}
